@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\AstralPlague.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AstralPlague.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AstralPlagueEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\AstralPlague.png" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\AstralPlague">
+      <UniqueIdentifier>{4F7A120E-5C0C-381E-8A13-D152DD9CB8B0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AstralPlague\AstralPlague.Build.cs">
+      <Filter>Source\AstralPlague</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\AstralPlague\AstralPlague.cpp">
+      <Filter>Source\AstralPlague</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\AstralPlague.h">
+      <Filter>Source\AstralPlague</Filter>
+    </ClInclude>
+    <Filter Include="Source\AstralPlague\Private">
+      <UniqueIdentifier>{4A845FDF-730C-31A9-8D4F-A65308AEC50A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AstralPlague\Private\AP_PlayerState.cpp">
+      <Filter>Source\AstralPlague\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\AstralPlague\Private\DefaultAttributeSet.cpp">
+      <Filter>Source\AstralPlague\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\AstralPlague\Private\LivingBeing.cpp">
+      <Filter>Source\AstralPlague\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\AstralPlague\Public">
+      <UniqueIdentifier>{7FF08AE7-DDB8-39C9-87FB-E9AAFF90A848}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\AstralPlague\Public\AP_PlayerState.h">
+      <Filter>Source\AstralPlague\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AstralPlague\Public\DefaultAttributeSet.h">
+      <Filter>Source\AstralPlague\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AstralPlague\Public\LivingBeing.h">
+      <Filter>Source\AstralPlague\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\AstralPlague\TP_ThirdPerson">
+      <UniqueIdentifier>{AA17BF5D-1BA4-362B-A8D3-2C3BB36166AA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\AstralPlague\TP_ThirdPerson\TP_ThirdPerson.h">
+      <Filter>Source\AstralPlague\TP_ThirdPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AstralPlague\TP_ThirdPerson\TP_ThirdPersonCharacter.cpp">
+      <Filter>Source\AstralPlague\TP_ThirdPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\TP_ThirdPerson\TP_ThirdPersonCharacter.h">
+      <Filter>Source\AstralPlague\TP_ThirdPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AstralPlague\TP_ThirdPerson\TP_ThirdPersonGameMode.cpp">
+      <Filter>Source\AstralPlague\TP_ThirdPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\TP_ThirdPerson\TP_ThirdPersonGameMode.h">
+      <Filter>Source\AstralPlague\TP_ThirdPerson</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

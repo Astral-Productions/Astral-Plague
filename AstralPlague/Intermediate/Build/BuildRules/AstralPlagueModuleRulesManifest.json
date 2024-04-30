@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\UnrealDev\\AstralPlague\\AstralPlague\\Source\\AstralPlague\\AstralPlague.Build.cs",
+		"D:\\UnrealDev\\AstralPlague\\AstralPlague\\Source\\AstralPlague.Target.cs",
+		"D:\\UnrealDev\\AstralPlague\\AstralPlague\\Source\\AstralPlagueEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.0"
+}

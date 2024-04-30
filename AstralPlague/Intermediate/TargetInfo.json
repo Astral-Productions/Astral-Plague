@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "AstralPlague",
+			"Path": "..\\Source\\AstralPlague.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "AstralPlagueEditor",
+			"Path": "..\\Source\\AstralPlagueEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
