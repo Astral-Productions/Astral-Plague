@@ -1,0 +1,17 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/UnrealDev/AstralPlague/AstralPlague/Content/Astral-Plague/Blueprints/Player/BP_PlayerState.uasset",
+				"D:/UnrealDev/AstralPlague/AstralPlague/Content/Astral-Plague/Blueprints/Player/BP_Player.uasset",
+				"D:/UnrealDev/AstralPlague/AstralPlague/Content/Astral-Plague/Blueprints/Player/BP_PlayerController.uasset",
+				"D:/UnrealDev/AstralPlague/AstralPlague/Content/Astral-Plague/Blueprints/AbilitySystem/Abilities/GA_Melee.uasset",
+				"D:/UnrealDev/AstralPlague/AstralPlague/Content/Astral-Plague/Blueprints/BP_PlayerState.uasset",
+				"D:/UnrealDev/AstralPlague/AstralPlague/Content/Astral-Plague/Blueprints/BP_Player.uasset"
+			]
+		}
+	]
+}

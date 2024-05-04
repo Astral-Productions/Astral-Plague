@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ASTRALPLAGUE_DefaultAttributeSet_generated_h
 
-#define FID_AstralPlague_Source_AstralPlague_Public_DefaultAttributeSet_h_20_INCLASS_NO_PURE_DECLS \
+#define FID_AstralPlague_Source_AstralPlague_Public_DefaultAttributeSet_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUDefaultAttributeSet(); \
 	friend struct Z_Construct_UClass_UDefaultAttributeSet_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(UDefaultAttributeSet)
 
 
-#define FID_AstralPlague_Source_AstralPlague_Public_DefaultAttributeSet_h_20_ENHANCED_CONSTRUCTORS \
+#define FID_AstralPlague_Source_AstralPlague_Public_DefaultAttributeSet_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UDefaultAttributeSet(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -37,12 +37,12 @@ public: \
 	NO_API virtual ~UDefaultAttributeSet();
 
 
-#define FID_AstralPlague_Source_AstralPlague_Public_DefaultAttributeSet_h_17_PROLOG
-#define FID_AstralPlague_Source_AstralPlague_Public_DefaultAttributeSet_h_20_GENERATED_BODY \
+#define FID_AstralPlague_Source_AstralPlague_Public_DefaultAttributeSet_h_12_PROLOG
+#define FID_AstralPlague_Source_AstralPlague_Public_DefaultAttributeSet_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_AstralPlague_Source_AstralPlague_Public_DefaultAttributeSet_h_20_INCLASS_NO_PURE_DECLS \
-	FID_AstralPlague_Source_AstralPlague_Public_DefaultAttributeSet_h_20_ENHANCED_CONSTRUCTORS \
+	FID_AstralPlague_Source_AstralPlague_Public_DefaultAttributeSet_h_15_INCLASS_NO_PURE_DECLS \
+	FID_AstralPlague_Source_AstralPlague_Public_DefaultAttributeSet_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

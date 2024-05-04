@@ -12,11 +12,13 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
-    <None Include="..\..\AstralPlague.png" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEngine.ini">
@@ -40,47 +42,53 @@
     <ClInclude Include="..\..\Source\AstralPlague\AstralPlague.h">
       <Filter>Source\AstralPlague</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\AstralPlague\AstralPlagueCharacter.cpp">
+      <Filter>Source\AstralPlague</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\AstralPlagueCharacter.h">
+      <Filter>Source\AstralPlague</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AstralPlague\AstralPlagueGameMode.cpp">
+      <Filter>Source\AstralPlague</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\AstralPlagueGameMode.h">
+      <Filter>Source\AstralPlague</Filter>
+    </ClInclude>
     <Filter Include="Source\AstralPlague\Private">
       <UniqueIdentifier>{4A845FDF-730C-31A9-8D4F-A65308AEC50A}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\AstralPlague\Private\AP_PlayerState.cpp">
+    <ClCompile Include="..\..\Source\AstralPlague\Private\AstralAbilitySystemComponent.cpp">
+      <Filter>Source\AstralPlague\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\AstralPlague\Private\AstralPlayerController.cpp">
+      <Filter>Source\AstralPlague\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\AstralPlague\Private\AstralPlayerState.cpp">
+      <Filter>Source\AstralPlague\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\AstralPlague\Private\AstralStatsComponent.cpp">
       <Filter>Source\AstralPlague\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\AstralPlague\Private\DefaultAttributeSet.cpp">
       <Filter>Source\AstralPlague\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\AstralPlague\Private\LivingBeing.cpp">
-      <Filter>Source\AstralPlague\Private</Filter>
-    </ClCompile>
     <Filter Include="Source\AstralPlague\Public">
       <UniqueIdentifier>{7FF08AE7-DDB8-39C9-87FB-E9AAFF90A848}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\AstralPlague\Public\AP_PlayerState.h">
+    <ClInclude Include="..\..\Source\AstralPlague\Public\AstralAbilitySystemComponent.h">
+      <Filter>Source\AstralPlague\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AstralPlague\Public\AstralPlayerController.h">
+      <Filter>Source\AstralPlague\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AstralPlague\Public\AstralPlayerState.h">
+      <Filter>Source\AstralPlague\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AstralPlague\Public\AstralStatsComponent.h">
       <Filter>Source\AstralPlague\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\AstralPlague\Public\DefaultAttributeSet.h">
       <Filter>Source\AstralPlague\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\AstralPlague\Public\LivingBeing.h">
-      <Filter>Source\AstralPlague\Public</Filter>
-    </ClInclude>
-    <Filter Include="Source\AstralPlague\TP_ThirdPerson">
-      <UniqueIdentifier>{AA17BF5D-1BA4-362B-A8D3-2C3BB36166AA}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Source\AstralPlague\TP_ThirdPerson\TP_ThirdPerson.h">
-      <Filter>Source\AstralPlague\TP_ThirdPerson</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\AstralPlague\TP_ThirdPerson\TP_ThirdPersonCharacter.cpp">
-      <Filter>Source\AstralPlague\TP_ThirdPerson</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\AstralPlague\TP_ThirdPerson\TP_ThirdPersonCharacter.h">
-      <Filter>Source\AstralPlague\TP_ThirdPerson</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\AstralPlague\TP_ThirdPerson\TP_ThirdPersonGameMode.cpp">
-      <Filter>Source\AstralPlague\TP_ThirdPerson</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\AstralPlague\TP_ThirdPerson\TP_ThirdPersonGameMode.h">
-      <Filter>Source\AstralPlague\TP_ThirdPerson</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -12,9 +12,9 @@
 	{
 		"MajorVersion": 5,
 		"MinorVersion": 4,
-		"PatchVersion": 0,
-		"Changelist": 33043543,
-		"CompatibleChangelist": 0,
+		"PatchVersion": 1,
+		"Changelist": 33305029,
+		"CompatibleChangelist": 33043543,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "++UE5+Release-5.4",
@@ -1182,10 +1182,6 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Win64/UnrealEditor-PluginWarden.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/Win64/UnrealEditor-PortalMessages.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -1934,14 +1930,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Animation/MotionWarping/Binaries/Win64/UnrealEditor-MotionWarping.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/MotionWarping/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Bridge/Binaries/Win64/UnrealEditor-Bridge.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -2171,14 +2159,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/AssetReferenceRestrictions/Binaries/Win64/UnrealEditor-AssetReferenceRestrictions.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/AssetReferenceRestrictions/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2478,22 +2458,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/AbilitySystemGameFeatureActions/Binaries/Win64/UnrealEditor-AbilitySystemGameFeatureActions.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/AbilitySystemGameFeatureActions/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/Animation/SkeletalMeshModelingTools/Binaries/Win64/UnrealEditor-SkeletalMeshModelingTools.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/Animation/SkeletalMeshModelingTools/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Experimental/AutomationUtils/Binaries/Win64/UnrealEditor-AutomationUtils.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -2511,14 +2475,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/BackChannel/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/BlueprintStats/Binaries/Win64/UnrealEditor-BlueprintStats.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/BlueprintStats/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2622,14 +2578,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/GameplayTargetingSystem/Binaries/Win64/UnrealEditor-TargetingSystem.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/GameplayTargetingSystem/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Experimental/GeometryCollectionPlugin/Binaries/Win64/UnrealEditor-GeometryCollectionEditor.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -2663,14 +2611,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/GeometryFlow/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/GizmoFramework/Binaries/Win64/UnrealEditor-GizmoSettings.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/GizmoFramework/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2954,15 +2894,63 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes.dll",
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RD.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes.pdb",
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RD.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/ElectronicNodes/Binaries/Win64/UnrealEditor.modules",
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderBlueprint.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderBlueprint.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderGameControl.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderGameControl.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLC.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLC.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLink.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLink.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLogging.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLogging.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderShaderInfo.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderShaderInfo.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -3371,18 +3359,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/GameFeatures/Binaries/Win64/UnrealEditor-GameFeatures.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/GameFeatures/Binaries/Win64/UnrealEditor-GameFeaturesEditor.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/GameFeatures/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -26176,10 +26152,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Animation/MotionWarping/MotionWarping.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Bridge/Bridge.uplugin",
 			"Type": "UFS"
 		},
@@ -26281,10 +26253,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Editor/AssetManagerEditor/AssetManagerEditor.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/AssetReferenceRestrictions/AssetReferenceRestrictions.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -26416,23 +26384,11 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/AbilitySystemGameFeatureActions/AbilitySystemGameFeatureActions.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/Animation/SkeletalMeshModelingTools/SkeletalMeshModelingTools.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Experimental/AutomationUtils/AutomationUtils.uplugin",
 			"Type": "UFS"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/BackChannel/BackChannel.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -26476,19 +26432,11 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/GameplayTargetingSystem/TargetingSystem.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Experimental/GeometryCollectionPlugin/GeometryCollectionPlugin.uplugin",
 			"Type": "UFS"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/GeometryFlow/GeometryFlow.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/GizmoFramework/GizmoFramework.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -26560,7 +26508,7 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/ElectronicNodes/ElectronicNodes.uplugin",
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/RiderLink.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -26720,10 +26668,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Runtime/GameFeatures/GameFeatures.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Runtime/GameplayAbilities/GameplayAbilities.uplugin",
 			"Type": "UFS"
 		},
@@ -26843,7 +26787,6 @@
 	"BuildPlugins": [
 		"ACLPlugin",
 		"AISupport",
-		"AbilitySystemGameFeatureActions",
 		"ActorLayerUtilities",
 		"ActorSequence",
 		"AlembicImporter",
@@ -26859,7 +26802,6 @@
 		"AppleMoviePlayer",
 		"ArchVisCharacter",
 		"AssetManagerEditor",
-		"AssetReferenceRestrictions",
 		"AssetTags",
 		"AudioCapture",
 		"AudioSynesthesia",
@@ -26870,7 +26812,6 @@
 		"BaseCharacterFXEditor",
 		"BlendSpaceMotionAnalysis",
 		"BlueprintHeaderView",
-		"BlueprintStats",
 		"Bridge",
 		"CLionSourceCodeAccess",
 		"CableComponent",
@@ -26903,7 +26844,6 @@
 		"DumpGPUServices",
 		"EditorDebugTools",
 		"EditorScriptingUtilities",
-		"ElectronicNodes",
 		"EngineAssetDefinitions",
 		"EnhancedInput",
 		"EnvironmentQueryEditor",
@@ -26913,7 +26853,6 @@
 		"Fracture",
 		"FullBodyIK",
 		"GLTFExporter",
-		"GameFeatures",
 		"GameplayAbilities",
 		"GameplayCameras",
 		"GameplayTagsEditor",
@@ -26923,7 +26862,6 @@
 		"GeometryMode",
 		"GeometryProcessing",
 		"GitSourceControl",
-		"GizmoFramework",
 		"GoogleCloudMessaging",
 		"GooglePAD",
 		"IKRig",
@@ -26955,7 +26893,6 @@
 		"MobilePatchingUtils",
 		"ModelingToolsEditorMode",
 		"ModularGameplay",
-		"MotionWarping",
 		"MsQuic",
 		"N10XSourceCodeAccess",
 		"Niagara",
@@ -26988,12 +26925,12 @@
 		"RenderDocPlugin",
 		"RenderGraphInsights",
 		"ResonanceAudio",
+		"RiderLink",
 		"RiderSourceCodeAccess",
 		"RigVM",
 		"SequencerAnimTools",
 		"SequencerScripting",
 		"SignificanceManager",
-		"SkeletalMeshModelingTools",
 		"SkeletalReduction",
 		"SoundFields",
 		"SpeedTreeImporter",
@@ -27002,7 +26939,6 @@
 		"SubversionSourceControl",
 		"Synthesis",
 		"Takes",
-		"TargetingSystem",
 		"TcpMessaging",
 		"TemplateSequence",
 		"TextureFormatOodle",

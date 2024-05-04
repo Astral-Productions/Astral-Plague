@@ -78,9 +78,8 @@
 /DUE_BUILD_DEVELOPMENT=1
 /DORIGINAL_FILE_NAME="UnrealEditor-AstralPlague.dll"
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
-/DPROJECT_COMPANY_NAME="Astral Productions"
-/DPROJECT_COPYRIGHT_STRING="©Astral Productions 2024, all rights reserved."
-/DPROJECT_PRODUCT_NAME="Astral Plague"
+/DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
+/DPROJECT_PRODUCT_NAME="Third Person Game Template"
 /DPROJECT_PRODUCT_IDENTIFIER=AstralPlague
 /fo "D:\UnrealDev\AstralPlague\AstralPlague\Intermediate\Build\Win64\x64\UnrealEditor\Development\AstralPlague\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"

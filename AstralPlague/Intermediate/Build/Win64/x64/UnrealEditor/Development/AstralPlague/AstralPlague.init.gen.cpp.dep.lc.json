@@ -3,7 +3,7 @@
     "Data": {
         "Source": "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\unrealeditor\\inc\\astralplague\\uht\\astralplague.init.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\astralplagueeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "PCH": "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\astralplagueeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
             "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\astralplague\\definitions.astralplague.h"
         ],

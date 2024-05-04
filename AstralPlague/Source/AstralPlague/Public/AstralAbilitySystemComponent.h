@@ -1,28 +1,34 @@
-﻿// ©Astral Productions 2024, all rights reserved.
+// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
 #include "CoreMinimal.h"
 #include "AbilitySystemComponent.h"
-#include "GameplayTagAssetInterface.h"
 #include "AstralAbilitySystemComponent.generated.h"
 
+class AActor;
+class UGameplayAbility;
+class UObject;
 
-UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
-class ASTRALPLAGUE_API UAstralAbilitySystemComponent : public UAbilitySystemComponent, IGameplayTagAssetInterface
+
+UCLASS()
+class ASTRALPLAGUE_API UAstralAbilitySystemComponent : public UAbilitySystemComponent
 {
 	GENERATED_BODY()
 
 public:
-	// Sets default values for this component's properties
-	UAstralAbilitySystemComponent();
+	UAstralAbilitySystemComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
+protected:	
 
-protected:
-	// Called when the game starts
-	virtual void BeginPlay() override;
+	// Handles to abilities that had their input pressed this frame.
+	TArray<FGameplayAbilitySpecHandle> InputPressedSpecHandles;
 
-public:
-	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType,
-	                           FActorComponentTickFunction* ThisTickFunction) override;
+	// Handles to abilities that had their input released this frame.
+	TArray<FGameplayAbilitySpecHandle> InputReleasedSpecHandles;
+
+	// Handles to abilities that have their input held.
+	TArray<FGameplayAbilitySpecHandle> InputHeldSpecHandles;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Actor)
+	FGameplayTagContainer GameplayTags;
 };
