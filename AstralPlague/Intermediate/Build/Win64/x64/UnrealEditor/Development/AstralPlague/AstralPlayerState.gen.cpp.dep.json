@@ -6,7 +6,7 @@
         "PCH": "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\astralplagueeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
             "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\astralplague\\definitions.astralplague.h",
-            "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\public\\astralplayerstate.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\abilitysystem\\astralplayerstate.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysysteminterface.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysysteminterface.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerstate.h",

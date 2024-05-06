@@ -54,6 +54,21 @@
     <ClInclude Include="..\..\Source\AstralPlague\AstralPlagueGameMode.h">
       <Filter>Source\AstralPlague</Filter>
     </ClInclude>
+    <Filter Include="Source\AstralPlague\AbilitySystem">
+      <UniqueIdentifier>{1D9060E2-CCD0-3806-B6D1-F2E75452522B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AstralPlague\AbilitySystem\AstralAbilityCost.cpp">
+      <Filter>Source\AstralPlague\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\AbilitySystem\AstralAbilityCost.h">
+      <Filter>Source\AstralPlague\AbilitySystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AstralPlague\AbilitySystem\AstralGameplayAbility.cpp">
+      <Filter>Source\AstralPlague\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\AbilitySystem\AstralGameplayAbility.h">
+      <Filter>Source\AstralPlague\AbilitySystem</Filter>
+    </ClInclude>
     <Filter Include="Source\AstralPlague\Private">
       <UniqueIdentifier>{4A845FDF-730C-31A9-8D4F-A65308AEC50A}</UniqueIdentifier>
     </Filter>

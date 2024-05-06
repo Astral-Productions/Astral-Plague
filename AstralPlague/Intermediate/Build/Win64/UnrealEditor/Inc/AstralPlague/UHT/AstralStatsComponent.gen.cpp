@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "AstralPlague/Public/AstralStatsComponent.h"
+#include "AstralPlague/AbilitySystem/AstralStatsComponent.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeAstralStatsComponent() {}
 
@@ -33,7 +33,7 @@ struct Z_Construct_UFunction_UAstralStatsComponent_FindHealthComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Returns the health component if one exists on the specified actor.\n" },
 #endif
-		{ "ModuleRelativePath", "Public/AstralStatsComponent.h" },
+		{ "ModuleRelativePath", "AbilitySystem/AstralStatsComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the health component if one exists on the specified actor." },
 #endif
@@ -91,7 +91,7 @@ struct Z_Construct_UFunction_UAstralStatsComponent_InitializeWithAbilitySystem_S
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Initialize the component using an ability system component.\n" },
 #endif
-		{ "ModuleRelativePath", "Public/AstralStatsComponent.h" },
+		{ "ModuleRelativePath", "AbilitySystem/AstralStatsComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Initialize the component using an ability system component." },
 #endif
@@ -139,7 +139,7 @@ struct Z_Construct_UFunction_UAstralStatsComponent_UninitializeFromAbilitySystem
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Uninitialize the component, clearing any references to the ability system.\n" },
 #endif
-		{ "ModuleRelativePath", "Public/AstralStatsComponent.h" },
+		{ "ModuleRelativePath", "AbilitySystem/AstralStatsComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Uninitialize the component, clearing any references to the ability system." },
 #endif
@@ -188,20 +188,20 @@ struct Z_Construct_UClass_UAstralStatsComponent_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "BlueprintSpawnableComponent", "" },
 		{ "ClassGroupNames", "Custom" },
-		{ "IncludePath", "AstralStatsComponent.h" },
-		{ "ModuleRelativePath", "Public/AstralStatsComponent.h" },
+		{ "IncludePath", "AbilitySystem/AstralStatsComponent.h" },
+		{ "ModuleRelativePath", "AbilitySystem/AstralStatsComponent.h" },
 		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AbilitySystemComponent_MetaData[] = {
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/AstralStatsComponent.h" },
+		{ "ModuleRelativePath", "AbilitySystem/AstralStatsComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StatSet_MetaData[] = {
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Health set used by this component.\n" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/AstralStatsComponent.h" },
+		{ "ModuleRelativePath", "AbilitySystem/AstralStatsComponent.h" },
 		{ "NativeConstTemplateArg", "" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Health set used by this component." },
@@ -213,9 +213,9 @@ struct Z_Construct_UClass_UAstralStatsComponent_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UAstralStatsComponent_FindHealthComponent, "FindHealthComponent" }, // 2668037790
-		{ &Z_Construct_UFunction_UAstralStatsComponent_InitializeWithAbilitySystem, "InitializeWithAbilitySystem" }, // 2654016804
-		{ &Z_Construct_UFunction_UAstralStatsComponent_UninitializeFromAbilitySystem, "UninitializeFromAbilitySystem" }, // 1986357068
+		{ &Z_Construct_UFunction_UAstralStatsComponent_FindHealthComponent, "FindHealthComponent" }, // 839291787
+		{ &Z_Construct_UFunction_UAstralStatsComponent_InitializeWithAbilitySystem, "InitializeWithAbilitySystem" }, // 1517476895
+		{ &Z_Construct_UFunction_UAstralStatsComponent_UninitializeFromAbilitySystem, "UninitializeFromAbilitySystem" }, // 2503533235
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -267,14 +267,14 @@ UAstralStatsComponent::~UAstralStatsComponent() {}
 // End Class UAstralStatsComponent
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Public_AstralStatsComponent_h_Statics
+struct Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_AstralStatsComponent_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UAstralStatsComponent, UAstralStatsComponent::StaticClass, TEXT("UAstralStatsComponent"), &Z_Registration_Info_UClass_UAstralStatsComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAstralStatsComponent), 3324506668U) },
+		{ Z_Construct_UClass_UAstralStatsComponent, UAstralStatsComponent::StaticClass, TEXT("UAstralStatsComponent"), &Z_Registration_Info_UClass_UAstralStatsComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAstralStatsComponent), 4086604376U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Public_AstralStatsComponent_h_2786098633(TEXT("/Script/AstralPlague"),
-	Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Public_AstralStatsComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Public_AstralStatsComponent_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_AstralStatsComponent_h_2384768770(TEXT("/Script/AstralPlague"),
+	Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_AstralStatsComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_AstralStatsComponent_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

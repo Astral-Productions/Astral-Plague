@@ -10,7 +10,8 @@
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"Engine",
-				"GameplayAbilities"
+				"GameplayAbilities",
+				"CoreUObject"
 			]
 		}
 	],
@@ -28,6 +29,31 @@
 		},
 		{
 			"Name": "ModularGameplay",
+			"Enabled": true
+		},
+		{
+			"Name": "ElectronicNodes",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/5cb2a394d0c04e73891762be4cbd7216"
+		},
+		{
+			"Name": "Mover",
+			"Enabled": true
+		},
+		{
+			"Name": "MoverExamples",
+			"Enabled": true
+		},
+		{
+			"Name": "MoverTests",
+			"Enabled": true
+		},
+		{
+			"Name": "PoseSearch",
+			"Enabled": true
+		},
+		{
+			"Name": "MotionTrajectory",
 			"Enabled": true
 		}
 	]

@@ -1,18 +1,18 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\private\\astralplayerstate.cpp",
+        "Source": "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\abilitysystem\\astralplayerstate.cpp",
         "ProvidedModule": "",
         "PCH": "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\astralplagueeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
             "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\astralplague\\definitions.astralplague.h",
-            "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\public\\astralplayerstate.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\abilitysystem\\astralplayerstate.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysysteminterface.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysysteminterface.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerstate.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\playerstate.generated.h",
             "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\unrealeditor\\inc\\astralplague\\uht\\astralplayerstate.generated.h",
-            "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\public\\astralabilitysystemcomponent.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\abilitysystem\\astralabilitysystemcomponent.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysystemcomponent.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",

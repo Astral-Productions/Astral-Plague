@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "AstralPlague/Public/AstralAbilitySystemComponent.h"
+#include "AstralPlague/AbilitySystem/AstralAbilitySystemComponent.h"
 #include "Runtime/GameplayTags/Classes/GameplayTagContainer.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeAstralAbilitySystemComponent() {}
@@ -32,13 +32,13 @@ struct Z_Construct_UClass_UAstralAbilitySystemComponent_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "HideCategories", "Object LOD Lighting Transform Sockets TextureStreaming Object LOD Lighting Transform Sockets TextureStreaming" },
-		{ "IncludePath", "AstralAbilitySystemComponent.h" },
-		{ "ModuleRelativePath", "Public/AstralAbilitySystemComponent.h" },
+		{ "IncludePath", "AbilitySystem/AstralAbilitySystemComponent.h" },
+		{ "ModuleRelativePath", "AbilitySystem/AstralAbilitySystemComponent.h" },
 		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GameplayTags_MetaData[] = {
 		{ "Category", "Actor" },
-		{ "ModuleRelativePath", "Public/AstralAbilitySystemComponent.h" },
+		{ "ModuleRelativePath", "AbilitySystem/AstralAbilitySystemComponent.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStructPropertyParams NewProp_GameplayTags;
@@ -91,14 +91,14 @@ UAstralAbilitySystemComponent::~UAstralAbilitySystemComponent() {}
 // End Class UAstralAbilitySystemComponent
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Public_AstralAbilitySystemComponent_h_Statics
+struct Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_AstralAbilitySystemComponent_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UAstralAbilitySystemComponent, UAstralAbilitySystemComponent::StaticClass, TEXT("UAstralAbilitySystemComponent"), &Z_Registration_Info_UClass_UAstralAbilitySystemComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAstralAbilitySystemComponent), 3717793049U) },
+		{ Z_Construct_UClass_UAstralAbilitySystemComponent, UAstralAbilitySystemComponent::StaticClass, TEXT("UAstralAbilitySystemComponent"), &Z_Registration_Info_UClass_UAstralAbilitySystemComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAstralAbilitySystemComponent), 3744865406U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Public_AstralAbilitySystemComponent_h_254154212(TEXT("/Script/AstralPlague"),
-	Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Public_AstralAbilitySystemComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Public_AstralAbilitySystemComponent_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_AstralAbilitySystemComponent_h_1930378886(TEXT("/Script/AstralPlague"),
+	Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_AstralAbilitySystemComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_AstralAbilitySystemComponent_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

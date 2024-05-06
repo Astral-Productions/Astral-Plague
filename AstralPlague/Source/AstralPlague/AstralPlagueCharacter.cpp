@@ -2,10 +2,10 @@
 
 #include "AstralPlagueCharacter.h"
 
-#include "AstralAbilitySystemComponent.h"
-#include "AstralPlayerController.h"
-#include "AstralPlayerState.h"
-#include "AstralStatsComponent.h"
+#include "AbilitySystem/AstralAbilitySystemComponent.h"
+#include "AbilitySystem/AstralPlayerController.h"
+#include "AbilitySystem/AstralPlayerState.h"
+#include "AbilitySystem/AstralStatsComponent.h"
 #include "Engine/LocalPlayer.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"

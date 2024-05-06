@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "AstralPlague/Public/AstralPlayerState.h"
+#include "AstralPlague/AbilitySystem/AstralPlayerState.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeAstralPlayerState() {}
 
@@ -31,7 +31,7 @@ struct Z_Construct_UFunction_AAstralPlayerState_GetAstralAbilitySystemComponent_
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Gets the ability system component used for game wide things\n" },
 #endif
-		{ "ModuleRelativePath", "Public/AstralPlayerState.h" },
+		{ "ModuleRelativePath", "AbilitySystem/AstralPlayerState.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets the ability system component used for game wide things" },
 #endif
@@ -88,8 +88,8 @@ struct Z_Construct_UClass_AAstralPlayerState_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "HideCategories", "Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
-		{ "IncludePath", "AstralPlayerState.h" },
-		{ "ModuleRelativePath", "Public/AstralPlayerState.h" },
+		{ "IncludePath", "AbilitySystem/AstralPlayerState.h" },
+		{ "ModuleRelativePath", "AbilitySystem/AstralPlayerState.h" },
 		{ "ObjectInitializerConstructorDeclared", "" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
@@ -99,7 +99,7 @@ struct Z_Construct_UClass_AAstralPlayerState_Statics
 		{ "Comment", "// The ability system component subobject for game-wide things (primarily gameplay cues)\n" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/AstralPlayerState.h" },
+		{ "ModuleRelativePath", "AbilitySystem/AstralPlayerState.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The ability system component subobject for game-wide things (primarily gameplay cues)" },
 #endif
@@ -109,7 +109,7 @@ struct Z_Construct_UClass_AAstralPlayerState_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AAstralPlayerState_GetAstralAbilitySystemComponent, "GetAstralAbilitySystemComponent" }, // 949147906
+		{ &Z_Construct_UFunction_AAstralPlayerState_GetAstralAbilitySystemComponent, "GetAstralAbilitySystemComponent" }, // 2793409412
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
@@ -163,14 +163,14 @@ AAstralPlayerState::~AAstralPlayerState() {}
 // End Class AAstralPlayerState
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Public_AstralPlayerState_h_Statics
+struct Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_AstralPlayerState_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AAstralPlayerState, AAstralPlayerState::StaticClass, TEXT("AAstralPlayerState"), &Z_Registration_Info_UClass_AAstralPlayerState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAstralPlayerState), 2637921699U) },
+		{ Z_Construct_UClass_AAstralPlayerState, AAstralPlayerState::StaticClass, TEXT("AAstralPlayerState"), &Z_Registration_Info_UClass_AAstralPlayerState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAstralPlayerState), 1942628331U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Public_AstralPlayerState_h_2320615184(TEXT("/Script/AstralPlague"),
-	Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Public_AstralPlayerState_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Public_AstralPlayerState_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_AstralPlayerState_h_1095843142(TEXT("/Script/AstralPlague"),
+	Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_AstralPlayerState_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_AstralPlayerState_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

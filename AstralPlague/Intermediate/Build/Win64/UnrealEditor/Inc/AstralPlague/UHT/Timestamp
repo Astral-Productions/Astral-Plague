@@ -1,7 +1,10 @@
-D:\UnrealDev\AstralPlague\AstralPlague\Source\AstralPlague\Public\AstralPlayerState.h
-D:\UnrealDev\AstralPlague\AstralPlague\Source\AstralPlague\Public\AstralAbilitySystemComponent.h
-D:\UnrealDev\AstralPlague\AstralPlague\Source\AstralPlague\Public\DefaultAttributeSet.h
-D:\UnrealDev\AstralPlague\AstralPlague\Source\AstralPlague\Public\AstralPlayerController.h
-D:\UnrealDev\AstralPlague\AstralPlague\Source\AstralPlague\Public\AstralStatsComponent.h
 D:\UnrealDev\AstralPlague\AstralPlague\Source\AstralPlague\AstralPlagueGameMode.h
+D:\UnrealDev\AstralPlague\AstralPlague\Source\AstralPlague\AbilitySystem\AstralAbilityCost_InventoryItem.h
+D:\UnrealDev\AstralPlague\AstralPlague\Source\AstralPlague\AbilitySystem\AstralPlayerController.h
+D:\UnrealDev\AstralPlague\AstralPlague\Source\AstralPlague\AbilitySystem\AstralGameplayAbility.h
+D:\UnrealDev\AstralPlague\AstralPlague\Source\AstralPlague\AbilitySystem\AstralPlayerState.h
+D:\UnrealDev\AstralPlague\AstralPlague\Source\AstralPlague\AbilitySystem\AstralStatsComponent.h
+D:\UnrealDev\AstralPlague\AstralPlague\Source\AstralPlague\AbilitySystem\AstralAbilityCost.h
 D:\UnrealDev\AstralPlague\AstralPlague\Source\AstralPlague\AstralPlagueCharacter.h
+D:\UnrealDev\AstralPlague\AstralPlague\Source\AstralPlague\AbilitySystem\AstralAbilitySystemComponent.h
+D:\UnrealDev\AstralPlague\AstralPlague\Source\AstralPlague\AbilitySystem\DefaultAttributeSet.h
