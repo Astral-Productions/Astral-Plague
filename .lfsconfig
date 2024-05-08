@@ -1,0 +1,8 @@
+[lfs]
+url = "http://localhost:8081/api/Astral-Productions/Astral-Plague
+
+# Increase the number of worker threads
+git config --global lfs.concurrenttransfers 64
+
+# Use a global LFS cache to make re-cloning faster
+git config --global lfs.storage ~/.cache/lfs
