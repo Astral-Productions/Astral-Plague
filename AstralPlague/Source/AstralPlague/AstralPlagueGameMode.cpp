@@ -1,7 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "AstralPlagueGameMode.h"
-#include "AstralPlagueCharacter.h"
+#include "Character/AstralPlagueCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
 AAstralPlagueGameMode::AAstralPlagueGameMode()

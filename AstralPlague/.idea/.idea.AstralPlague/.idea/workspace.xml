@@ -12,451 +12,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84d03455-ca5d-46b5-ba50-83d41d7c1817" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Airborne_End.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Airborne_End_Heavy.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Airborne_Mid.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Airborne_Mid_Heavy.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Airborne_Start.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Airborne_Start_Heavy.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_ComboA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_ComboA1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_ComboA2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_ComboA3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_ComboA4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_ComboB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_ComboB1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_ComboB2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_ComboB3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_ComboB4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Dodge.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Dodge_to_ComboA1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Dodge_to_ComboB1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Heavy.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Heavy1_A.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Heavy1_A2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Heavy2_A.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Heavy_B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Heavy_End_B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Heavy_Mid_A.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Heavy_Mid_B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Heavy_Mid_C.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Heavy_Start_A.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Heavy_Start_B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Heavy_Start_C.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Attack_Sprint.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Brake.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Brake2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Brake2_no_weapon.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Brake_no_weapon.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Climb_Down.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Climb_Down_Fast.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Climb_Down_To_Idle.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Climb_Down_To_Idle_L.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Climb_Down_To_Idle_R.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Climb_L.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Climb_L_Hit.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Climb_R.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Climb_R_Hit.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Climb_Start.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Climb_Up.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Climb_Up_Start.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Climb_Up_To_Idle.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Collide.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Collide2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Run_Backward_IPC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Run_Backward_Left_IPC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Run_Backward_Left_Rootmotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Run_Backward_Right_IPC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Run_Backward_Right_Rootmotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Run_Backward_Rootmotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Run_Forward_IPC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Run_Forward_Left_IPC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Run_Forward_Left_Rootmotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Run_Forward_Right_IPC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Run_Forward_Right_Rootmotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Run_Forward_Rootmotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Run_Leftward_IPC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Run_Leftward_Rootmotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Run_Rightward_IPC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Run_Rightward_Rootmotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Run_no_weapon_IPC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Run_no_weapon_Rootmotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Start.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Turn90L.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Turn90R.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Walk_Backward_IPC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Walk_Backward_Left_IPC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Walk_Backward_Left_Rootmotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Walk_Backward_Right_IPC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Walk_Backward_Right_Rootmotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Walk_Backward_Rootmotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Walk_Forward_IPC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Walk_Forward_Left_IPC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Walk_Forward_Left_Rootmotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Walk_Forward_Right_IPC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Walk_Forward_Right_Rootmotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Walk_Forward_Rootmotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Walk_Leftward_IPC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Walk_Leftward_Rootmotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Walk_Rightward_IPC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Walk_Rightward_Rootmotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Walk_no_weapon_IPC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Crouch_Walk_no_weapon_Rootmotion.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Death.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Death2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Death_Airborne_End.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Death_Airborne_Mid.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Death_Airborne_Start.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Dodge.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Equip_Idle1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Equip_Idle2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Evade_Backward.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Evade_Backward_Left.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Evade_Backward_Right.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Evade_Forward.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Evade_Forward_Left.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Evade_Forward_Right.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Evade_Left.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Evade_Right.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Execute.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Execute_B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Execute_End.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Execute_Mid.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Execute_Start.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Executed.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Executed_B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Executed_B_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Executed_B_2_Death.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Executed_B_Death.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Executed_Death.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Getup1_Idle1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Getup1_Idle2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Animations/ARPG_Ninja_Anim_UE_Getup2_Idle1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Demo/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Demo/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Demo/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Demo/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Demo/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Demo/Mannequin/Character/Mesh/SK_Mannequin.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Demo/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Demo/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Demo/Mannequin/Character/Textures/UE4Man_Logo_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Demo/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Demo/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Demo/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Demo/Maps/DemoMap_Ninja.umap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Demo/Weapon/Materials/weapon.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ARPG_Ninja/Demo/Weapon/Mesh/Ninja_sword.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Astral-Plague/AbilitySystem/Abilities/GA_Melee.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Astral-Plague/Blueprints/Player/BP_AstralGameMode.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Astral-Plague/Characters/Player/Animations/ABP_Player.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Astral-Plague/Characters/Player/PSD_Player.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Astral-Plague/Characters/Player/PSS_Player.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Astral-Plague/Levels/Cole-TestRealm.umap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Astral-Plague/Levels/Cole-TestRealm_HLOD0_Instancing.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Astral-Plague/Materials/M_BlackandWhite.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Astral-Plague/PlayerBlueprints/BP_AstralGameMode.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Astral-Plague/Weapons/Scythe-LP.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/ABP_Main.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_GroundLamp_Lit_01.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_Mushroom_Green_Lit_A.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_Mushroom_Green_Lit_B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_Mushroom_Green_Lit_C.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_Mushroom_Green_Lit_D.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_Mushroom_Green_Lit_E.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_Mushroom_Green_Lit_F.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_Mushroom_Green_SmallGroup_A.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_Mushroom_Green_SmallGroup_B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_Mushroom_Green_SmallGroup_C.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_Mushroom_Lit_A.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_Mushroom_Lit_B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_Mushroom_Lit_C.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_Mushroom_Lit_D.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_Mushroom_Lit_E.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_Mushroom_Lit_F.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_Mushroom_SmallGroup_A.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_Mushroom_SmallGroup_B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_Mushroom_SmallGroup_C.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_TreasureChest_A.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Blueprints/BP_TreasureChest_B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_DebrisSmall_H.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_DebrisSmall_I.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_DebrisSmall_J.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_DecorPillar_A.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_DecorPillar_B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_EntryDecor.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_EntryRock_01.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_EntryRock_02.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_EntryRock_03.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_EntryTotem.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_FigureInhabitant_01.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_FigureInhabitant_02.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_FigureInhabitant_03.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_FigureInhabitant_04.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_FigureInhabitant_05.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_FigureInhabitant_06.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Root_05.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Root_06.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Root_07.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Root_08.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Shrub_A.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Shrub_B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Shrub_C.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Shrub_D.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Shrub_E.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Shrub_F.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Shrub_G.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Shrub_H.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Shrub_I.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Shrub_J.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Shrub_K.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Shrub_L.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Shrub_M.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Shrub_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Shrub_O.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_SkeletonFull_01.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Skeleton_Pile_01.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Skeleton_Pile_02.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Skeleton_Pile_03.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Skeleton_Pile_04.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Skeleton_Pile_05.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Skeleton_Pile_06.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Skeleton_Pile_07.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Skeleton_Pile_08.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Skeleton_Pose_01.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Skeleton_Pose_02.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Skeleton_Pose_03.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Meshes/Props/SM_Skeleton_Pose_04.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_Mushroom_F_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_Mushroom_F_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_NoiseMap_01_M.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_Pillar_2x3_A_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_Pillar_2x3_B_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_Pillar_2x6_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_Pillar_3x6_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_RootsAlpha_D.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_RootsAlpha_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_RootsAlpha_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_RootsMesh_D.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_RootsMesh_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_RootsMesh_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_ShrubAlpha_D.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_ShrubAlpha_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_ShrubAlpha_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_SkeletonRaw_D.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_SkeletonRaw_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_SkeletonRaw_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_Stair_Parts_D.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_Stair_Parts_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_Stair_Parts_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_StoneTile_A_D.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_StoneTile_A_H.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_StoneTile_A_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_StoneTile_A_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_StoneTile_B_D.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_StoneTile_B_H.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_StoneTile_B_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_StoneTile_B_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_StoneTile_C_D.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DeepElderCaves/Textures/T_StoneTile_C_H.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/3/Z6/0LTCW7N5IYAEM4BOMRIC3U.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/4/B6/CER6JDFV4HP3LCUL572ZMS.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/4/DD/K6FSUCH0Q04K0I9RDENQY2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/4/FS/35ZCKAV7VINSYML2PXGNQ7.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/4/KI/ING7IN6UTUPUFH0YU77JOY.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/4/L3/CKK9RNBI1B2WK6E06F9HPO.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/4/LC/GBOJ4GL9AUK5TPNS71ENIP.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/4/SL/J6PQO48EN6Y6WF27NBO2H7.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/4/TD/C70AXTIFQ7C6HQNY6ZGSSX.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/4/W1/DNQ31G10U1H3PLX1ON8G55.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/5/0J/U4S3KKITBR9AWMNEMJD34U.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/5/ID/HRIFDYX6WRHE0W5SK2KWMZ.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/5/KO/ZGUNF0ZYWFGCXC9IQG9MYJ.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/5/S7/OSV0BLCMXT0YZ2CSAKGUO9.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/5/SZ/XV07PA2KP3J8BQWDR0503N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/5/T7/9LTIC5EM92Q5Y6UUTD6IGJ.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/5/WK/XVY47Q9NWO74MA6TTU05DH.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/5/YW/XBVNY9Z67QZPNTE4FG0ZAW.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/6/3Z/OAQI94EOUPDV2OQDM1BGJY.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/6/5U/7YPSOJ9DLPGH3HR63P350G.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/6/9T/GXKLX6X3EDGFYI0BNOLBUH.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/6/AN/ZX5LV3UTLD31N8KMVJSB3J.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/6/FX/EZ76JI3CQ11S7L718FJW6X.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/6/IB/WG1VCR3J0F0ICLOGYW21O6.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/6/JW/8U4I5YPQCSS3KO5Q5CO2Q2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/6/TG/N83MLIS9JSW5Z6XFXVC0LN.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/7/2Y/EQ5HPQ66PKHUW4SD7635Q0.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/7/7V/UMGVZA5GWRCC08NUZVA1D2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/7/CO/X8VBKVT78K6NX04VILQE4N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/7/J3/0FUNHOQBQ4H0B1Q86SJ447.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/7/JA/RGDLLN27B1W448ZLRN4VWR.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/7/K1/ND8ASLVF4ZXJIKN9EDZNQ2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/D/E4/AMK4BMXTP1K4AEEEQXBJR3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/D/EW/LCGQ40RD1AXZVQ9KVG96LG.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/D/HZ/VYO1680C01OGJ9VLYS02DF.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/D/TU/UC692AZIMSHPPYO1Z4FDFG.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/D/XP/RVRHI5XREEQ1BBQYX7YQ73.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/D/XZ/V8GBWAZT3YNCOYNNZ08Y48.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/E/19/A19K672C9EVIMMTRU360IA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/E/2E/RXEQ50W7ZZJ9F4EMHXT9VO.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/E/4B/Q9T43ODLG18GM6P9MNLFC9.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/E/BB/UB3EMWU95005PDH62UNGM6.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/E/O9/L9BE5ZNJBNXFPHPGPRPI85.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/E/PT/NT70SPX5H8IHG979KIFNUK.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/E/ZS/QECC7GS65F0QYX3RWM8FZV.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/F/3W/UPIUTC6ABM42RR7LK2ND37.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Astral-Plague/Levels/Cole-TestRealm/F/58/D0EXQ7EOCUF9TYWRN4ONGR.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/__ExternalObjects__/Astral-Plague/Levels/Cole-TestRealm/0/6Z/UWBWKKS7V7MICTE0L5MPAU.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralAbilityCost.gen.cpp.obj.rsp.lc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralAbilityCost_InventoryItem.cpp.dep.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralAbilityCost_InventoryItem.cpp.obj.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralAbilityCost_InventoryItem.gen.cpp.dep.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralAbilityCost_InventoryItem.gen.cpp.obj.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralAbilitySystemComponent.cpp.obj.rsp.old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralGameplayAbility.cpp.dep.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralGameplayAbility.cpp.obj.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralGameplayAbility.cpp.obj.rsp.lc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralGameplayAbility.gen.cpp.dep.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralGameplayAbility.gen.cpp.dep.lc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralGameplayAbility.gen.cpp.obj.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralGameplayAbility.gen.cpp.obj.rsp.lc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralGameplayTags.cpp.dep.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralGameplayTags.cpp.obj.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerController.cpp.obj.rsp.old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-2B71315A4FB6E364229B8FA70A16C3BB_0000/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-2B71315A4FB6E364229B8FA70A16C3BB_0001/AstralPlague.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-2B71315A4FB6E364229B8FA70A16C3BB_0001/CrashContext.runtime-xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-2B71315A4FB6E364229B8FA70A16C3BB_0001/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-2B71315A4FB6E364229B8FA70A16C3BB_0002/AstralPlague.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-2B71315A4FB6E364229B8FA70A16C3BB_0002/CrashContext.runtime-xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-2B71315A4FB6E364229B8FA70A16C3BB_0002/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-2B71315A4FB6E364229B8FA70A16C3BB_0002/UEMinidump.dmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-542EA8324A75FCC13862178FD0A0769E_0000/AstralPlague.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-542EA8324A75FCC13862178FD0A0769E_0000/CrashContext.runtime-xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-542EA8324A75FCC13862178FD0A0769E_0000/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-542EA8324A75FCC13862178FD0A0769E_0001/AstralPlague.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.05-04.40.52.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.05-05.45.22.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.05-06.32.51.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.06-00.17.56.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/AstralPlague_2-backup-2024.05.04-07.31.57.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/AstralPlague_2-backup-2024.05.04-20.39.05.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/AstralPlague_3.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T17.39.47.962Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T17.59.42.385Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.01.06.851Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.01.49.897Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.02.12.834Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.02.48.469Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.04.36.670Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.05.08.054Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.05.27.203Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.05.36.829Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.08.52.999Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.18.56.390Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.20.16.952Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.22.08.858Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.22.40.240Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.27.30.222Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.28.18.532Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.31.45.976Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.34.36.837Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.38.26.463Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.39.35.377Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T18.39.41.719Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T20.38.42.601Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T20.40.12.504Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_Cole-TestRealm-000030f4-2024-05-04T20.40.55.527Z.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralAbilityCost_InventoryItem.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralAbilityCost_InventoryItem.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/DefaultAttributeSet.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/DefaultAttributeSet.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/AstralPlague/AstralGameplayTags.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/AstralPlague/AstralGameplayTags.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AstralPlague/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstralPlague/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AstralPlague.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/AstralPlague.uproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/AstralPlagueEditor.target" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/AstralPlagueEditor.target" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-AstralPlague.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-AstralPlague.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-AstralPlague.pdb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Astral-Plague/Blueprints/AbilitySystem/Abilities/GA_Melee.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Astral-Plague/AbilitySystem/Abilities/GA_Melee.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Astral-Plague/AbilitySystem/Abilities/GA_Melee.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Astral-Plague/Blueprints/Player/BP_Player.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Astral-Plague/Blueprints/Player/BP_Player.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Astral-Plague/Blueprints/Player/BP_PlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Astral-Plague/Blueprints/Player/BP_PlayerController.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Astral-Plague/Blueprints/Player/BP_PlayerState.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Astral-Plague/Blueprints/Player/BP_PlayerState.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/ABP_Manny.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/ABP_Quinn.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/ABP_Quinn.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Maps/ThirdPersonMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Maps/ThirdPersonMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/AstralPlagueModuleRules/obj/Development/AstralPlagueModuleRules.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/AstralPlagueModuleRules/obj/Development/AstralPlagueModuleRules.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/AstralPlagueModuleRules.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/AstralPlagueModuleRules.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/AstralPlagueEditor/Development/AstralPlagueEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/AstralPlagueEditor/Development/AstralPlagueEditor.uhtmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralAbilitySystemComponent.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralAbilitySystemComponent.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralAbilitySystemComponent.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralAbilitySystemComponent.generated.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlague.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlague.init.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlagueCharacter.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlagueCharacter.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlagueCharacter.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlagueCharacter.generated.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlayerController.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlayerController.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlayerController.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlayerController.generated.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlayerState.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlayerState.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlayerState.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlayerState.generated.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralStatsComponent.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralStatsComponent.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralStatsComponent.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralStatsComponent.generated.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/DefaultAttributeSet.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/DefaultAttributeSet.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/DefaultAttributeSet.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/DefaultAttributeSet.generated.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/AstralPlagueEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/AstralPlagueEditor/Development/DependencyCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/AstralPlagueEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/AstralPlagueEditor/Development/Makefile.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/AstralPlagueEditor/Development/TargetMetadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/AstralPlagueEditor/Development/TargetMetadata.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/ActionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralAbilitySystemComponent.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralAbilitySystemComponent.cpp.dep.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralAbilitySystemComponent.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralAbilitySystemComponent.cpp.obj.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralAbilitySystemComponent.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralAbilitySystemComponent.gen.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralGameplayAbility.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralGameplayAbility.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlague.Shared.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlague.Shared.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlague.Shared.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlague.Shared.rsp.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlagueCharacter.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlagueCharacter.cpp.dep.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlagueCharacter.cpp.dep.lc.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlagueCharacter.cpp.dep.lc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlagueCharacter.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlagueCharacter.cpp.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlagueCharacter.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlagueCharacter.gen.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlagueGameMode.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlagueGameMode.cpp.dep.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerController.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerController.cpp.dep.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerController.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerController.cpp.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerController.cpp.obj.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerController.cpp.obj.rsp.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerController.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerController.gen.cpp.dep.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerState.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerState.cpp.dep.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerState.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerState.cpp.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerState.cpp.obj.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerState.cpp.obj.rsp.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerState.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerState.gen.cpp.dep.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralStatsComponent.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralStatsComponent.cpp.dep.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralStatsComponent.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralStatsComponent.cpp.obj.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralStatsComponent.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralStatsComponent.gen.cpp.dep.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/DefaultAttributeSet.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/DefaultAttributeSet.cpp.dep.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/DefaultAttributeSet.cpp.dep.lc.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/DefaultAttributeSet.cpp.dep.lc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/DefaultAttributeSet.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/DefaultAttributeSet.cpp.obj.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/DefaultAttributeSet.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/DefaultAttributeSet.gen.cpp.dep.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/DefaultAttributeSet.gen.cpp.dep.lc.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/DefaultAttributeSet.gen.cpp.dep.lc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/Default.rc2.res" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/Default.rc2.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/Default.rc2.res.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/Default.rc2.res.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/Definitions.AstralPlague.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/Definitions.AstralPlague.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/Definitions.AstralPlague.h.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/Definitions.AstralPlague.h.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.dll.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.dll.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.dll.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.dll.rsp.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.lib.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.lib.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.lib.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.lib.rsp.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.sup.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.sup.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.sup.exp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/AstralPlague.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/AstralPlague.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/AstralPlague.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/AstralPlague.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/AstralPlague.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/AstralPlague.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Editor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Editor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-04CA7C3D474A9E2F4775B7B76CF45C2F/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-AB5F3A904E34DCE172FB829B7739C0CF/CrashReportClient.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.04-06.58.08.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.04-19.47.26.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.04-20.20.04.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.04-20.42.59.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.04-20.46.54.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.05-04.37.54.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.05-04.38.50.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.05-04.40.05.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/AstralPlague.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague_2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/AstralPlague_2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Telemetry/Telemetry.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Telemetry/Telemetry.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/AstralPlagueCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AstralPlagueCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Private/AstralAbilitySystemComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralAbilitySystemComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Private/AstralPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralPlayerController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Private/AstralPlayerState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralPlayerState.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Private/AstralStatsComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralStatsComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Private/DefaultAttributeSet.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Public/AstralAbilitySystemComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralAbilitySystemComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Public/AstralPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralPlayerController.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Public/AstralPlayerState.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralPlayerState.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Public/AstralStatsComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralStatsComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Public/DefaultAttributeSet.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralGameplayAbility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralGameplayAbility.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPlayerController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPlayerController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralPlayerState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPlayerState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralPlayerState.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPlayerState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/AstralPlague.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AstralPlague.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/AstralPlagueCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPlagueCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/AstralPlagueCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPlagueCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/AstralPlagueGameMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AstralPlagueGameMode.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -466,6 +92,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Source/AstralPlague/Character/LyraPawnExtensionComponent.h" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -474,31 +103,34 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2fzZLlWKf2naGLB1HrMF8PKoCPc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C++ Project.AstralPlague.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Astral-Main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C++ Project.AstralPlague.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Astral-Main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\NovaB\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\NovaB\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\NovaB\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\NovaB\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\NovaB\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\NovaB\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="C++ Project.AstralPlague">
     <configuration name="AstralPlague" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -906,6 +538,8 @@
       <workItem from="1714843181497" duration="12968000" />
       <workItem from="1714933294884" duration="8000" />
       <workItem from="1714954690882" duration="6716000" />
+      <workItem from="1715188244761" duration="6889000" />
+      <workItem from="1715211928615" duration="3831000" />
     </task>
     <servers />
   </component>
