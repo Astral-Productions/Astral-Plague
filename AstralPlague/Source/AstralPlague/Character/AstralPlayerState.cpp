@@ -29,7 +29,7 @@ void AAstralPlayerState::PostInitializeComponents()
 	Super::PostInitializeComponents();
 
 	check(AbilitySystemComponent);
-	AbilitySystemComponent->InitAbilityActorInfo(/*Owner=*/ this, /*Avatar=*/ GetPawn());
+	AbilitySystemComponent->InitAbilityActorInfo(this, GetPawn());
 }
 
 AAstralPlayerController* AAstralPlayerState::GetAstralPlayerController() const

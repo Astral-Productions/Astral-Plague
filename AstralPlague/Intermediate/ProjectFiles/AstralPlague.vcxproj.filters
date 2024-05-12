@@ -12,6 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\AstralPlague.png" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -27,12 +28,111 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ModularGameplayActors">
+      <UniqueIdentifier>{E25759FB-664C-355F-8250-88BB112CE4AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ModularGameplayActors\Source">
+      <UniqueIdentifier>{D2A7373A-5074-3627-B395-44D580887335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ModularGameplayActors\Source\ModularGameplayActors">
+      <UniqueIdentifier>{BB71DF83-D340-3BFB-8444-4117EB3288C8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\ModularGameplayActors.Build.cs">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors</Filter>
+    </None>
+    <Filter Include="Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private">
+      <UniqueIdentifier>{B8B90E7E-AD5A-3B0C-A684-BFAC92E94C5B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularAIController.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularCharacter.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularGameMode.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularGameplayActorsModule.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularGameState.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularPawn.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularPlayerController.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularPlayerState.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public">
+      <UniqueIdentifier>{2CE162FB-CFBE-3D0B-A1F3-D84F43D64075}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularAIController.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularCharacter.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularGameMode.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularGameState.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularPawn.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularPlayerController.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularPlayerState.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameFeatures">
+      <UniqueIdentifier>{33C51FE3-4BD4-3B9E-9F42-5CCDEE9DF75F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameFeatures\TestGameFeature">
+      <UniqueIdentifier>{2F445D27-16D6-3EB8-A159-8E77BAD03433}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameFeatures\TestGameFeature\TestGameFeature.uplugin">
+      <Filter>Plugins\GameFeatures\TestGameFeature</Filter>
+    </None>
+    <Filter Include="Plugins\GameFeatures\TestGameFeature\Resources">
+      <UniqueIdentifier>{A80120EB-1A52-348E-8C61-3B4F9D7CCC84}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameFeatures\TestGameFeature\Resources\Icon128.png">
+      <Filter>Plugins\GameFeatures\TestGameFeature\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\ModularGameplayActors\ModularGameplayActors.uplugin">
+      <Filter>Plugins\ModularGameplayActors</Filter>
     </None>
     <Filter Include="Source\AstralPlague">
       <UniqueIdentifier>{4F7A120E-5C0C-381E-8A13-D152DD9CB8B0}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\AstralPlague\AstralGameplayTags.cpp">
+      <Filter>Source\AstralPlague</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\AstralGameplayTags.h">
+      <Filter>Source\AstralPlague</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AstralPlague\AstralLogChannels.cpp">
+      <Filter>Source\AstralPlague</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\AstralLogChannels.h">
+      <Filter>Source\AstralPlague</Filter>
+    </ClInclude>
     <None Include="..\..\Source\AstralPlague\AstralPlague.Build.cs">
       <Filter>Source\AstralPlague</Filter>
     </None>
@@ -40,12 +140,6 @@
       <Filter>Source\AstralPlague</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AstralPlague\AstralPlague.h">
-      <Filter>Source\AstralPlague</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\AstralPlague\AstralPlagueCharacter.cpp">
-      <Filter>Source\AstralPlague</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\AstralPlague\AstralPlagueCharacter.h">
       <Filter>Source\AstralPlague</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\AstralPlague\AstralPlagueGameMode.cpp">
@@ -63,47 +157,68 @@
     <ClInclude Include="..\..\Source\AstralPlague\AbilitySystem\AstralAbilityCost.h">
       <Filter>Source\AstralPlague\AbilitySystem</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\AstralPlague\AbilitySystem\AstralAbilityCost_InventoryItem.cpp">
+      <Filter>Source\AstralPlague\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\AbilitySystem\AstralAbilityCost_InventoryItem.h">
+      <Filter>Source\AstralPlague\AbilitySystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AstralPlague\AbilitySystem\AstralAbilitySystemComponent.cpp">
+      <Filter>Source\AstralPlague\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\AbilitySystem\AstralAbilitySystemComponent.h">
+      <Filter>Source\AstralPlague\AbilitySystem</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\AstralPlague\AbilitySystem\AstralGameplayAbility.cpp">
       <Filter>Source\AstralPlague\AbilitySystem</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AstralPlague\AbilitySystem\AstralGameplayAbility.h">
       <Filter>Source\AstralPlague\AbilitySystem</Filter>
     </ClInclude>
-    <Filter Include="Source\AstralPlague\Private">
-      <UniqueIdentifier>{4A845FDF-730C-31A9-8D4F-A65308AEC50A}</UniqueIdentifier>
+    <ClCompile Include="..\..\Source\AstralPlague\AbilitySystem\AstralStatsComponent.cpp">
+      <Filter>Source\AstralPlague\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\AbilitySystem\AstralStatsComponent.h">
+      <Filter>Source\AstralPlague\AbilitySystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AstralPlague\AbilitySystem\DefaultAttributeSet.cpp">
+      <Filter>Source\AstralPlague\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\AbilitySystem\DefaultAttributeSet.h">
+      <Filter>Source\AstralPlague\AbilitySystem</Filter>
+    </ClInclude>
+    <Filter Include="Source\AstralPlague\Character">
+      <UniqueIdentifier>{E805E4A2-76D7-3C53-9E48-0DDFBA1C370C}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\AstralPlague\Private\AstralAbilitySystemComponent.cpp">
-      <Filter>Source\AstralPlague\Private</Filter>
+    <ClCompile Include="..\..\Source\AstralPlague\Character\AstralPawnData.cpp">
+      <Filter>Source\AstralPlague\Character</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\AstralPlague\Private\AstralPlayerController.cpp">
-      <Filter>Source\AstralPlague\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\AstralPlague\Private\AstralPlayerState.cpp">
-      <Filter>Source\AstralPlague\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\AstralPlague\Private\AstralStatsComponent.cpp">
-      <Filter>Source\AstralPlague\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\AstralPlague\Private\DefaultAttributeSet.cpp">
-      <Filter>Source\AstralPlague\Private</Filter>
-    </ClCompile>
-    <Filter Include="Source\AstralPlague\Public">
-      <UniqueIdentifier>{7FF08AE7-DDB8-39C9-87FB-E9AAFF90A848}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Source\AstralPlague\Public\AstralAbilitySystemComponent.h">
-      <Filter>Source\AstralPlague\Public</Filter>
+    <ClInclude Include="..\..\Source\AstralPlague\Character\AstralPawnData.h">
+      <Filter>Source\AstralPlague\Character</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\AstralPlague\Public\AstralPlayerController.h">
-      <Filter>Source\AstralPlague\Public</Filter>
+    <ClCompile Include="..\..\Source\AstralPlague\Character\AstralPawnExtensionComponent.cpp">
+      <Filter>Source\AstralPlague\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\Character\AstralPawnExtensionComponent.h">
+      <Filter>Source\AstralPlague\Character</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\AstralPlague\Public\AstralPlayerState.h">
-      <Filter>Source\AstralPlague\Public</Filter>
+    <ClCompile Include="..\..\Source\AstralPlague\Character\AstralPlagueCharacter.cpp">
+      <Filter>Source\AstralPlague\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\Character\AstralPlagueCharacter.h">
+      <Filter>Source\AstralPlague\Character</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\AstralPlague\Public\AstralStatsComponent.h">
-      <Filter>Source\AstralPlague\Public</Filter>
+    <ClCompile Include="..\..\Source\AstralPlague\Character\AstralPlayerController.cpp">
+      <Filter>Source\AstralPlague\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\Character\AstralPlayerController.h">
+      <Filter>Source\AstralPlague\Character</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\AstralPlague\Public\DefaultAttributeSet.h">
-      <Filter>Source\AstralPlague\Public</Filter>
+    <ClCompile Include="..\..\Source\AstralPlague\Character\AstralPlayerState.cpp">
+      <Filter>Source\AstralPlague\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\Character\AstralPlayerState.h">
+      <Filter>Source\AstralPlague\Character</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

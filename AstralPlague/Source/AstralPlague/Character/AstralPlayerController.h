@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/PlayerController.h"
+#include "ModularPlayerController.h"
 #include "AstralPlayerController.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class ASTRALPLAGUE_API AAstralPlayerController : public APlayerController
+class ASTRALPLAGUE_API AAstralPlayerController : public AModularPlayerController
 {
 	GENERATED_BODY()
 

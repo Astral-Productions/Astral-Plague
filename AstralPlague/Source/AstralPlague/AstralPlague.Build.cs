@@ -17,7 +17,9 @@ public class AstralPlague : ModuleRules
 				"DeveloperSettings",
 				"EnhancedInput",
 				"Projects",
-				"UMG", "ModularGameplay"
+				"UMG", 
+				"ModularGameplay", 
+				"ModularGameplayActors"
 			}
 		);
 	}

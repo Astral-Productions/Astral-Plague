@@ -15,6 +15,7 @@
     <ProjectReference Include="C:\Program Files\Epic Games\UE_5.4\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.csproj"><Private>false</Private></ProjectReference>
   </ItemGroup>
   <ItemGroup>
+  <Compile Include="..\..\..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\ModularGameplayActors.Build.cs"><Link>Plugins\ModularGameplayActors\Source\ModularGameplayActors\ModularGameplayActors.Build.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\AstralPlague.Target.cs"><Link>Source\AstralPlague.Target.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\AstralPlagueEditor.Target.cs"><Link>Source\AstralPlagueEditor.Target.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\AstralPlague\AstralPlague.Build.cs"><Link>Source\AstralPlague\AstralPlague.Build.cs</Link></Compile>

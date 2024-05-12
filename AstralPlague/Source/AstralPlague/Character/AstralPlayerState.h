@@ -5,16 +5,17 @@
 #include "CoreMinimal.h"
 #include "AbilitySystemInterface.h"
 #include "AstralPlayerController.h"
-#include "GameFramework/PlayerState.h"
+#include "ModularPlayerState.h"
 #include "AstralPlayerState.generated.h"
 
+class AController;
 class APLayerState;
 class UAbilitySystemComponent;
 class UAstralAbilitySystemComponent;
 class UObject;
 
 UCLASS(Config = Game)
-class ASTRALPLAGUE_API AAstralPlayerState : public APlayerState, public IAbilitySystemInterface
+class ASTRALPLAGUE_API AAstralPlayerState : public AModularPlayerState, public IAbilitySystemInterface
 {
 	GENERATED_BODY()
 
@@ -35,6 +36,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Astral|PlayerState")
 	UAstralAbilitySystemComponent* GetAstralAbilitySystemComponent() const { return AbilitySystemComponent; }
 
+protected:
+	
+	
 
 private:
 	// The ability system component subobject for game-wide things (primarily gameplay cues)

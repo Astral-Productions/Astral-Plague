@@ -63,10 +63,19 @@ void AAstralPlagueCharacter::BeginPlay()
 {
 	// Call the base class  
 	Super::BeginPlay();
+
+	
 }
 
 //////////////////////////////////////////////////////////////////////////
 // Input
+
+void AAstralPlagueCharacter::OnRep_PlayerState()
+{
+	Super::OnRep_PlayerState();
+
+	PawnExtComponent->HandlePlayerStateReplicated();
+}
 
 void AAstralPlagueCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
@@ -210,5 +219,20 @@ void AAstralPlagueCharacter::OnAbilitySystemInitialized()
 void AAstralPlagueCharacter::OnAbilitySystemUninitialized()
 {
 	StatsComponent->UninitializeFromAbilitySystem();
+}
+
+void AAstralPlagueCharacter::PossessedBy(AController* NewController)
+{
+
+	Super::PossessedBy(NewController);
+
+	AAstralPlayerState* PS = GetPlayerState<AAstralPlayerState>();
+	if(PS)
+	{
+		{			
+			PS->PostInitializeComponents();
+		}
+	}
+	
 }
 
