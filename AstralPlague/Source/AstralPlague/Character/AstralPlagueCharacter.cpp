@@ -2,6 +2,7 @@
 
 #include "AstralPlagueCharacter.h"
 
+#include "AstralPawnExtensionComponent.h"
 #include "AstralPlague/AbilitySystem/AstralAbilitySystemComponent.h"
 #include "AstralPlague/Character/AstralPlayerController.h"
 #include "AstralPlague/Character/AstralPlayerState.h"

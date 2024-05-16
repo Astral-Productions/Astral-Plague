@@ -12,7 +12,7 @@ void EmptyLinkFunctionForGeneratedCodeAstralPlayerController() {}
 // Begin Cross Module References
 ASTRALPLAGUE_API UClass* Z_Construct_UClass_AAstralPlayerController();
 ASTRALPLAGUE_API UClass* Z_Construct_UClass_AAstralPlayerController_NoRegister();
-ENGINE_API UClass* Z_Construct_UClass_APlayerController();
+MODULARGAMEPLAYACTORS_API UClass* Z_Construct_UClass_AModularPlayerController();
 UPackage* Z_Construct_UPackage__Script_AstralPlague();
 // End Cross Module References
 
@@ -44,7 +44,7 @@ struct Z_Construct_UClass_AAstralPlayerController_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 UObject* (*const Z_Construct_UClass_AAstralPlayerController_Statics::DependentSingletons[])() = {
-	(UObject* (*)())Z_Construct_UClass_APlayerController,
+	(UObject* (*)())Z_Construct_UClass_AModularPlayerController,
 	(UObject* (*)())Z_Construct_UPackage__Script_AstralPlague,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AAstralPlayerController_Statics::DependentSingletons) < 16);
@@ -84,10 +84,10 @@ AAstralPlayerController::~AAstralPlayerController() {}
 struct Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Character_AstralPlayerController_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AAstralPlayerController, AAstralPlayerController::StaticClass, TEXT("AAstralPlayerController"), &Z_Registration_Info_UClass_AAstralPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAstralPlayerController), 437438404U) },
+		{ Z_Construct_UClass_AAstralPlayerController, AAstralPlayerController::StaticClass, TEXT("AAstralPlayerController"), &Z_Registration_Info_UClass_AAstralPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAstralPlayerController), 2029639345U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Character_AstralPlayerController_h_3692733129(TEXT("/Script/AstralPlague"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Character_AstralPlayerController_h_127537513(TEXT("/Script/AstralPlague"),
 	Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Character_AstralPlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Character_AstralPlayerController_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -26,7 +26,7 @@ private: \
 	static void StaticRegisterNativesAAstralPlayerState(); \
 	friend struct Z_Construct_UClass_AAstralPlayerState_Statics; \
 public: \
-	DECLARE_CLASS(AAstralPlayerState, APlayerState, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/AstralPlague"), NO_API) \
+	DECLARE_CLASS(AAstralPlayerState, AModularPlayerState, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/AstralPlague"), NO_API) \
 	DECLARE_SERIALIZER(AAstralPlayerState) \
 	static const TCHAR* StaticConfigName() {return TEXT("Game");} \
  \

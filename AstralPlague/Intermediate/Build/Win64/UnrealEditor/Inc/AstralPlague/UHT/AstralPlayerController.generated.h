@@ -19,7 +19,7 @@ private: \
 	static void StaticRegisterNativesAAstralPlayerController(); \
 	friend struct Z_Construct_UClass_AAstralPlayerController_Statics; \
 public: \
-	DECLARE_CLASS(AAstralPlayerController, APlayerController, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/AstralPlague"), NO_API) \
+	DECLARE_CLASS(AAstralPlayerController, AModularPlayerController, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/AstralPlague"), NO_API) \
 	DECLARE_SERIALIZER(AAstralPlayerController)
 
 

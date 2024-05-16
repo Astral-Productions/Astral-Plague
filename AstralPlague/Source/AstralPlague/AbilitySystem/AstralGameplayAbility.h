@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "AstralAbilityCost.h"
 #include "Abilities/GameplayAbility.h"
+#include "AstralPlague/Camera/AstralCameraMode.h"
+#include "AstralPlague/Components/AstralCharacterGameplayComponent.h"
 #include "AstralGameplayAbility.generated.h"
 
 class AActor;
@@ -16,6 +18,65 @@ class FText;
 class UAnimMontage;
 class UAstralAbilitySystemComponent;
 class UObject;
+
+
+/**
+ * EAstralAbilityActivationPolicy
+ *
+ *	Defines how an ability is meant to activate.
+ */
+UENUM(BlueprintType)
+enum class EAstralAbilityActivationPolicy : uint8
+{
+	// Try to activate the ability when the input is triggered.
+	OnInputTriggered,
+
+	// Continually try to activate the ability while the input is active.
+	WhileInputActive,
+
+	// Try to activate the ability when an avatar is assigned.
+	OnSpawn
+};
+
+
+/**
+ * EAstralAbilityActivationGroup
+ *
+ *	Defines how an ability activates in relation to other abilities.
+ */
+UENUM(BlueprintType)
+enum class EAstralAbilityActivationGroup : uint8
+{
+	// Ability runs independently of all other abilities.
+	Independent,
+
+	// Ability is canceled and replaced by other exclusive abilities.
+	Exclusive_Replaceable,
+
+	// Ability blocks all other exclusive abilities from activating.
+	Exclusive_Blocking,
+
+	MAX	UMETA(Hidden)
+};
+
+/** Failure reason that can be used to play an animation montage when a failure occurs */
+USTRUCT(BlueprintType)
+struct FAstralAbilityMontageFailureMessage
+{
+	GENERATED_BODY()
+
+public:
+	
+	UPROPERTY(BlueprintReadWrite)
+	TObjectPtr<APlayerController> PlayerController = nullptr;
+
+	// All the reasons why this ability has failed
+	UPROPERTY(BlueprintReadWrite)
+	FGameplayTagContainer FailureTags;
+
+	UPROPERTY(BlueprintReadWrite)
+	TObjectPtr<UAnimMontage> FailureMontage = nullptr;
+};
 
 /**
  * 
@@ -40,6 +101,12 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Astral|Ability")
 	AAstralPlagueCharacter* GetAstralCharacterFromActorInfo() const;
 
+	UFUNCTION(BlueprintCallable, Category = "Lyra|Ability")
+	UAstralCharacterGameplayComponent* GetAstralCharacterGameplayComponent() const;
+
+	EAstralAbilityActivationPolicy GetActivationPolicy() const { return ActivationPolicy; }
+	EAstralAbilityActivationGroup GetActivationGroup() const { return ActivationGroup; }
+
 	void TryActivateAbilityOnSpawn(const FGameplayAbilityActorInfo* ActorInfo, const FGameplayAbilitySpec& Spec) const;
 	
 protected:
@@ -60,7 +127,7 @@ protected:
 
 	virtual void OnPawnAvatarSet();
 
-	//virtual void GetAbilitySource(FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo, float& OutSourceLevel, const ILyraAbilitySourceInterface*& OutAbilitySource, AActor*& OutEffectCauser) const;
+	//virtual void GetAbilitySource(FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo, float& OutSourceLevel, const IAstralAbilitySourceInterface*& OutAbilitySource, AActor*& OutEffectCauser) const;
 
 	/** Called when this ability is granted to the ability system component. */
 	UFUNCTION(BlueprintImplementableEvent, Category = Ability, DisplayName = "OnAbilityAdded")
@@ -78,8 +145,32 @@ private:
 
 
 protected:
+
+	// Defines how this ability is meant to activate.
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Astral|Ability Activation")
+	EAstralAbilityActivationPolicy ActivationPolicy;
+
+	// Defines the relationship between this ability activating and other abilities activating.
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Astral|Ability Activation")
+	EAstralAbilityActivationGroup ActivationGroup;
 	
 	// Additional costs that must be paid to activate this ability
 	UPROPERTY(EditDefaultsOnly, Instanced, Category = Costs)
 	TArray<TObjectPtr<UAstralAbilityCost>> AdditionalCosts;
+
+	// Map of failure tags to simple error messages
+	UPROPERTY(EditDefaultsOnly, Category = "Advanced")
+	TMap<FGameplayTag, FText> FailureTagToUserFacingMessages;
+
+	// Map of failure tags to anim montages that should be played with them
+	UPROPERTY(EditDefaultsOnly, Category = "Advanced")
+	TMap<FGameplayTag, TObjectPtr<UAnimMontage>> FailureTagToAnimMontage;
+
+	// If true, extra information should be logged when this ability is canceled. This is temporary, used for tracking a bug.
+	UPROPERTY(EditDefaultsOnly, Category = "Advanced")
+	bool bLogCancelation;
+
+	// Current camera mode set by the ability.
+	TSubclassOf<UAstralCameraMode> ActiveCameraMode;
+	
 };

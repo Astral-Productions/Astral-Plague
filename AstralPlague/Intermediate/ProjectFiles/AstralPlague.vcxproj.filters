@@ -187,9 +187,24 @@
     <ClInclude Include="..\..\Source\AstralPlague\AbilitySystem\DefaultAttributeSet.h">
       <Filter>Source\AstralPlague\AbilitySystem</Filter>
     </ClInclude>
+    <Filter Include="Source\AstralPlague\Animation">
+      <UniqueIdentifier>{818DDD49-31C3-3965-AC1B-C5B96F94D486}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AstralPlague\Animation\AstralAnimInstance.cpp">
+      <Filter>Source\AstralPlague\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\Animation\AstralAnimInstance.h">
+      <Filter>Source\AstralPlague\Animation</Filter>
+    </ClInclude>
     <Filter Include="Source\AstralPlague\Character">
       <UniqueIdentifier>{E805E4A2-76D7-3C53-9E48-0DDFBA1C370C}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\AstralPlague\Character\AstralCharacterMovementComponent.cpp">
+      <Filter>Source\AstralPlague\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\Character\AstralCharacterMovementComponent.h">
+      <Filter>Source\AstralPlague\Character</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\AstralPlague\Character\AstralPawnData.cpp">
       <Filter>Source\AstralPlague\Character</Filter>
     </ClCompile>
@@ -219,6 +234,15 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\AstralPlague\Character\AstralPlayerState.h">
       <Filter>Source\AstralPlague\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\AstralPlague\Components">
+      <UniqueIdentifier>{9C7432D7-F339-30E8-88C2-B71E723BC4D5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AstralPlague\Components\AstralCharacterGameplayComponent.cpp">
+      <Filter>Source\AstralPlague\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\Components\AstralCharacterGameplayComponent.h">
+      <Filter>Source\AstralPlague\Components</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

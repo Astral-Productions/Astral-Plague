@@ -60,8 +60,13 @@ AAstralPlagueCharacter* UAstralGameplayAbility::GetAstralCharacterFromActorInfo(
 	return (CurrentActorInfo ? Cast<AAstralPlagueCharacter>(CurrentActorInfo->AvatarActor.Get()) : nullptr);
 }
 
+UAstralCharacterGameplayComponent* UAstralGameplayAbility::GetAstralCharacterGameplayComponent() const
+{
+	return (CurrentActorInfo ? UAstralCharacterGameplayComponent::FindGameplayComponent(CurrentActorInfo->AvatarActor.Get()) : nullptr);
+}
+
 void UAstralGameplayAbility::TryActivateAbilityOnSpawn(const FGameplayAbilityActorInfo* ActorInfo,
-	const FGameplayAbilitySpec& Spec) const
+                                                       const FGameplayAbilitySpec& Spec) const
 {
 	
 }

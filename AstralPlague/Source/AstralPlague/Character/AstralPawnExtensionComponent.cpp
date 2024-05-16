@@ -10,6 +10,7 @@
 #include "AstralPlague/AstralGameplayTags.h"
 #include "AstralPlague/AstralLogChannels.h"
 #include "AstralPawnData.h"
+#include "AstralPlayerState.h"
 #include "Net/UnrealNetwork.h"
 
 #include UE_INLINE_GENERATED_CPP_BY_NAME(AstralPawnExtensionComponent)
@@ -277,6 +278,8 @@ void UAstralPawnExtensionComponent::HandleChangeInitState(UGameFrameworkComponen
 	{
 		// This is currently all handled by other components listening to this state change
 	}
+
+	InitializeAbilitySystem(GetPlayerState<AAstralPlayerState>()->GetAstralAbilitySystemComponent(),GetPlayerState<AAstralPlayerState>());
 }
 
 void UAstralPawnExtensionComponent::OnActorInitStateChanged(const FActorInitStateChangedParams& Params)

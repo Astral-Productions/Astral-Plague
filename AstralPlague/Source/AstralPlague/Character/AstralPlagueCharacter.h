@@ -18,7 +18,7 @@ class AAstralPlayerController;
 class UAbilitySystemComponent;
 class UAstralAbilitySystemComponent;
 class UAstralStatsComponent;
-class AstralPawnExtensionComponent;
+class UAstralPawnExtensionComponent;
 class USpringArmComponent;
 class UCameraComponent;
 class UInputMappingContext;

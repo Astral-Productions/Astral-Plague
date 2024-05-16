@@ -4,12 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "AstralPlague/Camera/AstralCameraMode.h"
+
 #include "AstralPawnData.generated.h"
 
 class APawn;
 class UAstralAbilitySet;
 class UAstralAbilityTagRelationshipMapping;
-class UAstralCameraMode;
 class UAstralInputConfig;
 class UObject;
 
@@ -34,11 +35,10 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Astral|Pawn")
 	TSubclassOf<APawn> PawnClass;
 
-	//@todo Investigate this functionality and associated classes.
-	
+		
 	/*// Ability sets to grant to this pawn's ability system.
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Astral|Abilities")
-	TArray<TObjectPtr<UAstralAbilitySet>> AbilitySets;
+	TArray<TObjectPtr<UAstralAbilitySet>> AbilitySets;*/
 
 	// What mapping of ability tags to use for actions taking by this pawn
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Astral|Abilities")
@@ -50,5 +50,5 @@ public:
 
 	// Default camera mode used by player controlled pawns.
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Astral|Camera")
-	TSubclassOf<UAstralCameraMode> DefaultCameraMode;*/
+	TSubclassOf<UAstralCameraMode> DefaultCameraMode;
 };

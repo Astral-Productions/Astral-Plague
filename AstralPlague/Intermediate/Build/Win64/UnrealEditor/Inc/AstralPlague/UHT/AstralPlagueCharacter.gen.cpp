@@ -17,7 +17,6 @@ ASTRALPLAGUE_API UClass* Z_Construct_UClass_AAstralPlayerState_NoRegister();
 ASTRALPLAGUE_API UClass* Z_Construct_UClass_UAstralAbilitySystemComponent_NoRegister();
 ASTRALPLAGUE_API UClass* Z_Construct_UClass_UAstralPawnExtensionComponent_NoRegister();
 ASTRALPLAGUE_API UClass* Z_Construct_UClass_UAstralStatsComponent_NoRegister();
-ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
@@ -25,6 +24,7 @@ ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
 GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_UAbilitySystemInterface_NoRegister();
 GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_UGameplayCueInterface_NoRegister();
 GAMEPLAYTAGS_API UClass* Z_Construct_UClass_UGameplayTagAssetInterface_NoRegister();
+MODULARGAMEPLAYACTORS_API UClass* Z_Construct_UClass_AModularCharacter();
 UPackage* Z_Construct_UPackage__Script_AstralPlague();
 // End Cross Module References
 
@@ -304,7 +304,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAstralPl
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AAstralPlagueCharacter_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AAstralPlagueCharacter_Statics::DependentSingletons[])() = {
-	(UObject* (*)())Z_Construct_UClass_ACharacter,
+	(UObject* (*)())Z_Construct_UClass_AModularCharacter,
 	(UObject* (*)())Z_Construct_UPackage__Script_AstralPlague,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AAstralPlagueCharacter_Statics::DependentSingletons) < 16);
@@ -348,10 +348,10 @@ AAstralPlagueCharacter::~AAstralPlagueCharacter() {}
 struct Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Character_AstralPlagueCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AAstralPlagueCharacter, AAstralPlagueCharacter::StaticClass, TEXT("AAstralPlagueCharacter"), &Z_Registration_Info_UClass_AAstralPlagueCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAstralPlagueCharacter), 3045466731U) },
+		{ Z_Construct_UClass_AAstralPlagueCharacter, AAstralPlagueCharacter::StaticClass, TEXT("AAstralPlagueCharacter"), &Z_Registration_Info_UClass_AAstralPlagueCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAstralPlagueCharacter), 4292229871U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Character_AstralPlagueCharacter_h_2934438251(TEXT("/Script/AstralPlague"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Character_AstralPlagueCharacter_h_2638144545(TEXT("/Script/AstralPlague"),
 	Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Character_AstralPlagueCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Character_AstralPlagueCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
