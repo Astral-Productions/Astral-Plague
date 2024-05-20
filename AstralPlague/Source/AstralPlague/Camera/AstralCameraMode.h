@@ -63,7 +63,7 @@ public:
  *	Base class for all camera modes.
  */
 UCLASS(Abstract, NotBlueprintable)
-class AstralGAME_API UAstralCameraMode : public UObject
+class ASTRALPLAGUE_API UAstralCameraMode : public UObject
 {
 	GENERATED_BODY()
 

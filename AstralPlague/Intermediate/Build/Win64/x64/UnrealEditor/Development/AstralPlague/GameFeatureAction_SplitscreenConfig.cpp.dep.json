@@ -1,0 +1,24 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\gamefeatures\\gamefeatureaction_splitscreenconfig.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\astralplagueeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\astralplague\\definitions.astralplague.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\gamefeatures\\gamefeatureaction_splitscreenconfig.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\gamefeatures\\gamefeatureaction_worldactionbase.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gamefeatures\\source\\gamefeatures\\public\\gamefeatureaction.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gamefeatures\\intermediate\\build\\win64\\unrealeditor\\inc\\gamefeatures\\uht\\gamefeatureaction.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gamefeatures\\source\\gamefeatures\\public\\gamefeaturessubsystem.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\containers\\union.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gamefeatures\\source\\gamefeatures\\public\\gamefeaturetypesfwd.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gamefeatures\\intermediate\\build\\win64\\unrealeditor\\inc\\gamefeatures\\uht\\gamefeaturessubsystem.generated.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\unrealeditor\\inc\\astralplague\\uht\\gamefeatureaction_worldactionbase.generated.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\unrealeditor\\inc\\astralplague\\uht\\gamefeatureaction_splitscreenconfig.generated.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\unrealeditor\\inc\\astralplague\\uht\\gamefeatureaction_splitscreenconfig.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

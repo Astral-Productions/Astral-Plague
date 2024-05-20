@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "GameFeatureAction_AddInputContextMapping.h"
 #include "GameFeatureAction_WorldActionBase.h"
 #include "GameplayTagContainer.h"
 #include "UObject/WeakObjectPtr.h"
@@ -20,7 +21,7 @@ struct FComponentRequestHandle;
  * Expects that local players are set up to use the EnhancedInput system.
  */
 UCLASS(meta = (DisplayName = "Add Input Config"))
-class UE_DEPRECATED(5.3, "UGameFeatureAction_AddInputConfig has been deprecated. Please use UGameFeatureAction_AddInputContextMapping instead.") LYRAGAME_API UGameFeatureAction_AddInputConfig : public UGameFeatureAction_WorldActionBase
+class UE_DEPRECATED(5.3, "UGameFeatureAction_AddInputConfig has been deprecated. Please use UGameFeatureAction_AddInputContextMapping instead.") ASTRALPLAGUE_API UGameFeatureAction_AddInputConfig : public UGameFeatureAction_WorldActionBase
 {
 	GENERATED_BODY()
 	
@@ -65,9 +66,9 @@ private:
 	/** Remove all the InputConfigs from the given pawn and take them out of the given context data */
 	void RemoveInputConfig(APawn* Pawn, FPerContextData& ActiveData);
 
-	/** The player mappable configs to register for user with this config */
-	/*UPROPERTY(EditAnywhere)
-	TArray<FMappableConfigPair> InputConfigs;*/
+	// The player mappable configs to register for user with this config 
+	UPROPERTY(EditAnywhere)
+	TArray<FMappableConfigPair> InputConfigs; //Before this listed 
 };
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

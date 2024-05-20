@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "AbilitySystemComponent.h"
+#include "AstralAbilityTagRelationshipMapping.h"
 #include "AstralGameplayAbility.h"
 #include "AstralAbilitySystemComponent.generated.h"
 
@@ -91,7 +92,7 @@ protected:
 	// Handles to abilities that have their input held.
 	TArray<FGameplayAbilitySpecHandle> InputHeldSpecHandles;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Actor)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Actor)
 	FGameplayTagContainer GameplayTags;
 
 	// Number of abilities running in each activation group.

@@ -17,6 +17,8 @@ public class AstralPlague : ModuleRules
 			"GameplayTags", 
 			"GameplayTasks", 
 			"Niagara",
+			"CommonUI",
+			"CommonInput"
 			
 			
 		});
@@ -33,6 +35,7 @@ public class AstralPlague : ModuleRules
 				"ModularGameplayActors",
 				"GameFeatures",
 				"GameFeaturesEditor"
+					
 			}
 		);
 	}

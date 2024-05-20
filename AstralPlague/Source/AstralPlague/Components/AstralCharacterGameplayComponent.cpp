@@ -3,31 +3,21 @@
 #include "AstralCharacterGameplayComponent.h"
 #include "Components/GameFrameworkComponentDelegates.h"
 #include "Logging/MessageLog.h"
-//#include "Input/LyraMappableConfigPair.h"  //@Todo Update this logic 
 #include "AstralPlague/AstralLogChannels.h"
-#include "EnhancedInputSubsystems.h"
 #include "AstralPlague/Character/AstralPlayerController.h"
 #include "AstralPlague/Character/AstralPlayerState.h"
 #include "AstralPlague/Character/AstralPawnExtensionComponent.h"
 #include "AstralPlague/Character/AstralPawnData.h"
 #include "AstralPlague/Character/AstralPlagueCharacter.h"
 #include "AstralPlague/AbilitySystem/AstralAbilitySystemComponent.h"
-#include "AstralPlague/Input/AstralInputConfig.h"
-#include "AstralPlague/Input/AstralInputComponent.h"
 #include "AstralPlague/Camera/AstralCameraComponent.h"
 #include "AstralPlague/AstralGameplayTags.h"
 #include "Components/GameFrameworkComponentManager.h"
-#include "PlayerMappableInputConfig.h"
 #include "AstralPlague/Camera/AstralCameraMode.h"
-#include "UserSettings/EnhancedInputUserSettings.h"
 #include "InputMappingContext.h"
-#include "AstralPlague/AstralLogChannels.h"
-#include "AstralPlague/Character/AstralPawnData.h"
-#include "AstralPlague/Character/AstralPawnExtensionComponent.h"
-#include "AstralPlague/Character/AstralPlagueCharacter.h"
-#include "AstralPlague/Character/AstralPlayerState.h"
+//#include "Input/LyraMappableConfigPair.h"  //@Todo Update this logic 
 
-#include UE_INLINE_GENERATED_CPP_BY_NAME(LyraHeroComponent)
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AstralCharacterGameplayComponent)
 
 #if WITH_EDITOR
 #include "Misc/UObjectToken.h"
@@ -228,10 +218,10 @@ void UAstralCharacterGameplayComponent::EndPlay(const EEndPlayReason::Type EndPl
 }
 
 //@Todo Update this logic 
-/*
+
 void UAstralCharacterGameplayComponent::InitializePlayerInput(UInputComponent* PlayerInputComponent)
 {
-	check(PlayerInputComponent);
+	/*check(PlayerInputComponent);
 
 	const APawn* Pawn = GetPawn<APawn>();
 	if (!Pawn)
@@ -288,13 +278,13 @@ void UAstralCharacterGameplayComponent::InitializePlayerInput(UInputComponent* P
 					// This is where we actually bind and input action to a gameplay tag, which means that Gameplay Ability Blueprints will
 					// be triggered directly by these input actions Triggered events. 
 					TArray<uint32> BindHandles;
-					LyraIC->BindAbilityActions(InputConfig, this, &ThisClass::Input_AbilityInputTagPressed, &ThisClass::Input_AbilityInputTagReleased, /*out#1# BindHandles);
+					LyraIC->BindAbilityActions(InputConfig, this, &ThisClass::Input_AbilityInputTagPressed, &ThisClass::Input_AbilityInputTagReleased, /*out#2# BindHandles);
 
-					LyraIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Move, ETriggerEvent::Triggered, this, &ThisClass::Input_Move, /*bLogIfNotFound=#1# false);
-					LyraIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Look_Mouse, ETriggerEvent::Triggered, this, &ThisClass::Input_LookMouse, /*bLogIfNotFound=#1# false);
-					LyraIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Look_Stick, ETriggerEvent::Triggered, this, &ThisClass::Input_LookStick, /*bLogIfNotFound=#1# false);
-					LyraIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Crouch, ETriggerEvent::Triggered, this, &ThisClass::Input_Crouch, /*bLogIfNotFound=#1# false);
-					LyraIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_AutoRun, ETriggerEvent::Triggered, this, &ThisClass::Input_AutoRun, /*bLogIfNotFound=#1# false);
+					LyraIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Move, ETriggerEvent::Triggered, this, &ThisClass::Input_Move, /*bLogIfNotFound=#2# false);
+					LyraIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Look_Mouse, ETriggerEvent::Triggered, this, &ThisClass::Input_LookMouse, /*bLogIfNotFound=#2# false);
+					LyraIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Look_Stick, ETriggerEvent::Triggered, this, &ThisClass::Input_LookStick, /*bLogIfNotFound=#2# false);
+					LyraIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Crouch, ETriggerEvent::Triggered, this, &ThisClass::Input_Crouch, /*bLogIfNotFound=#2# false);
+					LyraIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_AutoRun, ETriggerEvent::Triggered, this, &ThisClass::Input_AutoRun, /*bLogIfNotFound=#2# false);
 				}
 			}
 		}
@@ -306,14 +296,14 @@ void UAstralCharacterGameplayComponent::InitializePlayerInput(UInputComponent* P
 	}
  
 	UGameFrameworkComponentManager::SendGameFrameworkComponentExtensionEvent(const_cast<APlayerController*>(PC), NAME_BindInputsNow);
-	UGameFrameworkComponentManager::SendGameFrameworkComponentExtensionEvent(const_cast<APawn*>(Pawn), NAME_BindInputsNow);
+	UGameFrameworkComponentManager::SendGameFrameworkComponentExtensionEvent(const_cast<APawn*>(Pawn), NAME_BindInputsNow);*/
 }
-*/
+
 //@Todo Update this logic 
-/*
-void UAstralCharacterGameplayComponent::AddAdditionalInputConfig(const ULyraInputConfig* InputConfig)
+
+void UAstralCharacterGameplayComponent::AddAdditionalInputConfig(const UAstralInputConfig* InputConfig)
 {
-	TArray<uint32> BindHandles;
+	/*TArray<uint32> BindHandles;
 
 	const APawn* Pawn = GetPawn<APawn>();
 	if (!Pawn)
@@ -335,16 +325,16 @@ void UAstralCharacterGameplayComponent::AddAdditionalInputConfig(const ULyraInpu
 		ULyraInputComponent* LyraIC = Pawn->FindComponentByClass<ULyraInputComponent>();
 		if (ensureMsgf(LyraIC, TEXT("Unexpected Input Component class! The Gameplay Abilities will not be bound to their inputs. Change the input component to ULyraInputComponent or a subclass of it.")))
 		{
-			LyraIC->BindAbilityActions(InputConfig, this, &ThisClass::Input_AbilityInputTagPressed, &ThisClass::Input_AbilityInputTagReleased, /*out#1# BindHandles);
+			LyraIC->BindAbilityActions(InputConfig, this, &ThisClass::Input_AbilityInputTagPressed, &ThisClass::Input_AbilityInputTagReleased, /*out#2# BindHandles);
 		}
-	}
+	}*/
 }
-*/
+
 //@Todo Update this logic 
-/*void UAstralCharacterGameplayComponent::RemoveAdditionalInputConfig(const ULyraInputConfig* InputConfig)
+void UAstralCharacterGameplayComponent::RemoveAdditionalInputConfig(const UAstralInputConfig* InputConfig)
 {
 	//@TODO: Implement me!
-}*/
+}
 
 bool UAstralCharacterGameplayComponent::IsReadyToBindInputs() const
 {

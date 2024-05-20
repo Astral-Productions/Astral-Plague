@@ -3930,6 +3930,18 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/GameFeatures/NPCBehaviorSystem/Binaries/Win64/UnrealEditor-NPCBehaviorSystemRuntime.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/GameFeatures/NPCBehaviorSystem/Binaries/Win64/UnrealEditor-NPCBehaviorSystemRuntime.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/GameFeatures/NPCBehaviorSystem/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/ModularGameplayActors/Binaries/Win64/UnrealEditor-ModularGameplayActors.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -27056,6 +27068,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/GameFeatures/NPCBehaviorSystem/NPCBehaviorSystem.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/ModularGameplayActors/ModularGameplayActors.uplugin",
 			"Type": "UFS"
 		}
@@ -27186,6 +27202,7 @@
 		"MoverTests",
 		"MsQuic",
 		"N10XSourceCodeAccess",
+		"NPCBehaviorSystem",
 		"NetworkPrediction",
 		"Niagara",
 		"NiagaraSimCaching",

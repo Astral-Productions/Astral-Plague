@@ -7,7 +7,7 @@
         "Includes": [
             "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\astralplague\\definitions.astralplague.h",
             "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\abilitysystem\\astralstatscomponent.h",
-            "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\abilitysystem\\defaultattributeset.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\abilitysystem\\attributes\\defaultattributeset.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysystemcomponent.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",

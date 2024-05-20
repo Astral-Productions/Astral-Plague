@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "DefaultAttributeSet.h"
+#include "AstralPlague/AbilitySystem/Attributes/DefaultAttributeSet.h"
 #include "Components/ActorComponent.h"
 #include "AstralStatsComponent.generated.h"
 

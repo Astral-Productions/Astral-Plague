@@ -26,7 +26,7 @@ struct FInputActionValue;
  * This depends on a PawnExtensionComponent to coordinate initialization.
  */
 UCLASS(Blueprintable, Meta=(BlueprintSpawnableComponent))
-class AstralGAME_API UAstralCharacterGameplayComponent : public UPawnComponent, public IGameFrameworkInitStateInterface
+class ASTRALPLAGUE_API UAstralCharacterGameplayComponent : public UPawnComponent, public IGameFrameworkInitStateInterface
 {
 	GENERATED_BODY()
 

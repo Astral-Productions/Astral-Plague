@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unrealdev\\astralplague\\astralplague\\plugins\\gamefeatures\\npcbehaviorsystem\\source\\npcbehaviorsystemruntime\\private\\npcbehaviorsystemruntimemodule.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\astralplagueeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "d:\\unrealdev\\astralplague\\astralplague\\plugins\\gamefeatures\\npcbehaviorsystem\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\npcbehaviorsystemruntime\\definitions.npcbehaviorsystemruntime.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\plugins\\gamefeatures\\npcbehaviorsystem\\source\\npcbehaviorsystemruntime\\public\\npcbehaviorsystemruntimemodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

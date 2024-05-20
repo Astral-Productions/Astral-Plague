@@ -1,0 +1,38 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\unrealeditor\\inc\\astralplague\\uht\\astralcharactergameplaycomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\astralplagueeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\astralplague\\definitions.astralplague.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\components\\astralcharactergameplaycomponent.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\modulargameplay\\source\\modulargameplay\\public\\components\\gameframeworkinitstateinterface.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\modulargameplay\\intermediate\\build\\win64\\unrealeditor\\inc\\modulargameplay\\uht\\gameframeworkinitstateinterface.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\modulargameplay\\source\\modulargameplay\\public\\components\\pawncomponent.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\modulargameplay\\source\\modulargameplay\\public\\components\\gameframeworkcomponent.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\modulargameplay\\intermediate\\build\\win64\\unrealeditor\\inc\\modulargameplay\\uht\\gameframeworkcomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\modulargameplay\\intermediate\\build\\win64\\unrealeditor\\inc\\modulargameplay\\uht\\pawncomponent.generated.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\gamefeatures\\gamefeatureaction_addinputcontextmapping.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\gamefeatures\\gamefeatureaction_worldactionbase.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gamefeatures\\source\\gamefeatures\\public\\gamefeatureaction.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gamefeatures\\intermediate\\build\\win64\\unrealeditor\\inc\\gamefeatures\\uht\\gamefeatureaction.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gamefeatures\\source\\gamefeatures\\public\\gamefeaturessubsystem.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\containers\\union.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gamefeatures\\source\\gamefeatures\\public\\gamefeaturetypesfwd.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gamefeatures\\intermediate\\build\\win64\\unrealeditor\\inc\\gamefeatures\\uht\\gamefeaturessubsystem.generated.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\unrealeditor\\inc\\astralplague\\uht\\gamefeatureaction_worldactionbase.generated.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\unrealeditor\\inc\\astralplague\\uht\\gamefeatureaction_addinputcontextmapping.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\gameplayabilityspechandle.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\gameplayabilityspechandle.generated.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\camera\\astralcameramode.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\unrealeditor\\inc\\astralplague\\uht\\astralcameramode.generated.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\unrealeditor\\inc\\astralplague\\uht\\astralcharactergameplaycomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

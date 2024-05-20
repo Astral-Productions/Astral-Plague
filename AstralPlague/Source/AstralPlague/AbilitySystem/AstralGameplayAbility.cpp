@@ -99,7 +99,7 @@ bool UAstralGameplayAbility::CanActivateAbility(const FGameplayAbilitySpecHandle
 
 void UAstralGameplayAbility::SetCanBeCanceled(bool bCanBeCanceled)
 {
-	//@TODO Lyra implementation uses this for replication, but unless we do multiplayer we likely don't need it. 
+	//@TODO Lyra implementation 
 	/*// The ability can not block canceling if it's replaceable.
 	if (!bCanBeCanceled && (ActivationGroup == ELyraAbilityActivationGroup::Exclusive_Replaceable))
 	{

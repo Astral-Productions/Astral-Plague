@@ -1,3 +1,3 @@
-[lfs]
-url = "http://localhost:8081/api/Astral-Productions/Astral-Plague"
+#[lfs] we need to disable this functionality until the AWS server is back online.
+#url = "http://localhost:8081/api/Astral-Productions/Astral-Plague"
 

@@ -7,11 +7,11 @@
 #include "Engine/LocalPlayer.h"
 #include "Engine/World.h"
 #include "EnhancedInputSubsystems.h"
-#include "GameFeatures/GameFeatureAction_WorldActionBase.h"
+#include "AstralPlague/GameFeatures/GameFeatureAction_WorldActionBase.h"
 #include "InputMappingContext.h"
-#include "Character/LyraHeroComponent.h"
+#include "AstralPlague/Components/AstralCharacterGameplayComponent.h"
 #include "UserSettings/EnhancedInputUserSettings.h"
-#include "System/LyraAssetManager.h"
+//#include "System/AstralAssetManager.h"
 
 #if WITH_EDITOR
 #include "Misc/DataValidation.h"
@@ -89,7 +89,8 @@ void UGameFeatureAction_AddInputContextMapping::RegisterInputMappingContextsForL
 {
 	if (ensure(LocalPlayer))
 	{
-		ULyraAssetManager& AssetManager = ULyraAssetManager::Get();
+		//@Todo
+		//UAstralAssetManager& AssetManager = UAstralAssetManager::Get();
 		
 		if (UEnhancedInputLocalPlayerSubsystem* EISubsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(LocalPlayer))
 		{
@@ -104,10 +105,10 @@ void UGameFeatureAction_AddInputContextMapping::RegisterInputMappingContextsForL
 					}
 
 					// Register this IMC with the settings!
-					if (UInputMappingContext* IMC = AssetManager.GetAsset(Entry.InputMapping))
+					/*if (UInputMappingContext* IMC = AssetManager.GetAsset(Entry.InputMapping))
 					{
 						Settings->RegisterInputMappingContext(IMC);
-					}
+					}*/
 				}
 			}
 		}
@@ -237,7 +238,7 @@ void UGameFeatureAction_AddInputContextMapping::HandleControllerExtension(AActor
 	{
 		RemoveInputMapping(AsController, ActiveData);
 	}
-	else if ((EventName == UGameFrameworkComponentManager::NAME_ExtensionAdded) || (EventName == ULyraHeroComponent::NAME_BindInputsNow))
+	else if ((EventName == UGameFrameworkComponentManager::NAME_ExtensionAdded) || (EventName == UAstralCharacterGameplayComponent::NAME_BindInputsNow))
 	{
 		AddInputMappingForPlayer(AsController->GetLocalPlayer(), ActiveData);
 	}

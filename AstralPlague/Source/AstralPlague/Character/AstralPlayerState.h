@@ -36,6 +36,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Astral|PlayerState")
 	UAstralAbilitySystemComponent* GetAstralAbilitySystemComponent() const { return AbilitySystemComponent; }
 
+	static const FName NAME_AstralAbilityReady;
+
+	
 protected:
 	
 	

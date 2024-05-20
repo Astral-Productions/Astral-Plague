@@ -8,9 +8,9 @@
 #include "GameFramework/Pawn.h"
 #include "EnhancedInputSubsystems.h"
 #include "Engine/LocalPlayer.h"
-#include "Character/LyraHeroComponent.h"
-#include "GameFeatures/GameFeatureAction_WorldActionBase.h"
-#include "Input/LyraInputConfig.h"
+#include "AstralPlague/Components/AstralCharacterGameplayComponent.h"
+#include "AstralPlague/GameFeatures/GameFeatureAction_WorldActionBase.h"
+#include "AstralPlague/Input/AstralInputConfig.h"
 
 #if WITH_EDITOR
 #include "Misc/DataValidation.h"
@@ -52,7 +52,8 @@ EDataValidationResult UGameFeatureAction_AddInputBinding::IsDataValid(FDataValid
 
 	int32 Index = 0;
 
-	for (const TSoftObjectPtr<const ULyraInputConfig>& Entry : InputConfigs)
+	//@todo 
+	for (const TSoftObjectPtr<const UAstralInputConfig>& Entry : InputConfigs)
 	{
 		if (Entry.IsNull())
 		{
@@ -68,8 +69,8 @@ EDataValidationResult UGameFeatureAction_AddInputBinding::IsDataValid(FDataValid
 
 void UGameFeatureAction_AddInputBinding::AddToWorld(const FWorldContext& WorldContext, const FGameFeatureStateChangeContext& ChangeContext)
 {
-	UWorld* World = WorldContext.World();
-	UGameInstance* GameInstance = WorldContext.OwningGameInstance;
+	const UWorld* World = WorldContext.World();
+	const UGameInstance* GameInstance = WorldContext.OwningGameInstance;
 	FPerContextData& ActiveData = ContextData.FindOrAdd(ChangeContext);
 
 	if ((GameInstance != nullptr) && (World != nullptr) && World->IsGameWorld())
@@ -113,7 +114,7 @@ void UGameFeatureAction_AddInputBinding::HandlePawnExtension(AActor* Actor, FNam
 	{
 		RemoveInputMapping(AsPawn, ActiveData);
 	}
-	else if ((EventName == UGameFrameworkComponentManager::NAME_ExtensionAdded) || (EventName == ULyraHeroComponent::NAME_BindInputsNow))
+	else if ((EventName == UGameFrameworkComponentManager::NAME_ExtensionAdded) || (EventName == UAstralCharacterGameplayComponent::NAME_BindInputsNow))
 	{
 		AddInputMappingForPlayer(AsPawn, ActiveData);
 	}
@@ -127,14 +128,14 @@ void UGameFeatureAction_AddInputBinding::AddInputMappingForPlayer(APawn* Pawn, F
 	{
 		if (UEnhancedInputLocalPlayerSubsystem* InputSystem = LocalPlayer->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>())
 		{
-			ULyraHeroComponent* HeroComponent = Pawn->FindComponentByClass<ULyraHeroComponent>();
-			if (HeroComponent && HeroComponent->IsReadyToBindInputs())
+			UAstralCharacterGameplayComponent* CharacterGameplayComponent = Pawn->FindComponentByClass<UAstralCharacterGameplayComponent>();
+			if (CharacterGameplayComponent && CharacterGameplayComponent->IsReadyToBindInputs())
 			{
-				for (const TSoftObjectPtr<const ULyraInputConfig>& Entry : InputConfigs)
+				for (const TSoftObjectPtr<const UAstralInputConfig>& Entry : InputConfigs)
 				{
-					if (const ULyraInputConfig* BindSet = Entry.Get())
+					if (const UAstralInputConfig* BindSet = Entry.Get())
 					{
-						HeroComponent->AddAdditionalInputConfig(BindSet);
+						CharacterGameplayComponent->AddAdditionalInputConfig(BindSet);
 					}
 				}
 			}
@@ -155,13 +156,13 @@ void UGameFeatureAction_AddInputBinding::RemoveInputMapping(APawn* Pawn, FPerCon
 	{
 		if (UEnhancedInputLocalPlayerSubsystem* InputSystem = LocalPlayer->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>())
 		{
-			if (ULyraHeroComponent* HeroComponent = Pawn->FindComponentByClass<ULyraHeroComponent>())
+			if (UAstralCharacterGameplayComponent* CharacterGameplayComponent = Pawn->FindComponentByClass<UAstralCharacterGameplayComponent>())
 			{
-				for (const TSoftObjectPtr<const ULyraInputConfig>& Entry : InputConfigs)
+				for (const TSoftObjectPtr<const UAstralInputConfig>& Entry : InputConfigs)
 				{
-					if (const ULyraInputConfig* InputConfig = Entry.Get())
+					if (const UAstralInputConfig* InputConfig = Entry.Get())
 					{
-						HeroComponent->RemoveAdditionalInputConfig(InputConfig);
+						CharacterGameplayComponent->RemoveAdditionalInputConfig(InputConfig);
 					}
 				}
 			}

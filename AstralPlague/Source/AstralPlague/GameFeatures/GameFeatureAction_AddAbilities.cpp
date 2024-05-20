@@ -3,10 +3,11 @@
 #include "GameFeatureAction_AddAbilities.h"
 #include "Engine/GameInstance.h"
 #include "Components/GameFrameworkComponentManager.h"
-#include "AbilitySystem/LyraAbilitySystemComponent.h"
+#include "AstralPlague/AbilitySystem/AstralAbilitySystemComponent.h"
 #include "Engine/World.h"
-#include "Player/LyraPlayerState.h" //@TODO: For the fname
-#include "GameFeatures/GameFeatureAction_WorldActionBase.h"
+#include "AstralPlague/Character/AstralPlayerState.h" 
+#include "AstralPlague/GameFeatures/GameFeatureAction_WorldActionBase.h"
+//@TODO: For the fname
 
 #if WITH_EDITOR
 #include "Misc/DataValidation.h"
@@ -63,7 +64,7 @@ EDataValidationResult UGameFeatureAction_AddAbilities::IsDataValid(FDataValidati
 		}
 
 		int32 AbilityIndex = 0;
-		for (const FLyraAbilityGrant& Ability : Entry.GrantedAbilities)
+		for (const FAstralAbilityGrant& Ability : Entry.GrantedAbilities)
 		{
 			if (Ability.AbilityType.IsNull())
 			{
@@ -74,7 +75,7 @@ EDataValidationResult UGameFeatureAction_AddAbilities::IsDataValid(FDataValidati
 		}
 
 		int32 AttributesIndex = 0;
-		for (const FLyraAttributeSetGrant& Attributes : Entry.GrantedAttributes)
+		for (const FAstralAttributeSetGrant& Attributes : Entry.GrantedAttributes)
 		{
 			if (Attributes.AttributeSetType.IsNull())
 			{
@@ -85,7 +86,7 @@ EDataValidationResult UGameFeatureAction_AddAbilities::IsDataValid(FDataValidati
 		}
 
 		int32 AttributeSetIndex = 0;
-		for (const TSoftObjectPtr<const ULyraAbilitySet>& AttributeSetPtr : Entry.GrantedAbilitySets)
+		for (const TSoftObjectPtr<const UAstralAbilitySet>& AttributeSetPtr : Entry.GrantedAbilitySets)
 		{
 			if (AttributeSetPtr.IsNull())
 			{
@@ -151,7 +152,7 @@ void UGameFeatureAction_AddAbilities::HandleActorExtension(AActor* Actor, FName 
 		{
 			RemoveActorAbilities(Actor, *ActiveData);
 		}
-		else if ((EventName == UGameFrameworkComponentManager::NAME_ExtensionAdded) || (EventName == ALyraPlayerState::NAME_LyraAbilityReady))
+		else if ((EventName == UGameFrameworkComponentManager::NAME_ExtensionAdded) /*|| (EventName == AAstralPlayerState::NAME_AstralAbilityReady)*/)
 		{
 			AddActorAbilities(Actor, Entry, *ActiveData);
 		}
@@ -179,7 +180,7 @@ void UGameFeatureAction_AddAbilities::AddActorAbilities(AActor* Actor, const FGa
 		AddedExtensions.Attributes.Reserve(AbilitiesEntry.GrantedAttributes.Num());
 		AddedExtensions.AbilitySetHandles.Reserve(AbilitiesEntry.GrantedAbilitySets.Num());
 
-		for (const FLyraAbilityGrant& Ability : AbilitiesEntry.GrantedAbilities)
+		for (const FAstralAbilityGrant& Ability : AbilitiesEntry.GrantedAbilities)
 		{
 			if (!Ability.AbilityType.IsNull())
 			{
@@ -190,7 +191,7 @@ void UGameFeatureAction_AddAbilities::AddActorAbilities(AActor* Actor, const FGa
 			}
 		}
 
-		for (const FLyraAttributeSetGrant& Attributes : AbilitiesEntry.GrantedAttributes)
+		for (const FAstralAttributeSetGrant& Attributes : AbilitiesEntry.GrantedAttributes)
 		{
 			if (!Attributes.AttributeSetType.IsNull())
 			{
@@ -213,12 +214,12 @@ void UGameFeatureAction_AddAbilities::AddActorAbilities(AActor* Actor, const FGa
 			}
 		}
 
-		ULyraAbilitySystemComponent* LyraASC = CastChecked<ULyraAbilitySystemComponent>(AbilitySystemComponent);
-		for (const TSoftObjectPtr<const ULyraAbilitySet>& SetPtr : AbilitiesEntry.GrantedAbilitySets)
+		UAstralAbilitySystemComponent* AstralASC = CastChecked<UAstralAbilitySystemComponent>(AbilitySystemComponent);
+		for (const TSoftObjectPtr<const UAstralAbilitySet>& SetPtr : AbilitiesEntry.GrantedAbilitySets)
 		{
-			if (const ULyraAbilitySet* Set = SetPtr.Get())
+			if (const UAstralAbilitySet* Set = SetPtr.Get())
 			{
-				Set->GiveToAbilitySystem(LyraASC, &AddedExtensions.AbilitySetHandles.AddDefaulted_GetRef());
+				Set->GiveToAbilitySystem(AstralASC, &AddedExtensions.AbilitySetHandles.AddDefaulted_GetRef());
 			}
 		}
 
@@ -246,10 +247,10 @@ void UGameFeatureAction_AddAbilities::RemoveActorAbilities(AActor* Actor, FPerCo
 				AbilitySystemComponent->SetRemoveAbilityOnEnd(AbilityHandle);
 			}
 
-			ULyraAbilitySystemComponent* LyraASC = CastChecked<ULyraAbilitySystemComponent>(AbilitySystemComponent);
-			for (FLyraAbilitySet_GrantedHandles& SetHandle : ActorExtensions->AbilitySetHandles)
+			UAstralAbilitySystemComponent* AstralASC = CastChecked<UAstralAbilitySystemComponent>(AbilitySystemComponent);
+			for (FAstralAbilitySet_GrantedHandles& SetHandle : ActorExtensions->AbilitySetHandles)
 			{
-				SetHandle.TakeFromAbilitySystem(LyraASC);
+				SetHandle.TakeFromAbilitySystem(AstralASC);
 			}
 		}
 

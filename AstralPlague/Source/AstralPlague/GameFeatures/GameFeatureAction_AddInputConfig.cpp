@@ -1,17 +1,17 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "GameFeatures/GameFeatureAction_AddInputConfig.h"
+#include "AstralPlague/GameFeatures/GameFeatureAction_AddInputConfig.h"
 #include "Components/GameFrameworkComponentManager.h"
 #include "Engine/GameInstance.h"
 #include "EnhancedInputSubsystems.h"
-#include "Character/LyraHeroComponent.h"	// for NAME_BindInputsNow
+#include "AstralPlague/Components/AstralCharacterGameplayComponent.h"	// for NAME_BindInputsNow
 #include "Engine/World.h"
 #include "GameFramework/PlayerController.h"
 #include "Engine/LocalPlayer.h"
-#include "GameFeatures/GameFeatureAction_WorldActionBase.h"
+#include "AstralPlague/GameFeatures/GameFeatureAction_WorldActionBase.h"
 #include "PlayerMappableInputConfig.h"
 #include "GameFramework/Pawn.h"
-#include "Input/LyraMappableConfigPair.h"
+#include "AstralPlague/Input/AstralMappableConfigPair.h"
 
 #if WITH_EDITOR
 #include "Misc/DataValidation.h"
@@ -133,7 +133,7 @@ void UGameFeatureAction_AddInputConfig::HandlePawnExtension(AActor* Actor, FName
 	APawn* AsPawn = CastChecked<APawn>(Actor);
 	FPerContextData& ActiveData = ContextData.FindOrAdd(ChangeContext);
 
-	if (EventName == UGameFrameworkComponentManager::NAME_ExtensionAdded || EventName == ULyraHeroComponent::NAME_BindInputsNow)
+	if (EventName == UGameFrameworkComponentManager::NAME_ExtensionAdded || EventName == UAstralCharacterGameplayComponent::NAME_BindInputsNow)
 	{
 		AddInputConfig(AsPawn, ActiveData);
 	}

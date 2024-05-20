@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-NPCBehaviorSystemRuntime.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UnrealDev\AstralPlague\AstralPlague\Intermediate\Build\Win64\x64\AstralPlagueEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.h.obj"
+"D:\UnrealDev\AstralPlague\AstralPlague\Plugins\GameFeatures\NPCBehaviorSystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\NPCBehaviorSystemRuntime\NPCBehaviorSystemRuntimeModule.cpp.obj"
+"D:\UnrealDev\AstralPlague\AstralPlague\Plugins\GameFeatures\NPCBehaviorSystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\NPCBehaviorSystemRuntime\Default.rc2.res"
+/OUT:"D:\UnrealDev\AstralPlague\AstralPlague\Plugins\GameFeatures\NPCBehaviorSystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\NPCBehaviorSystemRuntime\UnrealEditor-NPCBehaviorSystemRuntime.lib"

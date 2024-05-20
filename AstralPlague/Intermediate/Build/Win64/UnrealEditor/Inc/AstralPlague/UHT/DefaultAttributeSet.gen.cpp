@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "AstralPlague/AbilitySystem/DefaultAttributeSet.h"
+#include "AstralPlague/AbilitySystem/Attributes/DefaultAttributeSet.h"
 #include "GameplayAbilities/Public/AttributeSet.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeDefaultAttributeSet() {}
@@ -34,8 +34,8 @@ struct Z_Construct_UClass_UDefaultAttributeSet_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * \n */" },
 #endif
-		{ "IncludePath", "AbilitySystem/DefaultAttributeSet.h" },
-		{ "ModuleRelativePath", "AbilitySystem/DefaultAttributeSet.h" },
+		{ "IncludePath", "AbilitySystem/Attributes/DefaultAttributeSet.h" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/DefaultAttributeSet.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Health_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
@@ -44,7 +44,7 @@ struct Z_Construct_UClass_UDefaultAttributeSet_Statics
 		{ "Comment", "// The current health attribute.  The health will be capped by the max health attribute.  Health is hidden from modifiers so only executions can modify it.\n" },
 #endif
 		{ "HideFromModifiers", "" },
-		{ "ModuleRelativePath", "AbilitySystem/DefaultAttributeSet.h" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/DefaultAttributeSet.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The current health attribute.  The health will be capped by the max health attribute.  Health is hidden from modifiers so only executions can modify it." },
 #endif
@@ -55,7 +55,7 @@ struct Z_Construct_UClass_UDefaultAttributeSet_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// The current max health attribute.  Max health is an attribute since gameplay effects can modify it.\n" },
 #endif
-		{ "ModuleRelativePath", "AbilitySystem/DefaultAttributeSet.h" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/DefaultAttributeSet.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The current max health attribute.  Max health is an attribute since gameplay effects can modify it." },
 #endif
@@ -66,7 +66,7 @@ struct Z_Construct_UClass_UDefaultAttributeSet_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Incoming healing. This is mapped directly to +Health\n" },
 #endif
-		{ "ModuleRelativePath", "AbilitySystem/DefaultAttributeSet.h" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/DefaultAttributeSet.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Incoming healing. This is mapped directly to +Health" },
 #endif
@@ -78,7 +78,7 @@ struct Z_Construct_UClass_UDefaultAttributeSet_Statics
 		{ "Comment", "// Incoming damage. This is mapped directly to -Health\n" },
 #endif
 		{ "HideFromModifiers", "" },
-		{ "ModuleRelativePath", "AbilitySystem/DefaultAttributeSet.h" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/DefaultAttributeSet.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Incoming damage. This is mapped directly to -Health" },
 #endif
@@ -143,14 +143,14 @@ UDefaultAttributeSet::~UDefaultAttributeSet() {}
 // End Class UDefaultAttributeSet
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_DefaultAttributeSet_h_Statics
+struct Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_Attributes_DefaultAttributeSet_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UDefaultAttributeSet, UDefaultAttributeSet::StaticClass, TEXT("UDefaultAttributeSet"), &Z_Registration_Info_UClass_UDefaultAttributeSet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDefaultAttributeSet), 282508696U) },
+		{ Z_Construct_UClass_UDefaultAttributeSet, UDefaultAttributeSet::StaticClass, TEXT("UDefaultAttributeSet"), &Z_Registration_Info_UClass_UDefaultAttributeSet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDefaultAttributeSet), 365901720U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_DefaultAttributeSet_h_118770973(TEXT("/Script/AstralPlague"),
-	Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_DefaultAttributeSet_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_DefaultAttributeSet_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_Attributes_DefaultAttributeSet_h_1953875064(TEXT("/Script/AstralPlague"),
+	Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_Attributes_DefaultAttributeSet_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_AbilitySystem_Attributes_DefaultAttributeSet_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

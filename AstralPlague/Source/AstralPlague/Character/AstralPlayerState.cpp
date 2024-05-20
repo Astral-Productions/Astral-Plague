@@ -3,7 +3,7 @@
 
 #include "AstralPlayerState.h"
 #include "AstralPlague/AbilitySystem/AstralAbilitySystemComponent.h"
-#include "AstralPlague/AbilitySystem/DefaultAttributeSet.h"
+#include "AstralPlague/AbilitySystem/Attributes/DefaultAttributeSet.h"
 
 
 AAstralPlayerState::AAstralPlayerState(const FObjectInitializer& ObjectInitializer)

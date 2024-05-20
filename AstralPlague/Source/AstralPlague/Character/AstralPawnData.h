@@ -36,9 +36,9 @@ public:
 	TSubclassOf<APawn> PawnClass;
 
 		
-	/*// Ability sets to grant to this pawn's ability system.
+	// Ability sets to grant to this pawn's ability system.
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Astral|Abilities")
-	TArray<TObjectPtr<UAstralAbilitySet>> AbilitySets;*/
+	TArray<TObjectPtr<UAstralAbilitySet>> AbilitySets;
 
 	// What mapping of ability tags to use for actions taking by this pawn
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Astral|Abilities")

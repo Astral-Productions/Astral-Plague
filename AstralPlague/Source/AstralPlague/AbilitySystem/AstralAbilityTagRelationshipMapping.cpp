@@ -3,7 +3,7 @@
 #include "AstralAbilityTagRelationshipMapping.h"
 
 
-#include UE_INLINE_GENERATED_CPP_BY_NAME(LyraAbilityTagRelationshipMapping)
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AstralAbilityTagRelationshipMapping)
 
 void UAstralAbilityTagRelationshipMapping::GetAbilityTagsToBlockAndCancel(const FGameplayTagContainer& AbilityTags, FGameplayTagContainer* OutTagsToBlock, FGameplayTagContainer* OutTagsToCancel) const
 {
