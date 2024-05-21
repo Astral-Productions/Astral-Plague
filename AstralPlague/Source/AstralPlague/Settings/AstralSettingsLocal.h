@@ -21,6 +21,11 @@ class UAstralSettingsLocal : public UGameUserSettings
 {
 	GENERATED_BODY()
 
+
+public:
+	
+	void OnExperienceLoaded();
+	
 public:
 	UAstralSettingsLocal();
 

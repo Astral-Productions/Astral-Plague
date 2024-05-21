@@ -3306,6 +3306,18 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Online/OnlineFramework/Binaries/Win64/UnrealEditor-Hotfix.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Online/OnlineFramework/Binaries/Win64/UnrealEditor-PatchCheck.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Online/OnlineFramework/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Online/OnlineServices/Binaries/Win64/UnrealEditor-OnlineServicesCommon.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -3930,15 +3942,15 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/GameFeatures/NPCBehaviorSystem/Binaries/Win64/UnrealEditor-NPCBehaviorSystemRuntime.dll",
+			"Path": "$(ProjectDir)/Plugins/GameFeatures/AstralPlagueCore/Binaries/Win64/UnrealEditor-AstralPlagueCoreRuntime.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/GameFeatures/NPCBehaviorSystem/Binaries/Win64/UnrealEditor-NPCBehaviorSystemRuntime.pdb",
+			"Path": "$(ProjectDir)/Plugins/GameFeatures/AstralPlagueCore/Binaries/Win64/UnrealEditor-AstralPlagueCoreRuntime.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/GameFeatures/NPCBehaviorSystem/Binaries/Win64/UnrealEditor.modules",
+			"Path": "$(ProjectDir)/Plugins/GameFeatures/AstralPlagueCore/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -27068,7 +27080,7 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/GameFeatures/NPCBehaviorSystem/NPCBehaviorSystem.uplugin",
+			"Path": "$(ProjectDir)/Plugins/GameFeatures/AstralPlagueCore/AstralPlagueCore.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -27097,6 +27109,7 @@
 		"AssetManagerEditor",
 		"AssetReferenceRestrictions",
 		"AssetTags",
+		"AstralPlagueCore",
 		"AudioCapture",
 		"AudioSynesthesia",
 		"AudioWidgets",
@@ -27202,7 +27215,6 @@
 		"MoverTests",
 		"MsQuic",
 		"N10XSourceCodeAccess",
-		"NPCBehaviorSystem",
 		"NetworkPrediction",
 		"Niagara",
 		"NiagaraSimCaching",

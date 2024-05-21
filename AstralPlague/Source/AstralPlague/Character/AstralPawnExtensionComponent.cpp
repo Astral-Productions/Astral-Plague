@@ -10,7 +10,7 @@
 #include "AstralPlague/AstralGameplayTags.h"
 #include "AstralPlague/AstralLogChannels.h"
 #include "AstralPawnData.h"
-#include "AstralPlayerState.h"
+#include "AstralPlague/Player/AstralPlayerState.h"
 #include "Net/UnrealNetwork.h"
 
 #include UE_INLINE_GENERATED_CPP_BY_NAME(AstralPawnExtensionComponent)

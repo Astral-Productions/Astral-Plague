@@ -5,7 +5,7 @@
 #include "Components/GameFrameworkComponentManager.h"
 #include "AstralPlague/AbilitySystem/AstralAbilitySystemComponent.h"
 #include "Engine/World.h"
-#include "AstralPlague/Character/AstralPlayerState.h" 
+#include "AstralPlague/Player/AstralPlayerState.h" 
 #include "AstralPlague/GameFeatures/GameFeatureAction_WorldActionBase.h"
 //@TODO: For the fname
 

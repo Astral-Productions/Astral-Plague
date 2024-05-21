@@ -40,30 +40,42 @@
     <Filter Include="Plugins\GameFeatures">
       <UniqueIdentifier>{33C51FE3-4BD4-3B9E-9F42-5CCDEE9DF75F}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Plugins\GameFeatures\AstralPlagueCore">
+      <UniqueIdentifier>{98E57570-2956-3314-9834-0EBE6E3FAF63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameFeatures\AstralPlagueCore\Source">
+      <UniqueIdentifier>{0836E95C-A0E5-3192-86FC-E6494FC9A01F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameFeatures\AstralPlagueCore\Source\AstralPlagueCoreRuntime">
+      <UniqueIdentifier>{3DD8AA67-C024-3FC2-9ADB-DC2E051024FD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameFeatures\AstralPlagueCore\Source\AstralPlagueCoreRuntime\AstralPlagueCoreRuntime.Build.cs">
+      <Filter>Plugins\GameFeatures\AstralPlagueCore\Source\AstralPlagueCoreRuntime</Filter>
+    </None>
+    <Filter Include="Plugins\GameFeatures\AstralPlagueCore\Source\AstralPlagueCoreRuntime\Private">
+      <UniqueIdentifier>{7AB59BCB-96AE-392C-A766-9A115832EA0B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameFeatures\AstralPlagueCore\Source\AstralPlagueCoreRuntime\Private\AstralPlagueCoreRuntimeModule.cpp">
+      <Filter>Plugins\GameFeatures\AstralPlagueCore\Source\AstralPlagueCoreRuntime\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameFeatures\AstralPlagueCore\Source\AstralPlagueCoreRuntime\Public">
+      <UniqueIdentifier>{6D0281E0-9CE1-33D1-89B7-EB3459BABD65}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameFeatures\AstralPlagueCore\Source\AstralPlagueCoreRuntime\Public\AstralPlagueCoreRuntimeModule.h">
+      <Filter>Plugins\GameFeatures\AstralPlagueCore\Source\AstralPlagueCoreRuntime\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\GameFeatures\AstralPlagueCore\AstralPlagueCore.uplugin">
+      <Filter>Plugins\GameFeatures\AstralPlagueCore</Filter>
+    </None>
+    <Filter Include="Plugins\GameFeatures\AstralPlagueCore\Resources">
+      <UniqueIdentifier>{FBE421DE-AA81-3C4A-BD36-2D1932EADC49}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameFeatures\AstralPlagueCore\Resources\Icon128.png">
+      <Filter>Plugins\GameFeatures\AstralPlagueCore\Resources</Filter>
+    </None>
     <Filter Include="Plugins\GameFeatures\NPCBehaviorSystem">
       <UniqueIdentifier>{B4F038A7-3A0B-3C93-A9C8-980E686B5A28}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Plugins\GameFeatures\NPCBehaviorSystem\Source">
-      <UniqueIdentifier>{72CD97B6-4ADF-3D47-8860-83B412A86537}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Plugins\GameFeatures\NPCBehaviorSystem\Source\NPCBehaviorSystemRuntime">
-      <UniqueIdentifier>{CDE847EE-9147-3CF2-86E3-75EC18F4B5BE}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Plugins\GameFeatures\NPCBehaviorSystem\Source\NPCBehaviorSystemRuntime\NPCBehaviorSystemRuntime.Build.cs">
-      <Filter>Plugins\GameFeatures\NPCBehaviorSystem\Source\NPCBehaviorSystemRuntime</Filter>
-    </None>
-    <Filter Include="Plugins\GameFeatures\NPCBehaviorSystem\Source\NPCBehaviorSystemRuntime\Private">
-      <UniqueIdentifier>{01435478-D8B6-386A-9A5C-3F728B116B3C}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Plugins\GameFeatures\NPCBehaviorSystem\Source\NPCBehaviorSystemRuntime\Private\NPCBehaviorSystemRuntimeModule.cpp">
-      <Filter>Plugins\GameFeatures\NPCBehaviorSystem\Source\NPCBehaviorSystemRuntime\Private</Filter>
-    </ClCompile>
-    <Filter Include="Plugins\GameFeatures\NPCBehaviorSystem\Source\NPCBehaviorSystemRuntime\Public">
-      <UniqueIdentifier>{60F02B22-666E-3620-91C7-7392A1AD4D24}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Plugins\GameFeatures\NPCBehaviorSystem\Source\NPCBehaviorSystemRuntime\Public\NPCBehaviorSystemRuntimeModule.h">
-      <Filter>Plugins\GameFeatures\NPCBehaviorSystem\Source\NPCBehaviorSystemRuntime\Public</Filter>
-    </ClInclude>
     <None Include="..\..\Plugins\GameFeatures\NPCBehaviorSystem\NPCBehaviorSystem.uplugin">
       <Filter>Plugins\GameFeatures\NPCBehaviorSystem</Filter>
     </None>
@@ -91,6 +103,27 @@
     <None Include="..\..\Plugins\ModularGameplayActors\ModularGameplayActors.uplugin">
       <Filter>Plugins\ModularGameplayActors</Filter>
     </None>
+    <Filter Include="Plugins\GameFeatures\NPCBehaviorSystem\Source">
+      <UniqueIdentifier>{72CD97B6-4ADF-3D47-8860-83B412A86537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameFeatures\NPCBehaviorSystem\Source\NPCBehaviorSystemRuntime">
+      <UniqueIdentifier>{CDE847EE-9147-3CF2-86E3-75EC18F4B5BE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameFeatures\NPCBehaviorSystem\Source\NPCBehaviorSystemRuntime\NPCBehaviorSystemRuntime.Build.cs">
+      <Filter>Plugins\GameFeatures\NPCBehaviorSystem\Source\NPCBehaviorSystemRuntime</Filter>
+    </None>
+    <Filter Include="Plugins\GameFeatures\NPCBehaviorSystem\Source\NPCBehaviorSystemRuntime\Private">
+      <UniqueIdentifier>{01435478-D8B6-386A-9A5C-3F728B116B3C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameFeatures\NPCBehaviorSystem\Source\NPCBehaviorSystemRuntime\Private\NPCBehaviorSystemRuntimeModule.cpp">
+      <Filter>Plugins\GameFeatures\NPCBehaviorSystem\Source\NPCBehaviorSystemRuntime\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameFeatures\NPCBehaviorSystem\Source\NPCBehaviorSystemRuntime\Public">
+      <UniqueIdentifier>{60F02B22-666E-3620-91C7-7392A1AD4D24}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameFeatures\NPCBehaviorSystem\Source\NPCBehaviorSystemRuntime\Public\NPCBehaviorSystemRuntimeModule.h">
+      <Filter>Plugins\GameFeatures\NPCBehaviorSystem\Source\NPCBehaviorSystemRuntime\Public</Filter>
+    </ClInclude>
     <Filter Include="Plugins\ModularGameplayActors\Source">
       <UniqueIdentifier>{D2A7373A-5074-3627-B395-44D580887335}</UniqueIdentifier>
     </Filter>

@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-AstralPlagueCoreRuntime.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UnrealDev\AstralPlague\AstralPlague\Intermediate\Build\Win64\x64\AstralPlagueEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.h.obj"
+"D:\UnrealDev\AstralPlague\AstralPlague\Plugins\GameFeatures\AstralPlagueCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\AstralPlagueCoreRuntime\AstralPlagueCoreRuntimeModule.cpp.obj"
+"D:\UnrealDev\AstralPlague\AstralPlague\Plugins\GameFeatures\AstralPlagueCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\AstralPlagueCoreRuntime\Default.rc2.res"
+/OUT:"D:\UnrealDev\AstralPlague\AstralPlague\Plugins\GameFeatures\AstralPlagueCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\AstralPlagueCoreRuntime\UnrealEditor-AstralPlagueCoreRuntime.lib"

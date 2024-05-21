@@ -26,6 +26,11 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
+void UAstralSettingsLocal::OnExperienceLoaded()
+{
+	
+}
+
 UAstralSettingsLocal::UAstralSettingsLocal()
 {
 	

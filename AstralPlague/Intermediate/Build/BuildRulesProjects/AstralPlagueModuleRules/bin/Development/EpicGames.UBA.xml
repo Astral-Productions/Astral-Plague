@@ -1,0 +1,672 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EpicGames.UBA</name>
+    </assembly>
+    <members>
+        <member name="T:EpicGames.UBA.IBaseInterface">
+            <summary>
+            Base interface for all classes that have unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.IBaseInterface.GetHandle">
+            <summary>
+            Returns the handle to an unmanaged object
+            </summary>
+            <returns>An unmanaged handle</returns>
+        </member>
+        <member name="T:EpicGames.UBA.LogEntryType">
+            <summary>
+            The verbosity of a log entry
+            </summary>
+        </member>
+        <member name="F:EpicGames.UBA.LogEntryType.Error">
+            <summary>
+            Error verbosity
+            </summary>
+        </member>
+        <member name="F:EpicGames.UBA.LogEntryType.Warning">
+            <summary>
+            Warning verbosity
+            </summary>
+        </member>
+        <member name="F:EpicGames.UBA.LogEntryType.Info">
+            <summary>
+            Info verbosity
+            </summary>
+        </member>
+        <member name="F:EpicGames.UBA.LogEntryType.Detail">
+            <summary>
+            Info verbosity
+            </summary>
+        </member>
+        <member name="F:EpicGames.UBA.LogEntryType.Debug">
+            <summary>
+            Info verbosity
+            </summary>
+        </member>
+        <member name="T:EpicGames.UBA.ILogger">
+            <summary>
+            Base interface for logging functionality
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.ILogger.BeginScope">
+            <summary>
+            Begin logging scope
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.ILogger.EndScope">
+            <summary>
+            End logging scope
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.ILogger.Log(EpicGames.UBA.LogEntryType,System.String)">
+            <summary>
+            Log message
+            </summary>
+            <param name="type">entry verbosity</param>
+            <param name="message">the message to log</param>
+        </member>
+        <member name="M:EpicGames.UBA.ILogger.CreateLogger(Microsoft.Extensions.Logging.ILogger,System.Boolean)">
+            <summary>
+            Create a ILogger object
+            </summary>
+            <param name="logger">The Microsoft.Extensions.Logging.ILogger to wrap</param>
+            <param name="showDetail">Will log out detailed log entries from native uba to logger</param>
+            <returns>The ILogger</returns>
+        </member>
+        <member name="M:EpicGames.UBA.ServerImpl.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.UBA.ServerImpl.GetHandle">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.UBA.ServerImpl.StartServer(System.String,System.Int32,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.UBA.ServerImpl.StopServer">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.UBA.ServerImpl.AddClient(System.String,System.Int32,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.UBA.ServerImpl.AddNamedConnection(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.UBA.ProcessStartInfo">
+            <summary>
+            Information needed to create a process
+            </summary>
+        </member>
+        <member name="T:EpicGames.UBA.ProcessStartInfo.CommonProcessConfigs">
+            <summary>
+            Common configs for processes to run
+            </summary>
+        </member>
+        <member name="F:EpicGames.UBA.ProcessStartInfo.CommonProcessConfigs.CompileMsvc">
+            <summary>
+            MSVC based compiler
+            </summary>
+        </member>
+        <member name="F:EpicGames.UBA.ProcessStartInfo.CommonProcessConfigs.CompileClang">
+            <summary>
+            Clang based compiler
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.ProcessStartInfo.Application">
+            <summary>
+            The path to the application binary
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.ProcessStartInfo.WorkingDirectory">
+            <summary>
+            The working directory
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.ProcessStartInfo.Arguments">
+            <summary>
+            The command line arguments
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.ProcessStartInfo.Description">
+            <summary>
+            A text description of the process
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.ProcessStartInfo.Configuration">
+            <summary>
+            Which configuration to use
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.ProcessStartInfo.Priority">
+            <summary>
+            The process priority of the created process
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.ProcessStartInfo.OutputStatsThresholdMs">
+            <summary>
+            Threshold in which to report output stats
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.ProcessStartInfo.TrackInputs">
+            <summary>
+            If input should be tracked
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.ProcessStartInfo.LogFile">
+            <summary>
+            A path to a log file, or null for not log file
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.ProcessStartInfo.UserData">
+            <summary>
+            Arbitary user data to pass along with the process
+            </summary>
+        </member>
+        <member name="T:EpicGames.UBA.IProcessStartInfo">
+            <summary>
+            Base interface for process start info
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.IProcessStartInfo.CreateProcessStartInfo(EpicGames.UBA.ProcessStartInfo,System.Boolean)">
+            <summary>
+            Create a IProcessStartInfo object
+            </summary>
+            <param name="info">The start info for the process</param>
+            <param name="useExitedCallback">Set to true if exit callback is used</param>
+            <returns>The IProcessStartInfo</returns>
+        </member>
+        <member name="T:EpicGames.UBA.ExitedEventArgs">
+            <summary>
+            Event args for exited event
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.ExitedEventArgs.ExitCode">
+            <summary>
+            Process exit code
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.ExitedEventArgs.ExecutingHost">
+            <summary>
+            The remote host that ran the process, if run remotely
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.ExitedEventArgs.LogLines">
+            <summary>
+            Captured output lines
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.ExitedEventArgs.TotalProcessorTime">
+            <summary>
+            Total time spent for the processor
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.ExitedEventArgs.TotalWallTime">
+            <summary>
+            Total wall time spent
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.ExitedEventArgs.UserData">
+            <summary>
+            Total wall time spent
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.ExitedEventArgs.#ctor(EpicGames.UBA.IProcess)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="process">The process to pull data from</param>
+        </member>
+        <member name="T:EpicGames.UBA.IProcess">
+            <summary>
+            Interface for a process instance
+            </summary>
+        </member>
+        <member name="T:EpicGames.UBA.IProcess.ExitedEventHandler">
+            <summary>
+            Delegate for Exited events
+            </summary>
+            <param name="sender">The sender object</param>
+            <param name="e">The event args</param>
+        </member>
+        <member name="E:EpicGames.UBA.IProcess.Exited">
+            <summary>
+            Exited event handler
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.IProcess.ExitCode">
+            <summary>
+            Process exit code
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.IProcess.ExecutingHost">
+            <summary>
+            The remote host that ran the process, if run remotely
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.IProcess.LogLines">
+            <summary>
+            Captured output lines
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.IProcess.TotalProcessorTime">
+            <summary>
+            Total time spent for the processor
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.IProcess.TotalWallTime">
+            <summary>
+            Total wall time spent
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.IProcess.Hash">
+            <summary>
+            Unique hash for this process (not stable between runs)
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.IProcess.UserData">
+            <summary>
+            Arbitary user data
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.IProcess.Cancel(System.Boolean)">
+            <summary>
+            Cancel the running process
+            </summary>
+            <param name="terminate">If the process should be force terminated</param>
+        </member>
+        <member name="M:EpicGames.UBA.IProcess.CreateProcess(System.IntPtr,EpicGames.UBA.IProcessStartInfo,EpicGames.UBA.IProcess.ExitedEventHandler,System.Object)">
+            <summary>
+            Create a IProcess object
+            </summary>
+            <param name="handle">unmanaged pointer to the process</param>
+            <param name="info">the processes start info</param>
+            <param name="exitedEventHandler">Optional callback when the process exits</param>
+            <param name="userData">Arbitary user data</param>
+            <returns>The IProcess</returns>
+        </member>
+        <member name="T:EpicGames.UBA.IServer">
+            <summary>
+            Base interface for a server instance
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.IServer.StartServer(System.String,System.Int32,System.String)">
+            <summary>
+            Start the server
+            </summary>
+            <param name="ip">Ip address or host name</param>
+            <param name="port">The port to use, -1 for default</param>
+            <param name="crypto">Enable crypto by using a 32 character crypto string (representing a 16 byte value)</param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.UBA.IServer.StopServer">
+            <summary>
+            Stop the server
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.IServer.AddNamedConnection(System.String)">
+            <summary>
+            Add a named connection to the server
+            </summary>
+            <param name="name">The name of the connection</param>
+            <returns>Success</returns>
+        </member>
+        <member name="M:EpicGames.UBA.IServer.AddClient(System.String,System.Int32,System.String)">
+            <summary>
+            Adds a client that server will try to connect one or more tcp connections to
+            </summary>
+            <param name="ip">The ip of the listening client</param>
+            <param name="port">The port of the listening client</param>
+            <param name="crypto">Enable crypto by using a 32 character crypto string (representing a 16 byte value)</param>
+            <returns>Success</returns>
+        </member>
+        <member name="M:EpicGames.UBA.IServer.CreateServer(System.Int32,System.Int32,EpicGames.UBA.ILogger,System.Boolean)">
+            <summary>
+            Create a IServer object
+            </summary>
+            <param name="maxWorkers">Maximum number of workers</param>
+            <param name="sendSize">Send size in bytes</param>
+            <param name="logger">The logger</param>
+            <param name="useQuic">Use Quic protocol instead of tcp for communication between host and helpers</param>
+            <returns>The IServer</returns>
+        </member>
+        <member name="T:EpicGames.UBA.SessionServerCreateInfo">
+            <summary>
+            Information needed to create a session server
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.SessionServerCreateInfo.RootDirectory">
+            <summary>
+            Root directory to store content addressable data
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.SessionServerCreateInfo.TraceOutputFile">
+            <summary>
+            Path to a trace file that records the build
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.SessionServerCreateInfo.DisableCustomAllocator">
+            <summary>
+            If the custom allocator should be disabled
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.SessionServerCreateInfo.LaunchVisualizer">
+            <summary>
+            If the visualizer should be launched
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.SessionServerCreateInfo.ResetCas">
+            <summary>
+            If the content addressable storage should be reset
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.SessionServerCreateInfo.WriteToDisk">
+            <summary>
+            If intermediate/output files should be written to disk
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.SessionServerCreateInfo.DetailedTrace">
+            <summary>
+            More detailed trace information
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.SessionServerCreateInfo.AllowWaitOnMem">
+            <summary>
+            Wait for memory before starting new processes
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.SessionServerCreateInfo.AllowKillOnMem">
+            <summary>
+            Kill processes when close to run out of memory
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.SessionServerCreateInfo.#ctor(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="rootDirectory">Root directory to store content addressable data</param>
+            <param name="traceOutputFile">Path to a trace file that records the build</param>
+            <param name="disableCustomAllocator">If the custom allocator should be disabled</param>
+            <param name="launchVisualizer">If the visualizer should be launched</param>
+            <param name="resetCas">If the content addressable storage should be reset</param>
+            <param name="writeToDisk">If intermediate/output files should be written to disk</param>
+            <param name="detailedTrace">More detailed trace information</param>
+            <param name="allowWaitOnMem">Wait for memory before starting new processes</param>
+            <param name="allowKillOnMem">Kill processes when close to run out of memory</param>
+        </member>
+        <member name="T:EpicGames.UBA.ISessionServerCreateInfo">
+            <summary>
+            Base interface for session server create info
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.ISessionServerCreateInfo.CreateSessionServerCreateInfo(EpicGames.UBA.IStorageServer,EpicGames.UBA.IServer,EpicGames.UBA.ILogger,EpicGames.UBA.SessionServerCreateInfo)">
+            <summary>
+            Create a ISessionServerCreateInfo object
+            </summary>
+            <param name="storage">The storage server</param>
+            <param name="client">The client</param>
+            <param name="logger">The logger</param>
+            <param name="info">The session create info</param>
+            <returns>The ISessionServerCreateInfo</returns>
+        </member>
+        <member name="T:EpicGames.UBA.RemoteProcessSlotAvailableEventArgs">
+            <summary>
+            Event args for remote process slot available event
+            </summary>
+        </member>
+        <member name="T:EpicGames.UBA.RemoteProcessReturnedEventArgs">
+            <summary>
+            Event args for remote process returned event
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.RemoteProcessReturnedEventArgs.#ctor(EpicGames.UBA.IProcess)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="process">The process being returned</param>
+        </member>
+        <member name="P:EpicGames.UBA.RemoteProcessReturnedEventArgs.Process">
+            <summary>
+            The remote process that was returned
+            </summary>
+        </member>
+        <member name="T:EpicGames.UBA.ISessionServer">
+            <summary>
+            Base interface for a session server instance
+            </summary>
+        </member>
+        <member name="T:EpicGames.UBA.ISessionServer.RemoteProcessSlotAvailableEventHandler">
+            <summary>
+            Degeate for remote process slot available events
+            </summary>
+            <param name="sender">The sender object</param>
+            <param name="e">The event args</param>
+        </member>
+        <member name="T:EpicGames.UBA.ISessionServer.RemoteProcessReturnedEventHandler">
+            <summary>
+            Degeate for remote process returned events
+            </summary>
+            <param name="sender">The sender object</param>
+            <param name="e">The event args</param>
+        </member>
+        <member name="E:EpicGames.UBA.ISessionServer.RemoteProcessSlotAvailable">
+            <summary>
+            Remote process slot available event handler
+            </summary>
+        </member>
+        <member name="E:EpicGames.UBA.ISessionServer.RemoteProcessReturned">
+            <summary>
+            Remote process returned event handler
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.ISessionServer.DisableRemoteExecution">
+            <summary>
+            Will tell all remote machines that they can disconnect once their active processes are done
+            Will also stop listening for new remote machines
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.ISessionServer.SetMaxRemoteProcessCount(System.UInt32)">
+            <summary>
+            Set max number of processes that can be executed remotely.
+            Setting this can let the backend disconnect remote workers earlier
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.ISessionServer.RunProcess(EpicGames.UBA.ProcessStartInfo,System.Boolean,EpicGames.UBA.IProcess.ExitedEventHandler,System.Boolean)">
+            <summary>
+            Run a local process
+            </summary>
+            <param name="info">Process start info</param>
+            <param name="async">If the process should be run async</param>
+            <param name="exitedEventHandler">Optional callback when the process exits</param>
+            <param name="enableDetour">Should be true unless process does not work being detoured (And in that case we need to manually register file system changes)</param>
+            <returns>The process being run</returns>
+        </member>
+        <member name="M:EpicGames.UBA.ISessionServer.RunProcessRemote(EpicGames.UBA.ProcessStartInfo,EpicGames.UBA.IProcess.ExitedEventHandler,System.Double,System.Byte[],System.UInt32)">
+            <summary>
+            Run a remote process
+            </summary>
+            <param name="info">Process start info</param>
+            <param name="exitedEventHandler">Optional callback when the process exits</param>
+            <param name="weight">Number of cores this process uses</param>
+            <param name="knownInputs">Optionally contains input that we know process will need. Memory block containing zero-terminated strings with an extra termination in the end.</param>
+            <param name="knownInputsCount">Number of strings in known inputs</param>
+            <returns>The remote process being run</returns>
+        </member>
+        <member name="M:EpicGames.UBA.ISessionServer.RefreshDirectories(System.String[])">
+            <summary>
+            Refresh cached information about directories
+            </summary>
+            <param name="directories">The directories to refresh</param>
+        </member>
+        <member name="M:EpicGames.UBA.ISessionServer.RegisterNewFiles(System.String[])">
+            <summary>
+            Registers external files write to session caches
+            </summary>
+            <param name="files">The files to register</param>
+        </member>
+        <member name="M:EpicGames.UBA.ISessionServer.BeginExternalProcess(System.String)">
+            <summary>
+            Registers the start of an external process
+            </summary>
+            <param name="description">The description of the process</param>
+            <returns>The process id that should be sent into EndExternalProcess</returns>
+        </member>
+        <member name="M:EpicGames.UBA.ISessionServer.EndExternalProcess(System.UInt32,System.UInt32)">
+            <summary>
+            Registers the end of an external process
+            </summary>
+            <param name="id">The id returned by BeginExternalProcess</param>
+            <param name="exitCode">The exit code of the external process</param>
+        </member>
+        <member name="M:EpicGames.UBA.ISessionServer.SetCustomCasKeyFromTrackedInputs(System.String,System.String,EpicGames.UBA.IProcess)">
+            <summary>
+            Set a custom cas key for a process's tracked inputs
+            </summary>
+            <param name="file">The file to track</param>
+            <param name="workingDirectory">The working directory</param>
+            <param name="process">The process to get tracked inputs from</param>
+        </member>
+        <member name="M:EpicGames.UBA.ISessionServer.CancelAll">
+            <summary>
+            Cancel all processes
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.ISessionServer.PrintSummary">
+            <summary>
+            Print summary information to the logger
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.ISessionServer.CreateSessionServer(EpicGames.UBA.ISessionServerCreateInfo)">
+            <summary>
+            Create a ISessionServer object
+            </summary>
+            <param name="info">The session server create info</param>
+            <returns>The ISessionServer</returns>
+        </member>
+        <member name="T:EpicGames.UBA.StorageServerCreateInfo">
+            <summary>
+            Information needed to create a storage server
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.StorageServerCreateInfo.RootDirectory">
+            <summary>
+            The root directory for the storage
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.StorageServerCreateInfo.CapacityBytes">
+            <summary>
+            The capacity of the storage in bytes
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.StorageServerCreateInfo.StoreCompressed">
+            <summary>
+            If the storage should be stored as compressed
+            </summary>
+        </member>
+        <member name="P:EpicGames.UBA.StorageServerCreateInfo.Zone">
+            <summary>
+            The geographical zone this machine belongs to. Can be empty
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.StorageServerCreateInfo.#ctor(System.String,System.UInt64,System.Boolean,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="rootDirectory">The root directory for the storage</param>
+            <param name="capacityBytes">The capacity of the storage in bytes</param>
+            <param name="storeCompressed">If the storage should be stored as compressed</param>
+            <param name="zone">The geographical zone this machine belongs to. Can be empty</param>
+        </member>
+        <member name="T:EpicGames.UBA.IStorageServer">
+            <summary>
+            Base interface for a storage server instance
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.IStorageServer.SaveCasTable">
+            <summary>
+            Save tge content addressabale storage table
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.IStorageServer.RegisterDisallowedPath(System.String)">
+            <summary>
+            Register disallowed paths for clients to download
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.IStorageServer.CreateStorageServer(EpicGames.UBA.IServer,EpicGames.UBA.ILogger,EpicGames.UBA.StorageServerCreateInfo)">
+            <summary>
+            Create a IStorageServer object
+            </summary>
+            <param name="server">The server</param>
+            <param name="logger">The logger</param>
+            <param name="info">The storage create info</param>
+            <returns>The IStorageServer</returns>
+        </member>
+        <member name="T:EpicGames.UBA.ThreadedLogger">
+            <summary>
+            Threaded logging for use by UBAExecutor
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.ThreadedLogger.#ctor(Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="logger">The logger</param>
+        </member>
+        <member name="M:EpicGames.UBA.ThreadedLogger.Finalize">
+            <summary>
+            Destructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.ThreadedLogger.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.UBA.ThreadedLogger.Dispose(System.Boolean)">
+            <summary>
+            Protected dispose
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.ThreadedLogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.UBA.ThreadedLogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.UBA.ThreadedLogger.BeginScope``1(``0)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.UBA.ThreadedLogger.FinishAsync">
+            <summary>
+            Finish logging async
+            </summary>
+        </member>
+        <member name="T:EpicGames.UBA.Utils">
+            <summary>
+            Utils
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.Utils.IsAvailable">
+            <summary>
+            Is UBA available?
+            </summary>
+        </member>
+        <member name="M:EpicGames.UBA.Utils.DisallowedPaths">
+            <summary>
+            Paths that are not allowed to be transferred over the network for UBA remote agents.
+            </summary>
+            <returns>enumerable of disallowed paths</returns>
+        </member>
+        <member name="M:EpicGames.UBA.Utils.RegisterDisallowedPaths(System.String[])">
+            <summary>
+            Registers a path that is not allowed to be transferred over the network for UBA remote agents.
+            </summary>
+            <param name="paths">The paths to add to thie disallowed list</param>
+        </member>
+        <member name="M:EpicGames.UBA.Utils.GetLibraryPath">
+            <summary>
+            Get the path to the p/invoke library that would be loaded 
+            </summary>
+            <returns>The path to the library</returns>
+            <exception cref="T:System.PlatformNotSupportedException">If the operating system is not supported</exception>
+        </member>
+    </members>
+</doc>

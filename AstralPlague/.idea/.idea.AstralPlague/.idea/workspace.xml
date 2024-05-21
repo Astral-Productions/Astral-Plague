@@ -12,53 +12,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84d03455-ca5d-46b5-ba50-83d41d7c1817" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.lfsconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../.lfsconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AstralPlague/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstralPlague/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstralPlague.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/AstralPlague.uproject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/AstralPlagueEditor.target" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/AstralPlagueEditor.target" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-AstralPlague.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-AstralPlague.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGame.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGame.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Astral-Plague/AbilitySystem/Abilities/GA_Melee.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Astral-Plague/AbilitySystem/Abilities/GA_Melee.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Astral-Plague/AbilitySystem/Abilities/GA_WallRun.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Astral-Plague/AbilitySystem/Abilities/GA_WallRun.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Astral-Plague/Blueprints/Player/BP_AstralGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Astral-Plague/Blueprints/Player/BP_AstralGameMode.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Astral-Plague/Blueprints/Player/BP_PlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Astral-Plague/Blueprints/Player/BP_PlayerCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/ABP_Main.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/ABP_Main.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Astral-Plague/Blueprints/Player/BP_PlayerState.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Astral-Plague/Blueprints/Player/BP_PlayerState.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Astral-Plague/Levels/Cole-TestRealm.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Astral-Plague/Levels/Cole-TestRealm.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/AstralPlagueModuleRules.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/AstralPlagueModuleRules.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/AstralPlagueModuleRulesManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/AstralPlagueModuleRulesManifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/AstralPlagueModuleRules/AstralPlagueModuleRules.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/AstralPlagueModuleRules/AstralPlagueModuleRules.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/AstralPlagueModuleRules/obj/Development/AstralPlagueModuleRules.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/AstralPlagueModuleRules/obj/Development/AstralPlagueModuleRules.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/AstralPlagueEditor/Development/AstralPlagueEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/AstralPlagueEditor/Development/AstralPlagueEditor.uhtmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralAbilitySystemComponent.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralAbilitySystemComponent.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralAbilitySystemComponent.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralAbilitySystemComponent.generated.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralCharacterGameplayComponent.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralCharacterGameplayComponent.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralCharacterGameplayComponent.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralCharacterGameplayComponent.generated.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralGameplayAbility.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralGameplayAbility.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralGameplayAbility.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralGameplayAbility.generated.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPawnData.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPawnData.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPawnData.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPawnData.generated.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlague.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlague.init.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/DefaultAttributeSet.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/DefaultAttributeSet.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/DefaultAttributeSet.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/DefaultAttributeSet.generated.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlayerController.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlayerController.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlayerController.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlayerController.generated.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlayerState.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlayerState.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlayerState.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/AstralPlayerState.generated.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/AstralPlague/UHT/Timestamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/AstralPlagueEditor/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/AstralPlagueEditor/ActionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/AstralPlagueEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/AstralPlagueEditor/Development/DependencyCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/AstralPlagueEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/AstralPlagueEditor/Development/Makefile.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/AstralPlagueEditor/Development/TargetMetadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/AstralPlagueEditor/Development/TargetMetadata.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/ActionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralAbilitySystemComponent.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralAbilitySystemComponent.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralCharacterGameplayComponent.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralCharacterGameplayComponent.cpp.dep.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralGameplayAbility.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralGameplayAbility.cpp.dep.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralGameplayAbility.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralGameplayAbility.gen.cpp.dep.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPawnData.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPawnData.cpp.dep.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPawnData.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPawnData.gen.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPawnExtensionComponent.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPawnExtensionComponent.cpp.dep.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlague.Shared.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlague.Shared.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlague.Shared.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlague.Shared.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlagueCharacter.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlagueCharacter.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerController.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerController.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerController.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerController.cpp.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerController.cpp.obj.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerController.cpp.obj.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerController.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerController.gen.cpp.dep.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerState.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerState.cpp.dep.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralStatsComponent.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralStatsComponent.cpp.dep.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/DefaultAttributeSet.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/DefaultAttributeSet.cpp.dep.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/DefaultAttributeSet.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/DefaultAttributeSet.cpp.obj.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/DefaultAttributeSet.cpp.obj.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/DefaultAttributeSet.cpp.obj.rsp.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/DefaultAttributeSet.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/DefaultAttributeSet.gen.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerState.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerState.cpp.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerState.cpp.obj.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerState.cpp.obj.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerState.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/AstralPlayerState.gen.cpp.dep.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/Definitions.AstralPlague.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/Definitions.AstralPlague.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/Definitions.AstralPlague.h.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/Definitions.AstralPlague.h.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/GameFeatureAction_AddAbilities.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/GameFeatureAction_AddAbilities.cpp.dep.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/LiveCodingInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/LiveCodingInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/LiveCodingInfo.json.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/LiveCodingInfo.json.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/Module.AstralPlague.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/Module.AstralPlague.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/Module.AstralPlague.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/Module.AstralPlague.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/Module.AstralPlague.cpp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/Module.AstralPlague.cpp.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.dll.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.dll.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.dll.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.dll.rsp.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/AstralPlague/UnrealEditor-AstralPlague.exp" afterDir="false" />
@@ -70,59 +74,27 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/AstralPlague.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/AstralPlague.vcxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/AstralPlague.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/AstralPlague.vcxproj.filters" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/ModularGameplayActors/Intermediate/Build/Win64/UnrealEditor/Inc/ModularGameplayActors/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ModularGameplayActors/Intermediate/Build/Win64/UnrealEditor/Inc/ModularGameplayActors/UHT/Timestamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-2B19219F4ABB312892F7758C6F01D28D/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-2E3505AF4596CB9EA1B17386CFE2140D/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-3234CE684F3B6F16FCE22C9FBD1B1128/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-6F93548D4B51F0F4CB208B987DCFC511/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-80C9AF3E447A652CC89373A26D8785BE/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-8D0D464045D2F182D0106786F5891462/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-AC7D7C8B42EC47DF725E74BC8DA4A39F/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-D5D0C1AC45574212AA3636BA9AD7686C/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-F58ADBF240E5C1A7A201CAB26493A2C3/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-FBAF6F4547BDAB5A16C19A90339DFB13/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-A0338DE640BA73DF626328A3BBD014EC/CrashReportClient.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/GameplayTagsEditorState.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/GameplayTagsEditorState.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Input.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Input.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.09-01.40.48.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.09-04.50.33.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.09-06.21.00.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.14-00.18.18.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.14-03.54.46.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.14-03.56.26.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.14-04.09.36.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.14-22.06.46.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.14-22.41.41.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.15-01.42.48.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague-backup-2024.05.15-20.31.45.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/AstralPlague.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague_2-backup-2024.05.08-20.58.12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague_2-backup-2024.05.08-22.52.01.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/AstralPlague_2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/AstralPlague_2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Telemetry/Telemetry.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Telemetry/Telemetry.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralAbilitySystemComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralAbilitySystemComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralAbilitySystemComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralAbilitySystemComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralAbilityTagRelationshipMapping.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralAbilityTagRelationshipMapping.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralGameplayAbility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralGameplayAbility.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralStatsComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/AstralStatsComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/DefaultAttributeSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/Attributes/DefaultAttributeSet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/DefaultAttributeSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AbilitySystem/Attributes/DefaultAttributeSet.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/AstralPlague/AstralPlague.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/AstralPlague.Build.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Camera/AstralCameraMode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Camera/AstralCameraMode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPawnData.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPawnData.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPlayerState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPlayerState.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPlayerState.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPlayerState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPawnExtensionComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPawnExtensionComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPlagueCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPlagueCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Player/AstralPlayerController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Player/AstralPlayerController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPlayerState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Player/AstralPlayerState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Character/AstralPlayerState.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Player/AstralPlayerState.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Components/AstralCharacterGameplayComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Components/AstralCharacterGameplayComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Components/AstralCharacterGameplayComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Components/AstralCharacterGameplayComponent.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/AstralPlague/GameFeatures/GameFeatureAction_AddAbilities.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/GameFeatures/GameFeatureAction_AddAbilities.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/GameFeatures/GameFeatureAction_AddAbilities.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/GameFeatures/GameFeatureAction_AddAbilities.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/GameFeatures/GameFeatureAction_AddInputBinding.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/GameFeatures/GameFeatureAction_AddInputBinding.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/GameFeatures/GameFeatureAction_AddInputBinding.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/GameFeatures/GameFeatureAction_AddInputBinding.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/GameFeatures/GameFeatureAction_AddInputConfig.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/GameFeatures/GameFeatureAction_AddInputConfig.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/GameFeatures/GameFeatureAction_AddInputConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/GameFeatures/GameFeatureAction_AddInputConfig.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/GameFeatures/GameFeatureAction_AddInputContextMapping.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/GameFeatures/GameFeatureAction_AddInputContextMapping.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/GameFeatures/GameFeatureAction_AddWidget.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/GameFeatures/GameFeatureAction_AddWidget.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/GameFeatures/GameFeatureAction_SplitscreenConfig.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/GameFeatures/GameFeatureAction_SplitscreenConfig.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Settings/AstralSettingsLocal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Settings/AstralSettingsLocal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AstralPlague/Settings/AstralSettingsLocal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AstralPlague/Settings/AstralSettingsLocal.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +143,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CidrLocalAttachDebugger.recentlyUsed">
+      <recent name="com.jetbrains.rider.cpp.debugger.RiderCppLLDBDriverConfiguration" />
+    </key>
+  </component>
   <component name="RunManager" selected="C++ Project.AstralPlague">
     <configuration name="AstralPlague" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -590,6 +567,10 @@
       <workItem from="1715886341324" duration="6932000" />
       <workItem from="1715969094642" duration="18526000" />
       <workItem from="1716173378628" duration="329000" />
+      <workItem from="1716174453362" duration="1175000" />
+      <workItem from="1716175769782" duration="869000" />
+      <workItem from="1716235140039" duration="967000" />
+      <workItem from="1716241683441" duration="12744000" />
     </task>
     <servers />
   </component>

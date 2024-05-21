@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\gamemodes\\astralexperiencedefinition.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\astralplagueeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\astralplague\\definitions.astralplague.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\gamemodes\\astralexperiencedefinition.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\unrealeditor\\inc\\astralplague\\uht\\astralexperiencedefinition.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gamefeatures\\source\\gamefeatures\\public\\gamefeatureaction.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gamefeatures\\intermediate\\build\\win64\\unrealeditor\\inc\\gamefeatures\\uht\\gamefeatureaction.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\misc\\datavalidation.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\coreuobject\\uht\\datavalidation.generated.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\unrealeditor\\inc\\astralplague\\uht\\astralexperiencedefinition.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

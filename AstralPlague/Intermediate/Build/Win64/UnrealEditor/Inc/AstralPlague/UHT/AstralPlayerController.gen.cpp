@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "AstralPlague/Character/AstralPlayerController.h"
+#include "AstralPlague/Player/AstralPlayerController.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeAstralPlayerController() {}
 
@@ -33,8 +33,8 @@ struct Z_Construct_UClass_AAstralPlayerController_Statics
 		{ "Comment", "/**\n * \n */" },
 #endif
 		{ "HideCategories", "Collision Rendering Transformation" },
-		{ "IncludePath", "Character/AstralPlayerController.h" },
-		{ "ModuleRelativePath", "Character/AstralPlayerController.h" },
+		{ "IncludePath", "Player/AstralPlayerController.h" },
+		{ "ModuleRelativePath", "Player/AstralPlayerController.h" },
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
@@ -81,14 +81,14 @@ AAstralPlayerController::~AAstralPlayerController() {}
 // End Class AAstralPlayerController
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Character_AstralPlayerController_h_Statics
+struct Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Player_AstralPlayerController_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AAstralPlayerController, AAstralPlayerController::StaticClass, TEXT("AAstralPlayerController"), &Z_Registration_Info_UClass_AAstralPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAstralPlayerController), 2029639345U) },
+		{ Z_Construct_UClass_AAstralPlayerController, AAstralPlayerController::StaticClass, TEXT("AAstralPlayerController"), &Z_Registration_Info_UClass_AAstralPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAstralPlayerController), 48485152U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Character_AstralPlayerController_h_127537513(TEXT("/Script/AstralPlague"),
-	Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Character_AstralPlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Character_AstralPlayerController_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Player_AstralPlayerController_h_3391708788(TEXT("/Script/AstralPlague"),
+	Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Player_AstralPlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Player_AstralPlayerController_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

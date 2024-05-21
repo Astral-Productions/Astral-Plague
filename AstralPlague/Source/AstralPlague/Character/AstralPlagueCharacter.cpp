@@ -4,8 +4,8 @@
 
 #include "AstralPawnExtensionComponent.h"
 #include "AstralPlague/AbilitySystem/AstralAbilitySystemComponent.h"
-#include "AstralPlague/Character/AstralPlayerController.h"
-#include "AstralPlague/Character/AstralPlayerState.h"
+#include "AstralPlague/Player/AstralPlayerController.h"
+#include "AstralPlague/Player/AstralPlayerState.h"
 #include "AstralPlague/AbilitySystem/AstralStatsComponent.h"
 #include "Engine/LocalPlayer.h"
 #include "Camera/CameraComponent.h"

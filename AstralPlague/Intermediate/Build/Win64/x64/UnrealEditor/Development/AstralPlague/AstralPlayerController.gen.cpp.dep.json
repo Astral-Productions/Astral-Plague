@@ -6,7 +6,7 @@
         "PCH": "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\astralplagueeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
             "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\astralplague\\definitions.astralplague.h",
-            "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\character\\astralplayercontroller.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\source\\astralplague\\player\\astralplayercontroller.h",
             "d:\\unrealdev\\astralplague\\astralplague\\plugins\\modulargameplayactors\\source\\modulargameplayactors\\public\\modularplayercontroller.h",
             "d:\\unrealdev\\astralplague\\astralplague\\plugins\\modulargameplayactors\\intermediate\\build\\win64\\unrealeditor\\inc\\modulargameplayactors\\uht\\modularplayercontroller.generated.h",
             "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\unrealeditor\\inc\\astralplague\\uht\\astralplayercontroller.generated.h"

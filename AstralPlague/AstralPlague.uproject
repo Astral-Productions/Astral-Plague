@@ -68,6 +68,10 @@
 		{
 			"Name": "GameFeatures",
 			"Enabled": true
+		},
+		{
+			"Name": "AstralPlagueCore",
+			"Enabled": true
 		}
 	]
 }

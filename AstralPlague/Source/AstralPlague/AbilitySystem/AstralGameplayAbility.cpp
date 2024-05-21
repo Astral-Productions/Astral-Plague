@@ -7,7 +7,7 @@
 #include "AstralPlague/AstralGameplayTags.h"
 #include "AstralAbilityCost.h"
 #include "AstralAbilitySystemComponent.h"
-#include "AstralPlague/Character/AstralPlayerController.h"
+#include "AstralPlague/Player/AstralPlayerController.h"
 #include "AstralPlague/Character/AstralPlagueCharacter.h"
 
 UAstralGameplayAbility::UAstralGameplayAbility(const FObjectInitializer& ObjectInitializer)

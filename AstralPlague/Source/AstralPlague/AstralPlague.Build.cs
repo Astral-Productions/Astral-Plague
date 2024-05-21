@@ -9,33 +9,40 @@ public class AstralPlague : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", 
-			"CoreUObject", 
-			"Engine", 
-			"InputCore", 
-			"EnhancedInput", 
-			"GameplayAbilities", 
-			"GameplayTags", 
-			"GameplayTasks", 
+			"Core",
+			
+			"CoreUObject",
+			"ApplicationCore",
+			"Engine",
+			"PhysicsCore",
+			"GameplayTags",
+			"GameplayTasks",
+			"GameplayAbilities",
+			"AIModule",
+			"ModularGameplay",
+			"ModularGameplayActors",
+			"GameFeatures",
+			"Hotfix",
 			"Niagara",
-			"CommonUI",
-			"CommonInput"
-			
-			
+			"PropertyPath"
 		});
 		
 		PrivateDependencyModuleNames.AddRange(
 			new string[] {
 				"InputCore",
+				"Slate",
+				"SlateCore",
 				"RenderCore",
 				"DeveloperSettings",
 				"EnhancedInput",
+				"NetCore",
+				"RHI",
 				"Projects",
-				"UMG", 
-				"ModularGameplay", 
-				"ModularGameplayActors",
-				"GameFeatures",
-				"GameFeaturesEditor"
-					
+				"UMG",
+				"CommonUI",
+				"CommonInput",
+				"AudioMixer",
+				"EngineSettings",
 			}
 		);
 	}
