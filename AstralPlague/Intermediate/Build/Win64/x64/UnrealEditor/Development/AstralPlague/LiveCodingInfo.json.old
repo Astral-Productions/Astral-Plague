@@ -33,6 +33,7 @@
 			"AstralPlague.cpp.obj",
 			"AstralPlagueGameMode.cpp.obj",
 			"AstralCameraComponent.cpp.obj",
+			"AstralCameraMode.cpp.obj",
 			"AstralPlayerCameraManager.cpp.obj",
 			"AstralUICameraManagerComponent.cpp.obj",
 			"AstralCharacterMovementComponent.cpp.obj",
@@ -49,8 +50,10 @@
 			"AstralExperienceActionSet.cpp.obj",
 			"AstralExperienceDefinition.cpp.obj",
 			"AstralExperienceManager.cpp.obj",
+			"AstralExperienceManagerComponent.cpp.obj",
 			"AstralGameMode.cpp.obj",
 			"AstralGameState.cpp.obj",
+			"AstralWorldSettings.cpp.obj",
 			"AstralInputComponent.cpp.obj",
 			"AstralInputConfig.cpp.obj",
 			"AstralMappableConfigPair.cpp.obj",
@@ -64,9 +67,7 @@
 			"AstralAssetManager.cpp.obj",
 			"AstralAssetManagerStartupJob.cpp.obj",
 			"AstralGameData.cpp.obj",
-			"AstralCameraMode.cpp.obj",
-			"AstralExperienceManagerComponent.cpp.obj",
-			"AstralWorldSettings.cpp.obj"
+			"AstralLocalPlayer.cpp.obj"
 		]
 	}
 }

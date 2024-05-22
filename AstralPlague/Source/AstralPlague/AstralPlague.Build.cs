@@ -39,6 +39,8 @@ public class AstralPlague : ModuleRules
 				"UMG",
 				"CommonUI",
 				"CommonInput",
+				"CommonGame",
+				"CommonUser",
 				"AudioMixer",
 				"EngineSettings",
 			}

@@ -2,7 +2,8 @@
 
 #pragma once
 
-#include "CommonLocalPlayer.h"
+
+#include "../../../Plugins/CommonGame/Source/Public/CommonLocalPlayer.h"
 
 
 #include "AstralLocalPlayer.generated.h"
@@ -12,7 +13,7 @@ struct FGenericTeamId;
 class APlayerController;
 class UInputMappingContext;
 class UAstralSettingsLocal;
-class UAstralSettingsShared;
+
 class UObject;
 class UWorld;
 struct FFrame;
@@ -40,36 +41,30 @@ public:
 
 	//~ULocalPlayer interface
 	virtual bool SpawnPlayActor(const FString& URL, FString& OutError, UWorld* InWorld) override;
-	virtual void InitOnlineSession() override;
+	
 	//~End of ULocalPlayer interface
 
 	
 	/** Gets the local settings for this player, this is read from config files at process startup and is always valid */
 	UFUNCTION()
 	UAstralSettingsLocal* GetLocalSettings() const;
-
-	/** Gets the shared setting for this player, this is read using the save game system so may not be correct until after user login */
-	UFUNCTION()
-	UAstralSettingsShared* GetSharedSettings() const;
+	
 
 	/** Starts an async request to load the shared settings, this will call OnSharedSettingsLoaded after loading or creating new ones */
 	void LoadSharedSettingsFromDisk(bool bForceLoad = false);
 
 protected:
-	void OnSharedSettingsLoaded(UAstralSettingsShared* LoadedOrCreatedSettings);
+	
 
 	void OnAudioOutputDeviceChanged(const FString& InAudioOutputDeviceId);
 	
 	UFUNCTION()
 	void OnCompletedAudioDeviceSwap(const FSwapAudioOutputResult& SwapResult);
 
-	void OnPlayerControllerChanged(APlayerController* NewController);
-
-
+	
 
 private:
-	UPROPERTY(Transient)
-	mutable TObjectPtr<UAstralSettingsShared> SharedSettings;
+
 
 	FUniqueNetIdRepl NetIdForSharedSettings;
 

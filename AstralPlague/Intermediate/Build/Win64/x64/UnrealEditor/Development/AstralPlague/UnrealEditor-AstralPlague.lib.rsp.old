@@ -8,8 +8,6 @@
 /NODEFAULTLIB
 "D:\UnrealDev\AstralPlague\AstralPlague\Intermediate\Build\Win64\x64\AstralPlagueEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
 "D:\UnrealDev\AstralPlague\AstralPlague\Intermediate\Build\Win64\x64\UnrealEditor\Development\AstralPlague\Module.AstralPlague.cpp.obj"
-"D:\UnrealDev\AstralPlague\AstralPlague\Intermediate\Build\Win64\x64\UnrealEditor\Development\AstralPlague\AstralCameraMode.cpp.obj"
-"D:\UnrealDev\AstralPlague\AstralPlague\Intermediate\Build\Win64\x64\UnrealEditor\Development\AstralPlague\AstralExperienceManagerComponent.cpp.obj"
-"D:\UnrealDev\AstralPlague\AstralPlague\Intermediate\Build\Win64\x64\UnrealEditor\Development\AstralPlague\AstralWorldSettings.cpp.obj"
+"D:\UnrealDev\AstralPlague\AstralPlague\Intermediate\Build\Win64\x64\UnrealEditor\Development\AstralPlague\AstralLocalPlayer.cpp.obj"
 "D:\UnrealDev\AstralPlague\AstralPlague\Intermediate\Build\Win64\x64\UnrealEditor\Development\AstralPlague\Default.rc2.res"
 /OUT:"D:\UnrealDev\AstralPlague\AstralPlague\Intermediate\Build\Win64\x64\UnrealEditor\Development\AstralPlague\UnrealEditor-AstralPlague.lib"

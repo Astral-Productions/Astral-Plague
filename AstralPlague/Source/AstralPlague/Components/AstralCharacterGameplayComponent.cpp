@@ -17,7 +17,10 @@
 #include "Components/GameFrameworkComponentManager.h"
 #include "AstralPlague/Camera/AstralCameraMode.h"
 #include "InputMappingContext.h"
+#include "AstralPlague/Input/AstralInputComponent.h"
 #include "AstralPlague/Input/AstralMappableConfigPair.h"  
+#include "AstralPlague/Player/AstralLocalPlayer.h"
+#include "UserSettings/EnhancedInputUserSettings.h"
 
 #include UE_INLINE_GENERATED_CPP_BY_NAME(AstralCharacterGameplayComponent)
 
@@ -235,7 +238,7 @@ void UAstralCharacterGameplayComponent::InitializePlayerInput(UInputComponent* P
 	check(PC);
 
 	
-	const UAstralLocalPlayer* LP = Cast<UAstra>(PC->GetLocalPlayer());
+	const UAstralLocalPlayer* LP = Cast<UAstralLocalPlayer>(PC->GetLocalPlayer());
 	check(LP);
 
 	UEnhancedInputLocalPlayerSubsystem* Subsystem = LP->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>();
@@ -280,13 +283,13 @@ void UAstralCharacterGameplayComponent::InitializePlayerInput(UInputComponent* P
 					// This is where we actually bind and input action to a gameplay tag, which means that Gameplay Ability Blueprints will
 					// be triggered directly by these input actions Triggered events. 
 					TArray<uint32> BindHandles;
-					AstralIC->BindAbilityActions(InputConfig, this, &ThisClass::Input_AbilityInputTagPressed, &ThisClass::Input_AbilityInputTagReleased, /*out#2# BindHandles);
+					AstralIC->BindAbilityActions(InputConfig, this, &ThisClass::Input_AbilityInputTagPressed, &ThisClass::Input_AbilityInputTagReleased, /*out*/ BindHandles);
 
-					AstralIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Move, ETriggerEvent::Triggered, this, &ThisClass::Input_Move, /*bLogIfNotFound=#2# false);
-					AstralIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Look_Mouse, ETriggerEvent::Triggered, this, &ThisClass::Input_LookMouse, /*bLogIfNotFound=#2# false);
-					AstralIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Look_Stick, ETriggerEvent::Triggered, this, &ThisClass::Input_LookStick, /*bLogIfNotFound=#2# false);
-					AstralIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Crouch, ETriggerEvent::Triggered, this, &ThisClass::Input_Crouch, /*bLogIfNotFound=#2# false);
-					AstralIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_AutoRun, ETriggerEvent::Triggered, this, &ThisClass::Input_AutoRun, /*bLogIfNotFound=#2# false);
+					AstralIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Move, ETriggerEvent::Triggered, this, &ThisClass::Input_Move, /*bLogIfNotFound=*/ false);
+					AstralIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Look_Mouse, ETriggerEvent::Triggered, this, &ThisClass::Input_LookMouse, /*bLogIfNotFound=*/ false);
+					AstralIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Look_Stick, ETriggerEvent::Triggered, this, &ThisClass::Input_LookStick, /*bLogIfNotFound=*/ false);
+					AstralIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Crouch, ETriggerEvent::Triggered, this, &ThisClass::Input_Crouch, /*bLogIfNotFound=*/ false);
+					AstralIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_AutoRun, ETriggerEvent::Triggered, this, &ThisClass::Input_AutoRun, /*bLogIfNotFound=*/ false);
 				}
 			}
 		}
@@ -305,7 +308,7 @@ void UAstralCharacterGameplayComponent::InitializePlayerInput(UInputComponent* P
 
 void UAstralCharacterGameplayComponent::AddAdditionalInputConfig(const UAstralInputConfig* InputConfig)
 {
-	/*TArray<uint32> BindHandles;
+	TArray<uint32> BindHandles;
 
 	const APawn* Pawn = GetPawn<APawn>();
 	if (!Pawn)
@@ -327,9 +330,9 @@ void UAstralCharacterGameplayComponent::AddAdditionalInputConfig(const UAstralIn
 		UAstralInputComponent* AstralIC = Pawn->FindComponentByClass<UAstralInputComponent>();
 		if (ensureMsgf(AstralIC, TEXT("Unexpected Input Component class! The Gameplay Abilities will not be bound to their inputs. Change the input component to UAstralInputComponent or a subclass of it.")))
 		{
-			AstralIC->BindAbilityActions(InputConfig, this, &ThisClass::Input_AbilityInputTagPressed, &ThisClass::Input_AbilityInputTagReleased, /*out#2# BindHandles);
+			AstralIC->BindAbilityActions(InputConfig, this, &ThisClass::Input_AbilityInputTagPressed, &ThisClass::Input_AbilityInputTagReleased, /*out*/BindHandles);
 		}
-	}*/
+	}
 }
 
 //@Todo Update this logic 

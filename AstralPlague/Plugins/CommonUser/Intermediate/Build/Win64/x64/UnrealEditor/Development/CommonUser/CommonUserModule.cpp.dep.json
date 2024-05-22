@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unrealdev\\astralplague\\astralplague\\plugins\\commonuser\\source\\commonuser\\private\\commonusermodule.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\astralplagueeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unrealdev\\astralplague\\astralplague\\plugins\\commonuser\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\commonuser\\definitions.commonuser.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\plugins\\commonuser\\source\\commonuser\\public\\commonusermodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
