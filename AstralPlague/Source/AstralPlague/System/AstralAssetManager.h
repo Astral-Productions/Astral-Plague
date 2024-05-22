@@ -98,7 +98,7 @@ private:
 	void DoAllStartupJobs();
 
 	// Sets up the ability system
-	void InitializeGameplayCueManager();
+	static void InitializeGameplayCueManager();
 
 	// Called periodically during loads, could be used to feed the status to a loading screen
 	void UpdateInitialGameContentLoadPercent(float GameContentPercent);

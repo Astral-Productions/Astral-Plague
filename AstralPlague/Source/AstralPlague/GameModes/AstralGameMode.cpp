@@ -54,7 +54,7 @@ const UAstralPawnData* AAstralGameMode::GetPawnDataForController(const AControll
 
 	// If not, fall back to the the default for the current experience
 	check(GameState);
-	UAstralExperienceManagerComponent* ExperienceComponent = GameState->FindComponentByClass<UAstralExperienceManagerComponent>();
+	const UAstralExperienceManagerComponent* ExperienceComponent = GameState->FindComponentByClass<UAstralExperienceManagerComponent>();
 	check(ExperienceComponent);
 
 	if (ExperienceComponent->IsExperienceLoaded())

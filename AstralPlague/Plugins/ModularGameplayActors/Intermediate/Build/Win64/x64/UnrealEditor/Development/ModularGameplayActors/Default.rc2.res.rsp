@@ -79,7 +79,7 @@
 /DORIGINAL_FILE_NAME="UnrealEditor-ModularGameplayActors.dll"
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
 /DPROJECT_COPYRIGHT_STRING="Copyright Astral Productions 2024"
-/DPROJECT_PRODUCT_NAME="Third Person Game Template"
+/DPROJECT_PRODUCT_NAME=AstralPlague
 /DPROJECT_PRODUCT_IDENTIFIER=AstralPlague
 /fo "D:\UnrealDev\AstralPlague\AstralPlague\Plugins\ModularGameplayActors\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModularGameplayActors\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"

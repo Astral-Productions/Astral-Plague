@@ -9,7 +9,6 @@
 #include "Misc/App.h"
 #include "Stats/StatsMisc.h"
 #include "Engine/Engine.h"
-//#include "AstralPlague/AbilitySystem/AstralGameplayCueManager.h"
 #include "AstralPlague/AstralLogChannels.h"
 #include "AstralPlague/AbilitySystem/AstralGameplayCueManager.h"
 #include "Misc/ScopedSlowTask.h"
@@ -116,7 +115,7 @@ void UAstralAssetManager::StartInitialLoading()
 
 	{
 		// Load base game data asset
-		STARTUP_JOB_WEIGHTED(GetGameData(), 25.f);
+		//STARTUP_JOB_WEIGHTED(GetGameData(), 25.f);
 	}
 
 	// Run all the queued up startup jobs

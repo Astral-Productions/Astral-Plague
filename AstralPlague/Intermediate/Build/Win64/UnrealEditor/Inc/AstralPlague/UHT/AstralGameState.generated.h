@@ -16,7 +16,6 @@ class UAstralAbilitySystemComponent;
 #define ASTRALPLAGUE_AstralGameState_generated_h
 
 #define FID_AstralPlague_Source_AstralPlague_GameModes_AstralGameState_h_27_RPC_WRAPPERS_NO_PURE_DECLS \
-	DECLARE_FUNCTION(execOnRep_RecorderPlayerState); \
 	DECLARE_FUNCTION(execGetAstralAbilitySystemComponent);
 
 
@@ -27,15 +26,7 @@ private: \
 public: \
 	DECLARE_CLASS(AAstralGameState, AModularGameStateBase, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/AstralPlague"), NO_API) \
 	DECLARE_SERIALIZER(AAstralGameState) \
-	virtual UObject* _getUObject() const override { return const_cast<AAstralGameState*>(this); } \
-	NO_API void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override; \
-	enum class ENetFields_Private : uint16 \
-	{ \
-		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
-		ServerFPS=NETFIELD_REP_START, \
-		RecorderPlayerState, \
-		NETFIELD_REP_END=RecorderPlayerState	}; \
-	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
+	virtual UObject* _getUObject() const override { return const_cast<AAstralGameState*>(this); }
 
 
 #define FID_AstralPlague_Source_AstralPlague_GameModes_AstralGameState_h_27_ENHANCED_CONSTRUCTORS \

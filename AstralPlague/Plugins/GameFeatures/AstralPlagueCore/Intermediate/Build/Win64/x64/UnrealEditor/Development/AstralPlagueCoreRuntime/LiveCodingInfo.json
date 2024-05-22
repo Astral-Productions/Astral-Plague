@@ -1,5 +1,8 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.AstralPlagueCoreRuntime.cpp.obj": [
+			"AstralPlagueCoreRuntimeModule.cpp.obj"
+		]
 	}
 }

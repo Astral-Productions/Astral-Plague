@@ -50,20 +50,7 @@ public:
 	// Gets the ability system component used for game wide things
 	UFUNCTION(BlueprintCallable, Category = "Astral|GameState")
 	UAstralAbilitySystemComponent* GetAstralAbilitySystemComponent() const { return AbilitySystemComponent; }
-	
 
-	// Gets the server's FPS, replicated to clients
-	float GetServerFPS() const;
-
-	// Indicate the local player state is recording a replay
-	void SetRecorderPlayerState(APlayerState* NewPlayerState);
-
-	// Gets the player state that recorded the replay, if valid
-	APlayerState* GetRecorderPlayerState() const;
-
-	// Delegate called when the replay player state changes
-	DECLARE_MULTICAST_DELEGATE_OneParam(FOnRecorderPlayerStateChanged, APlayerState*);
-	FOnRecorderPlayerStateChanged OnRecorderPlayerStateChangedEvent;
 
 private:
 	// Handles loading and managing the current gameplay experience
@@ -74,16 +61,5 @@ private:
 	UPROPERTY(VisibleAnywhere, Category = "Astral|GameState")
 	TObjectPtr<UAstralAbilitySystemComponent> AbilitySystemComponent;
 
-protected:
-	UPROPERTY(Replicated)
-	float ServerFPS;
-
-	// The player state that recorded a replay, it is used to select the right pawn to follow
-	// This is only set in replay streams and is not replicated normally
-	UPROPERTY(Transient, ReplicatedUsing = OnRep_RecorderPlayerState)
-	TObjectPtr<APlayerState> RecorderPlayerState;
-
-	UFUNCTION()
-	void OnRep_RecorderPlayerState();
 
 };

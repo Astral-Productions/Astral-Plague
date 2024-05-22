@@ -31,7 +31,6 @@ AAstralGameState::AAstralGameState(const FObjectInitializer& ObjectInitializer)
 
 	ExperienceManagerComponent = CreateDefaultSubobject<UAstralExperienceManagerComponent>(TEXT("ExperienceManagerComponent"));
 
-	ServerFPS = 0.0f;
 }
 
 void AAstralGameState::PreInitializeComponents()
@@ -82,52 +81,9 @@ void AAstralGameState::SeamlessTravelTransitionCheckpoint(bool bToTransitionMap)
 	}
 }
 
-void AAstralGameState::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
-{
-	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
-
-	DOREPLIFETIME(ThisClass, ServerFPS);
-	DOREPLIFETIME_CONDITION(ThisClass, RecorderPlayerState, COND_ReplayOnly);
-}
 
 void AAstralGameState::Tick(float DeltaSeconds)
 {
-	Super::Tick(DeltaSeconds);
-
-	if (GetLocalRole() == ROLE_Authority)
-	{
-		ServerFPS = GAverageFPS;
-	}
+	Super::Tick(DeltaSeconds);	
 }
 
-
-float AAstralGameState::GetServerFPS() const
-{
-	return ServerFPS;
-}
-
-void AAstralGameState::SetRecorderPlayerState(APlayerState* NewPlayerState)
-{
-	if (RecorderPlayerState == nullptr)
-	{
-		// Set it and call the rep callback so it can do any record-time setup
-		RecorderPlayerState = NewPlayerState;
-		OnRep_RecorderPlayerState();
-	}
-	else
-	{
-		UE_LOG(LogAstral, Warning, TEXT("SetRecorderPlayerState was called on %s but should only be called once per game on the primary user"), *GetName());
-	}
-}
-
-APlayerState* AAstralGameState::GetRecorderPlayerState() const
-{
-	// TODO: Maybe auto select it if null?
-
-	return RecorderPlayerState;
-}
-
-void AAstralGameState::OnRep_RecorderPlayerState()
-{
-	OnRecorderPlayerStateChangedEvent.Broadcast(RecorderPlayerState);
-}

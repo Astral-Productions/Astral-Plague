@@ -22,7 +22,6 @@ public class AstralPlague : ModuleRules
 			"ModularGameplay",
 			"ModularGameplayActors",
 			"GameFeatures",
-			"Hotfix",
 			"Niagara",
 			"PropertyPath"
 		});

@@ -589,11 +589,17 @@
     <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularPawn.h"/>
     <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularPlayerController.h"/>
     <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularPlayerState.h"/>
+    <ClCompile Include="..\..\Source\AstralPlague\AbilitySystem\AstralAbilitySourceInterface.cpp" />
+    <ClCompile Include="..\..\Source\AstralPlague\AbilitySystem\AstralAbilitySystemGlobals.cpp" />
+    <ClCompile Include="..\..\Source\AstralPlague\AbilitySystem\AstralGameplayEffectContext.cpp" />
     <ClCompile Include="..\..\Source\AstralPlague\AstralGameplayTags.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories_1)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles_1)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <ClInclude Include="..\..\Source\AstralPlague\AbilitySystem\AstralAbilitySourceInterface.h" />
+    <ClInclude Include="..\..\Source\AstralPlague\AbilitySystem\AstralAbilitySystemGlobals.h" />
+    <ClInclude Include="..\..\Source\AstralPlague\AbilitySystem\AstralGameplayEffectContext.h" />
     <ClInclude Include="..\..\Source\AstralPlague\AstralGameplayTags.h"/>
     <ClCompile Include="..\..\Source\AstralPlague\AstralLogChannels.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories_1)</AdditionalIncludeDirectories>
