@@ -107,11 +107,12 @@ struct Z_Construct_UClass_UAstralCameraMode_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * UAstralCameraMode\n *\n *\x09""Base class for all camera modes.\n */" },
 #endif
 		{ "IncludePath", "Camera/AstralCameraMode.h" },
-		{ "IsBlueprintBase", "false" },
+		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Camera/AstralCameraMode.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "UAstralCameraMode\n\n    Base class for all camera modes." },
@@ -381,11 +382,11 @@ struct Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Camera_AstralC
 		{ EAstralCameraModeBlendFunction_StaticEnum, TEXT("EAstralCameraModeBlendFunction"), &Z_Registration_Info_UEnum_EAstralCameraModeBlendFunction, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 406020729U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UAstralCameraMode, UAstralCameraMode::StaticClass, TEXT("UAstralCameraMode"), &Z_Registration_Info_UClass_UAstralCameraMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAstralCameraMode), 2097804745U) },
+		{ Z_Construct_UClass_UAstralCameraMode, UAstralCameraMode::StaticClass, TEXT("UAstralCameraMode"), &Z_Registration_Info_UClass_UAstralCameraMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAstralCameraMode), 2282849556U) },
 		{ Z_Construct_UClass_UAstralCameraModeStack, UAstralCameraModeStack::StaticClass, TEXT("UAstralCameraModeStack"), &Z_Registration_Info_UClass_UAstralCameraModeStack, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAstralCameraModeStack), 454694205U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Camera_AstralCameraMode_h_1645240672(TEXT("/Script/AstralPlague"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Camera_AstralCameraMode_h_3325912946(TEXT("/Script/AstralPlague"),
 	Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Camera_AstralCameraMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Camera_AstralCameraMode_h_Statics::ClassInfo),
 	nullptr, 0,
 	Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Camera_AstralCameraMode_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstralPlague_Source_AstralPlague_Camera_AstralCameraMode_h_Statics::EnumInfo));

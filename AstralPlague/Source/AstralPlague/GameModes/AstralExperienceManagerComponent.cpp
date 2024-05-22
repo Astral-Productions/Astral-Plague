@@ -149,19 +149,7 @@ void UAstralExperienceManagerComponent::StartExperienceLoad()
 
 	TArray<FName> BundlesToLoad;
 	BundlesToLoad.Add(FAstralBundles::Equipped);
-
-	//@TODO: Centralize this client/server stuff into the AstralAssetManager
-	const ENetMode OwnerNetMode = GetOwner()->GetNetMode();
-	const bool bLoadClient = GIsEditor || (OwnerNetMode != NM_DedicatedServer);
-	const bool bLoadServer = GIsEditor || (OwnerNetMode != NM_Client);
-	if (bLoadClient)
-	{
-		BundlesToLoad.Add(UGameFeaturesSubsystemSettings::LoadStateClient);
-	}
-	if (bLoadServer)
-	{
-		BundlesToLoad.Add(UGameFeaturesSubsystemSettings::LoadStateServer);
-	}
+	
 
 	TSharedPtr<FStreamableHandle> BundleLoadHandle = nullptr;
 	if (BundleAssetList.Num() > 0)
@@ -352,11 +340,7 @@ void UAstralExperienceManagerComponent::OnExperienceFullLoadCompleted()
 
 	OnExperienceLoaded_LowPriority.Broadcast(CurrentExperience);
 	OnExperienceLoaded_LowPriority.Clear();
-
-	// Apply any necessary scalability settings
-#if !UE_SERVER
-	UAstralSettingsLocal::Get()->OnExperienceLoaded();
-#endif
+		
 }
 
 void UAstralExperienceManagerComponent::OnActionDeactivationCompleted()

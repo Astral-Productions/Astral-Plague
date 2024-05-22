@@ -1,6 +1,8 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "AstralCharacterGameplayComponent.h"
+
+#include "EnhancedInputSubsystems.h"
 #include "Components/GameFrameworkComponentDelegates.h"
 #include "Logging/MessageLog.h"
 #include "AstralPlague/AstralLogChannels.h"
@@ -15,7 +17,7 @@
 #include "Components/GameFrameworkComponentManager.h"
 #include "AstralPlague/Camera/AstralCameraMode.h"
 #include "InputMappingContext.h"
-//#include "Input/LyraMappableConfigPair.h"  //@Todo Update this logic 
+#include "AstralPlague/Input/AstralMappableConfigPair.h"  
 
 #include UE_INLINE_GENERATED_CPP_BY_NAME(AstralCharacterGameplayComponent)
 
@@ -23,7 +25,7 @@
 #include "Misc/UObjectToken.h"
 #endif	// WITH_EDITOR
 
-namespace LyraHero
+namespace AstralHero
 {
 	static const float LookYawRate = 300.0f;
 	static const float LookPitchRate = 165.0f;
@@ -50,8 +52,8 @@ void UAstralCharacterGameplayComponent::OnRegister()
 #if WITH_EDITOR
 		if (GIsEditor)
 		{
-			static const FText Message = NSLOCTEXT("LyraHeroComponent", "NotOnPawnError", "has been added to a blueprint whose base class is not a Pawn. To use this component, it MUST be placed on a Pawn Blueprint. This will cause a crash if you PIE!");
-			static const FName HeroMessageLogName = TEXT("LyraHeroComponent");
+			static const FText Message = NSLOCTEXT("AstralHeroComponent", "NotOnPawnError", "has been added to a blueprint whose base class is not a Pawn. To use this component, it MUST be placed on a Pawn Blueprint. This will cause a crash if you PIE!");
+			static const FName HeroMessageLogName = TEXT("AstralHeroComponent");
 			
 			FMessageLog(HeroMessageLogName).Error()
 				->AddToken(FUObjectToken::Create(this, FText::FromString(GetNameSafe(this))))
@@ -110,10 +112,10 @@ bool UAstralCharacterGameplayComponent::CanChangeInitState(UGameFrameworkCompone
 
 		if (bIsLocallyControlled && !bIsBot)
 		{
-			AAstralPlayerController* LyraPC = GetController<AAstralPlayerController>();
+			AAstralPlayerController* AstralPC = GetController<AAstralPlayerController>();
 
 			// The input component and local player is required when locally controlled.
-			if (!Pawn->InputComponent || !LyraPC || !LyraPC->GetLocalPlayer())
+			if (!Pawn->InputComponent || !AstralPC || !AstralPC->GetLocalPlayer())
 			{
 				return false;
 			}
@@ -124,9 +126,9 @@ bool UAstralCharacterGameplayComponent::CanChangeInitState(UGameFrameworkCompone
 	else if (CurrentState == AstralGameplayTags::InitState_DataAvailable && DesiredState == AstralGameplayTags::InitState_DataInitialized)
 	{
 		// Wait for player state and extension component
-		AAstralPlayerState* LyraPS = GetPlayerState<AAstralPlayerState>();
+		AAstralPlayerState* AstralPS = GetPlayerState<AAstralPlayerState>();
 
-		return LyraPS && Manager->HasFeatureReachedInitState(Pawn, UAstralPawnExtensionComponent::NAME_ActorFeatureName, AstralGameplayTags::InitState_DataInitialized);
+		return AstralPS && Manager->HasFeatureReachedInitState(Pawn, UAstralPawnExtensionComponent::NAME_ActorFeatureName, AstralGameplayTags::InitState_DataInitialized);
 	}
 	else if (CurrentState == AstralGameplayTags::InitState_DataInitialized && DesiredState == AstralGameplayTags::InitState_GameplayReady)
 	{
@@ -142,8 +144,8 @@ void UAstralCharacterGameplayComponent::HandleChangeInitState(UGameFrameworkComp
 	if (CurrentState == AstralGameplayTags::InitState_DataAvailable && DesiredState == AstralGameplayTags::InitState_DataInitialized)
 	{
 		APawn* Pawn = GetPawn<APawn>();
-		AAstralPlayerState* LyraPS = GetPlayerState<AAstralPlayerState>();
-		if (!ensure(Pawn && LyraPS))
+		AAstralPlayerState* AstralPS = GetPlayerState<AAstralPlayerState>();
+		if (!ensure(Pawn && AstralPS))
 		{
 			return;
 		}
@@ -156,10 +158,10 @@ void UAstralCharacterGameplayComponent::HandleChangeInitState(UGameFrameworkComp
 
 			// The player state holds the persistent data for this player (state that persists across deaths and multiple pawns).
 			// The ability system component and attribute sets live on the player state.
-			PawnExtComp->InitializeAbilitySystem(LyraPS->GetAstralAbilitySystemComponent(), LyraPS);
+			PawnExtComp->InitializeAbilitySystem(AstralPS->GetAstralAbilitySystemComponent(), AstralPS);
 		}
 
-		if (AAstralPlayerController* LyraPC = GetController<AAstralPlayerController>())
+		if (AAstralPlayerController* AstralPC = GetController<AAstralPlayerController>())
 		{
 			if (Pawn->InputComponent != nullptr)
 			{
@@ -221,7 +223,7 @@ void UAstralCharacterGameplayComponent::EndPlay(const EEndPlayReason::Type EndPl
 
 void UAstralCharacterGameplayComponent::InitializePlayerInput(UInputComponent* PlayerInputComponent)
 {
-	/*check(PlayerInputComponent);
+	check(PlayerInputComponent);
 
 	const APawn* Pawn = GetPawn<APawn>();
 	if (!Pawn)
@@ -233,7 +235,7 @@ void UAstralCharacterGameplayComponent::InitializePlayerInput(UInputComponent* P
 	check(PC);
 
 	
-	const ULyraLocalPlayer* LP = Cast<ULyraLocalPlayer>(PC->GetLocalPlayer());
+	const UAstralLocalPlayer* LP = Cast<UAstra>(PC->GetLocalPlayer());
 	check(LP);
 
 	UEnhancedInputLocalPlayerSubsystem* Subsystem = LP->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>();
@@ -245,7 +247,7 @@ void UAstralCharacterGameplayComponent::InitializePlayerInput(UInputComponent* P
 	{
 		if (const UAstralPawnData* PawnData = PawnExtComp->GetPawnData<UAstralPawnData>())
 		{
-			if (const ULyraInputConfig* InputConfig = PawnData->InputConfig)
+			if (const UAstralInputConfig* InputConfig = PawnData->InputConfig)
 			{
 				for (const FInputMappingContextAndPriority& Mapping : DefaultInputMappings)
 				{
@@ -266,25 +268,25 @@ void UAstralCharacterGameplayComponent::InitializePlayerInput(UInputComponent* P
 					}
 				}
 
-				// The Lyra Input Component has some additional functions to map Gameplay Tags to an Input Action.
+				// The Astral Input Component has some additional functions to map Gameplay Tags to an Input Action.
 				// If you want this functionality but still want to change your input component class, make it a subclass
-				// of the ULyraInputComponent or modify this component accordingly.
-				ULyraInputComponent* LyraIC = Cast<ULyraInputComponent>(PlayerInputComponent);
-				if (ensureMsgf(LyraIC, TEXT("Unexpected Input Component class! The Gameplay Abilities will not be bound to their inputs. Change the input component to ULyraInputComponent or a subclass of it.")))
+				// of the UAstralInputComponent or modify this component accordingly.
+				UAstralInputComponent* AstralIC = Cast<UAstralInputComponent>(PlayerInputComponent);
+				if (ensureMsgf(AstralIC, TEXT("Unexpected Input Component class! The Gameplay Abilities will not be bound to their inputs. Change the input component to UAstralInputComponent or a subclass of it.")))
 				{
 					// Add the key mappings that may have been set by the player
-					LyraIC->AddInputMappings(InputConfig, Subsystem);
+					AstralIC->AddInputMappings(InputConfig, Subsystem);
 
 					// This is where we actually bind and input action to a gameplay tag, which means that Gameplay Ability Blueprints will
 					// be triggered directly by these input actions Triggered events. 
 					TArray<uint32> BindHandles;
-					LyraIC->BindAbilityActions(InputConfig, this, &ThisClass::Input_AbilityInputTagPressed, &ThisClass::Input_AbilityInputTagReleased, /*out#2# BindHandles);
+					AstralIC->BindAbilityActions(InputConfig, this, &ThisClass::Input_AbilityInputTagPressed, &ThisClass::Input_AbilityInputTagReleased, /*out#2# BindHandles);
 
-					LyraIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Move, ETriggerEvent::Triggered, this, &ThisClass::Input_Move, /*bLogIfNotFound=#2# false);
-					LyraIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Look_Mouse, ETriggerEvent::Triggered, this, &ThisClass::Input_LookMouse, /*bLogIfNotFound=#2# false);
-					LyraIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Look_Stick, ETriggerEvent::Triggered, this, &ThisClass::Input_LookStick, /*bLogIfNotFound=#2# false);
-					LyraIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Crouch, ETriggerEvent::Triggered, this, &ThisClass::Input_Crouch, /*bLogIfNotFound=#2# false);
-					LyraIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_AutoRun, ETriggerEvent::Triggered, this, &ThisClass::Input_AutoRun, /*bLogIfNotFound=#2# false);
+					AstralIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Move, ETriggerEvent::Triggered, this, &ThisClass::Input_Move, /*bLogIfNotFound=#2# false);
+					AstralIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Look_Mouse, ETriggerEvent::Triggered, this, &ThisClass::Input_LookMouse, /*bLogIfNotFound=#2# false);
+					AstralIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Look_Stick, ETriggerEvent::Triggered, this, &ThisClass::Input_LookStick, /*bLogIfNotFound=#2# false);
+					AstralIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_Crouch, ETriggerEvent::Triggered, this, &ThisClass::Input_Crouch, /*bLogIfNotFound=#2# false);
+					AstralIC->BindNativeAction(InputConfig, AstralGameplayTags::InputTag_AutoRun, ETriggerEvent::Triggered, this, &ThisClass::Input_AutoRun, /*bLogIfNotFound=#2# false);
 				}
 			}
 		}
@@ -296,7 +298,7 @@ void UAstralCharacterGameplayComponent::InitializePlayerInput(UInputComponent* P
 	}
  
 	UGameFrameworkComponentManager::SendGameFrameworkComponentExtensionEvent(const_cast<APlayerController*>(PC), NAME_BindInputsNow);
-	UGameFrameworkComponentManager::SendGameFrameworkComponentExtensionEvent(const_cast<APawn*>(Pawn), NAME_BindInputsNow);*/
+	UGameFrameworkComponentManager::SendGameFrameworkComponentExtensionEvent(const_cast<APawn*>(Pawn), NAME_BindInputsNow);
 }
 
 //@Todo Update this logic 
@@ -322,10 +324,10 @@ void UAstralCharacterGameplayComponent::AddAdditionalInputConfig(const UAstralIn
 
 	if (const UAstralPawnExtensionComponent* PawnExtComp = UAstralPawnExtensionComponent::FindPawnExtensionComponent(Pawn))
 	{
-		ULyraInputComponent* LyraIC = Pawn->FindComponentByClass<ULyraInputComponent>();
-		if (ensureMsgf(LyraIC, TEXT("Unexpected Input Component class! The Gameplay Abilities will not be bound to their inputs. Change the input component to ULyraInputComponent or a subclass of it.")))
+		UAstralInputComponent* AstralIC = Pawn->FindComponentByClass<UAstralInputComponent>();
+		if (ensureMsgf(AstralIC, TEXT("Unexpected Input Component class! The Gameplay Abilities will not be bound to their inputs. Change the input component to UAstralInputComponent or a subclass of it.")))
 		{
-			LyraIC->BindAbilityActions(InputConfig, this, &ThisClass::Input_AbilityInputTagPressed, &ThisClass::Input_AbilityInputTagReleased, /*out#2# BindHandles);
+			AstralIC->BindAbilityActions(InputConfig, this, &ThisClass::Input_AbilityInputTagPressed, &ThisClass::Input_AbilityInputTagReleased, /*out#2# BindHandles);
 		}
 	}*/
 }
@@ -378,10 +380,10 @@ void UAstralCharacterGameplayComponent::Input_Move(const FInputActionValue& Inpu
 	AController* Controller = Pawn ? Pawn->GetController() : nullptr;
 
 	// If the player has attempted to move again then cancel auto running
-	if (AAstralPlayerController* LyraController = Cast<AAstralPlayerController>(Controller))
+	if (AAstralPlayerController* AstralController = Cast<AAstralPlayerController>(Controller))
 	{
 		//@Todo Update this logic 
-		//LyraController->SetIsAutoRunning(false);
+		//AstralController->SetIsAutoRunning(false);
 	}
 	
 	if (Controller)
@@ -441,12 +443,12 @@ void UAstralCharacterGameplayComponent::Input_LookStick(const FInputActionValue&
 
 	if (Value.X != 0.0f)
 	{
-		Pawn->AddControllerYawInput(Value.X * LyraHero::LookYawRate * World->GetDeltaSeconds());
+		Pawn->AddControllerYawInput(Value.X * AstralHero::LookYawRate * World->GetDeltaSeconds());
 	}
 
 	if (Value.Y != 0.0f)
 	{
-		Pawn->AddControllerPitchInput(Value.Y * LyraHero::LookPitchRate * World->GetDeltaSeconds());
+		Pawn->AddControllerPitchInput(Value.Y * AstralHero::LookPitchRate * World->GetDeltaSeconds());
 	}
 }
 

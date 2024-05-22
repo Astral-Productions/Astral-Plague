@@ -10,7 +10,6 @@ public class AstralPlague : ModuleRules
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", 
 			"Core",
-			
 			"CoreUObject",
 			"ApplicationCore",
 			"Engine",
@@ -23,7 +22,7 @@ public class AstralPlague : ModuleRules
 			"ModularGameplayActors",
 			"GameFeatures",
 			"Niagara",
-			"PropertyPath"
+			"PropertyPath",
 		});
 		
 		PrivateDependencyModuleNames.AddRange(
