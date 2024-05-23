@@ -69,7 +69,6 @@
 
 # Not recommended to use, but supported:
 *.[mM][pP]3 lfs
-* [wW][mM][aA] lfs
 *.[aA][cC]3 lfs
 *.[aA][mM][rR] lfs
 *.[aA][iI][fF] lfs
@@ -89,7 +88,6 @@
 *.[mM][pP]4 lfs
 
 Can also be used, only some platforms are supported:
-*.3[gG]2 lfs
 *.3[gG][pP] lfs
 *.3[gG][pP]2 lfs
 *.3[gG][pP][pP] lfs
