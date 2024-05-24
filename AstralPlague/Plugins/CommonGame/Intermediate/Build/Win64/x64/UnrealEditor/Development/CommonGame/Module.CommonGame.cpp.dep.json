@@ -6,6 +6,7 @@
         "PCH": "d:\\unrealdev\\astralplague\\astralplague\\intermediate\\build\\win64\\x64\\astralplagueeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
             "d:\\unrealdev\\astralplague\\astralplague\\plugins\\commongame\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\commongame\\definitions.commongame.h",
+            "d:\\unrealdev\\astralplague\\astralplague\\plugins\\commongame\\intermediate\\build\\win64\\unrealeditor\\inc\\commongame\\uht\\commongame.init.gen.cpp",
             "d:\\unrealdev\\astralplague\\astralplague\\plugins\\commongame\\source\\private\\actions\\asyncaction_createwidgetasync.cpp",
             "d:\\unrealdev\\astralplague\\astralplague\\plugins\\commongame\\source\\public\\actions\\asyncaction_createwidgetasync.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\cancellableasyncaction.h",

@@ -9,7 +9,6 @@
 			"AstralPlague.init.gen.cpp.obj",
 			"AstralPlagueCharacter.gen.cpp.obj",
 			"AstralPlagueGameMode.gen.cpp.obj",
-			"AstralPlayerController.gen.cpp.obj",
 			"AstralPlayerState.gen.cpp.obj",
 			"AstralSettingsLocal.gen.cpp.obj",
 			"AstralStatsComponent.gen.cpp.obj",
@@ -58,8 +57,8 @@
 			"AstralInputConfig.cpp.obj",
 			"AstralMappableConfigPair.cpp.obj",
 			"AstralVerbMessage.cpp.obj",
+			"AstralLocalPlayer.cpp.obj",
 			"AstralNPCController.cpp.obj",
-			"AstralPlayerController.cpp.obj",
 			"AstralPlayerSpawningManagerComponent.cpp.obj",
 			"AstralPlayerStart.cpp.obj",
 			"AstralPlayerState.cpp.obj",
@@ -67,7 +66,7 @@
 			"AstralAssetManager.cpp.obj",
 			"AstralAssetManagerStartupJob.cpp.obj",
 			"AstralGameData.cpp.obj",
-			"AstralLocalPlayer.cpp.obj"
+			"AstralPlayerController.cpp.obj"
 		]
 	}
 }

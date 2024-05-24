@@ -8,7 +8,6 @@
 			"AstralPawnData.gen.cpp.obj",
 			"AstralPlagueCharacter.gen.cpp.obj",
 			"AstralPlagueGameMode.gen.cpp.obj",
-			"AstralPlayerController.gen.cpp.obj",
 			"AstralPlayerState.gen.cpp.obj",
 			"AstralSettingsLocal.gen.cpp.obj",
 			"AstralStatsComponent.gen.cpp.obj",
@@ -39,6 +38,7 @@
 			"AstralPawnData.cpp.obj",
 			"AstralPawnExtensionComponent.cpp.obj",
 			"AstralPlagueCharacter.cpp.obj",
+			"AstralCharacterGameplayComponent.cpp.obj",
 			"GameFeatureAction_AddAbilities.cpp.obj",
 			"GameFeatureAction_AddGameplayCuePath.cpp.obj",
 			"GameFeatureAction_AddInputBinding.cpp.obj",
@@ -56,8 +56,8 @@
 			"AstralInputConfig.cpp.obj",
 			"AstralMappableConfigPair.cpp.obj",
 			"AstralVerbMessage.cpp.obj",
+			"AstralLocalPlayer.cpp.obj",
 			"AstralNPCController.cpp.obj",
-			"AstralPlayerController.cpp.obj",
 			"AstralPlayerSpawningManagerComponent.cpp.obj",
 			"AstralPlayerStart.cpp.obj",
 			"AstralPlayerState.cpp.obj",
@@ -66,8 +66,7 @@
 			"AstralAssetManagerStartupJob.cpp.obj",
 			"AstralGameData.cpp.obj",
 			"AstralPlague.init.gen.cpp.obj",
-			"AstralCharacterGameplayComponent.cpp.obj",
-			"AstralLocalPlayer.cpp.obj"
+			"AstralPlayerController.cpp.obj"
 		]
 	}
 }

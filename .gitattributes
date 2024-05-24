@@ -87,7 +87,7 @@
 # For the best compatibility and performance, it is recommended to use H.264 encoded MP4 (.mp4) container files.
 *.[mM][pP]4 lfs
 
-Can also be used, only some platforms are supported:
+
 *.3[gG][pP] lfs
 *.3[gG][pP]2 lfs
 *.3[gG][pP][pP] lfs
